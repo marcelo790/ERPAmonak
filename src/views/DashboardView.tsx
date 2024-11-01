@@ -8,7 +8,7 @@ import { toast } from "react-toastify"
 
 export default function DashboardView() {
 
-  const {data, isLoading} = useQuery({
+  const {data} = useQuery({
     queryKey: ['products'],
     queryFn: getProducts
   })

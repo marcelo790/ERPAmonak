@@ -98,22 +98,40 @@
     border-top-right-radius: 1rem /* 6px */;
     border-bottom-left-radius: 1rem /* 6px */;
     position: absolute;
-    top: 30%;
-    left: 23%;
+    top: 24%;
+    left: 31%;
   }
-  .text-section h2{
-    font-size: 3rem;
+
+  
+  .text-section p:nth-child(2){
+    font-size: 1.7rem;
     position: absolute;
-    top: 30%;
+    top: 27%;
+    left: 10%;
+    color: black;
+    font-family: "Raleway-ExtraBold";
+  }
+  
+  .text-section p:nth-child(3){
+    font-size: 2rem;
+    position: absolute;
+    top: 32%;
     left: 10%;
     color: black;
   }
-
-  .text-section h1{   
-    font-size: 6rem;
+  .text-section p:nth-child(4){
+    font-size: 2.3rem;
     position: absolute;
-    top: 35%;
-    left: 10%;    
+    top: 38%;
+    left: 10%;
+    color: black;    
+    font-family: "Raleway-ExtraBold";
+  }
+  .text-section p:nth-child(5){
+    font-size: 2.6rem;
+    position: absolute;
+    top: 44%;
+    left: 10%;
     color: black;
   }
 
@@ -127,7 +145,8 @@
   }
   
   .image-section img {
-    height: auto;
+    width: 35rem;
+    height: 20rem;
     border-radius: 15px;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -593,7 +612,7 @@
     border-bottom: 0.15rem solid var(--verde-claro); 
   }
 
-  .product-image{
+  .product-image, .product-image2{
     width: 40%;
     height: auto;
     display: flex;
@@ -603,7 +622,17 @@
   }
 
   .product-image img{
-    width: 400px;
+    width: auto;
+    height: 15rem;    
+    border-radius: 1rem /* 6px */;    
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);    
+  }
+
+  .product-image2 img{
+    width: 22rem;
+    height: 30rem;    
+    border-radius: 1rem /* 6px */;    
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);    
   }
 
   .product-container{

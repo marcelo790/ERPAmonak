@@ -6,10 +6,12 @@ export default function () {
       <div className="footer-block1">
         <img src="/sello.svg" alt="logo"/>
         <section>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Dolorum minus maxime natus molestiae, sint commodi minima ea cum
-         deserunt fugiat quod, rem minima exercitationem quibusdam, quidem eaque nesciunt aliquam dignissimos magni hic.
-        </section>
+        "Desde el inicio de Amonak, nos hemos comprometido con la recuperación de madera
+que, de otro modo, sería considerada desecho. Al encontrar madera descartada en
+carpinterías, vimos la oportunidad de darle una segunda vida a este material que, en su
+momento, solo era basura. Con el tiempo, nuestro enfoque se expandió desde las
+carpinterías hasta los aserraderos y bosques, donde recuperamos madera hueca o con
+desperfectos."</section>
       </div>
       <div className="footer-block2">
         <nav className="footer-nav">
@@ -40,10 +42,18 @@ export default function () {
       <div className="footer-block4">
         <h2>REDES SOCIALES</h2>
         <div className="footer-redes">
-          <img src="/iconFacebook.svg" alt="Facebook"/>
-          <img src="/iconInstagram.svg" alt="Instagram"/>
-          <img src="/iconTiktok.svg" alt="Tiktok"/>
-          <img src="/iconX.svg" alt="X"/>
+          <Link to="https://www.facebook.com/MUEBLES.DE.MADERA.Y.RESINA">
+            <img src="/iconFacebook.svg" alt="Facebook"/>
+          </Link>
+          <Link to="https://www.instagram.com/amonakbolivia?igsh=azZvcm1tN3J3eWty">
+            <img src="/iconInstagram.svg" alt="Instagram"/>
+          </Link>
+          <Link to="https://www.tiktok.com/@amonakbolivia?_t=8r7mo6B8Oxh&_r=1">
+            <img src="/iconTiktok.svg" alt="Tiktok"/>
+          </Link>
+          <Link to="">
+            <img src="/iconX.svg" alt="X"/>
+          </Link>
         </div>
       </div>
     </div>

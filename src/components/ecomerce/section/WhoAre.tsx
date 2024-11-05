@@ -11,10 +11,10 @@ export default function WhoAre() {
             </div>
             <div className="section2-block2">
                 <h2>¿Quienes somos?</h2>
-                <section>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Temporibus architecto nam incidunt enim est ipsam, deserunt, debitis veritatis
-                 quibusdam dolores aliquam, accusamus vero aliquid. Consequatur asperiores sit ipsum voluptates consequuntur!
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio modi. Animi, quaerat officia?
+                <section>Amonak es una empresa innovadora que nació en 2017 en Bolivia con el objetivo de rescatar y
+                        dar una segunda oportunidad a la madera desechada. Contando también con una casa matriz
+                        en Chile, nos dedicamos a la recuperación ecológica de madera para transformarla en piezas
+                        funcionales y decorativas.
                 </section>
             </div>
             <div className="section2-block3">

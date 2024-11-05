@@ -4,11 +4,13 @@ export default function Banner() {
     <div className="banner">
         <div className="text-section">
           <div/>
-          <h2>Lorem</h2>
-          <h1>ipsum</h1>
+          <p>HISTORIA Y CALIDAD</p>
+          <p>QUE INSPIRAN, </p>
+          <p>SOSTENIBILIDAD</p>
+          <p>QUE PERDURA</p>
         </div>
         <div className="image-section">
-          <img src="/Banner-principal.png" alt="imagen principal" />
+          <img src="/banner2.jpg" alt="imagen principal" />
         </div>
         <div className="sidebar">
           <button className="sidebar-icon">🛒</button>

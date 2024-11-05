@@ -8,10 +8,12 @@ export default function Vision() {
             </div>
             <div className="section4-block2">
                 <h2>Visión</h2>
-                <section>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Temporibus architecto nam incidunt enim est ipsam, deserunt, debitis veritatis
-                 quibusdam dolores aliquam, accusamus vero aliquid. Consequatur asperiores sit ipsum voluptates consequuntur!
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio modi. Animi, quaerat officia?
+                <section>Nuestra visión es alcanzar los 10 años de vida de Amonak siendo líderes en la industria de la madera sostenible a nivel
+                    latino america, transformando la forma en
+                        que se valora y utiliza este recurso en todo el mundo. Aspiramos a llegar a todos los mercados
+                        globales, crear conciencia sobre el consumo responsable de la madera y reducir al mínimo su
+                        desperdicio. Además, buscamos brindar estilo a los espacios donde se encuentren nuestras
+                        piezas, añadiendo un toque natural y elegante.
                 </section>
             </div>
         </div>        

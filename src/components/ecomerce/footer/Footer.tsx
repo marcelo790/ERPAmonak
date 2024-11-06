@@ -25,7 +25,7 @@ desperfectos."</section>
         </nav>
       </div>
       <div className="footer-block3">
-        <h2>CONTACTANOS</h2>
+        <p>CONTACTANOS</p>
         <div className="footer-icon">
           <img src="/iconLocation.svg" alt="Location"/>
           <p>Av. Doble Via la Guardia, 7mo anillo</p>
@@ -40,7 +40,7 @@ desperfectos."</section>
         </div>
       </div>
       <div className="footer-block4">
-        <h2>REDES SOCIALES</h2>
+        <p>REDES SOCIALES</p>
         <div className="footer-redes">
           <Link to="https://www.facebook.com/MUEBLES.DE.MADERA.Y.RESINA">
             <img src="/iconFacebook.svg" alt="Facebook"/>

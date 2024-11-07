@@ -1,34 +1,32 @@
 import { Link } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 
 export default function () {
+  const {t} = useTranslation()
+
   return (
     <div className="footer">
       <div className="footer-block1">
         <img src="/sello.svg" alt="logo"/>
         <section>
-        "Desde el inicio de Amonak, nos hemos comprometido con la recuperación de madera
-que, de otro modo, sería considerada desecho. Al encontrar madera descartada en
-carpinterías, vimos la oportunidad de darle una segunda vida a este material que, en su
-momento, solo era basura. Con el tiempo, nuestro enfoque se expandió desde las
-carpinterías hasta los aserraderos y bosques, donde recuperamos madera hueca o con
-desperfectos."</section>
+        "{t('F-D')}"</section>
       </div>
       <div className="footer-block2">
         <nav className="footer-nav">
-            <Link to="/">MAPA DE SITIO</Link>
-            <Link to="/products">PRODUCTOS</Link>
-            <Link to="/">OTROS SERVICIOS</Link>
-            <Link to="/">OFERTAS</Link>
-            <Link to="/">¿CÓMO COMPRAR?</Link>            
-            <Link to="/">EXPERIENCIA AMONAK</Link>
-            <Link to="/">CONTÁCTANOS</Link>         
+            <Link to="/">{t('F-M-MS')}</Link>
+            <Link to="/products">{t('F-M-P')}</Link>
+            <Link to="/">{t('F-M-OS')}</Link>
+            <Link to="/">{t('F-M-O')}</Link>
+            <Link to="/">{t('F-M-CC')}</Link>            
+            <Link to="/">{t('F-M-EA')}</Link>
+            <Link to="/">{t('F-M-C')}</Link>         
         </nav>
       </div>
       <div className="footer-block3">
-        <p>CONTACTANOS</p>
+        <p>{t('F-C')}</p>
         <div className="footer-icon">
           <img src="/iconLocation.svg" alt="Location"/>
-          <p>Av. Doble Via la Guardia, 7mo anillo</p>
+          <p>{t('F-C-U')}</p>
         </div>
         <div className="footer-icon">
           <img src="/iconPhone.svg" alt="Phone"/>

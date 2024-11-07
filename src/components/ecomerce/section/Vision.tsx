@@ -1,5 +1,7 @@
-
+import { useTranslation } from "react-i18next"
 export default function Vision() {
+
+    const {t} = useTranslation()
   return (
     <div className="main-section4">        
         <div className="section4-vision">
@@ -7,13 +9,8 @@ export default function Vision() {
                 <div className="section4-tilde"/>
             </div>
             <div className="section4-block2">
-                <h2>Visión</h2>
-                <section>Nuestra visión es alcanzar los 10 años de vida de Amonak siendo líderes en la industria de la madera sostenible a nivel
-                    latino america, transformando la forma en
-                        que se valora y utiliza este recurso en todo el mundo. Aspiramos a llegar a todos los mercados
-                        globales, crear conciencia sobre el consumo responsable de la madera y reducir al mínimo su
-                        desperdicio. Además, buscamos brindar estilo a los espacios donde se encuentren nuestras
-                        piezas, añadiendo un toque natural y elegante.
+                <h2>{t('S-V')}</h2>
+                <section>{t('S-V-D')}
                 </section>
             </div>
         </div>        

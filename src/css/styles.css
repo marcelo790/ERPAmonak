@@ -246,6 +246,9 @@
 
 .section2-image img{
   width: 400px;
+  height: 25rem;  
+border-radius: 1rem;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .section2-who-are{

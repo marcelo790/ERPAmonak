@@ -731,7 +731,7 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 @media (min-width: 992px) and (max-width: 1199px) {
   .container2 {
     width: 100%;
-    height: 2.5rem;
+    height: 3.5rem;
     display: flex;
     padding-top: 0rem;
 }
@@ -785,7 +785,7 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .divLogo {      
-    height: 5rem;
+    height: 7rem;
     width: auto;
     display: flex;
     justify-content: center;
@@ -798,7 +798,7 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     border-left: 0.15rem solid var(--verde-medio);;
 
     .logo{
-        width: 6rem;
+        width: 9rem;
         height: 3rem;
     }
 }
@@ -809,9 +809,9 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     color: var(--blanco);
     margin-left: 1rem;
     margin-right: 1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-align: center;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 
     .link:hover {      
       color: var(--verde-claro);
@@ -843,36 +843,36 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     border-top-right-radius: 1rem /* 6px */;
     border-bottom-left-radius: 1rem /* 6px */;
     position: absolute;
-    top: 14%;
-    left: 37%;        
+    top: 9%;
+    left: 35%;        
   }    
   
   .text-section p:nth-child(2){
     font-size: 1.8rem;
     position: absolute;
-    top: 18%;
-    left: 10%;        
+    top: 11%;
+    left: 8%;        
     font-family: "Raleway-ExtraBold";
   }
   
   .text-section p:nth-child(3){
     font-size: 2.1rem;
     position: absolute;
-    top: 23%;
-    left: 10%;
+    top: 14%;
+    left: 8%;
   }
   .text-section p:nth-child(4){
     font-size: 2.3rem;
     position: absolute;
-    top: 29%;
-    left: 10%;   
+    top: 18%;
+    left: 8%;   
     font-family: "Raleway-ExtraBold";
   }
   .text-section p:nth-child(5){
     font-size: 2.6rem;
     position: absolute;
-    top: 35%;
-    left: 10%;
+    top: 22%;
+    left: 8%;
   }
 
   .image-section {
@@ -928,17 +928,17 @@ border-bottom: 0.15rem solid var(--verde-claro);
 }
 
 .section2-image{
-width: 30%;
+width: 50%;
 height: auto;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-left: 1rem;
+margin-left: 0rem;
 }
 
 .section2-image img{
-width: 9rem;
-height: auto;
+width: 15rem;
+height: 17rem;
 border-radius: 1rem;
 box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -949,7 +949,7 @@ height: auto;
 display: block;
 justify-content: center;
 align-items: center;
-margin-right: 2rem;
+margin-right: 3rem;
 margin-left: 0rem;
 }
 
@@ -979,8 +979,8 @@ h2{
 section{
     text-align: justify;
     font-family: "Raleway-medium";
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
     font-size: 0.8rem;        
     margin-top: 0.5rem;
 }
@@ -1199,7 +1199,7 @@ height: auto;
 margin-top: 1rem;
 
 iframe {
-    width: 70%;
+    width: 85%;
     height: 300px;        
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
 }
@@ -1550,14 +1550,14 @@ section{
     border-top-right-radius: 1rem /* 6px */;
     border-bottom-left-radius: 1rem /* 6px */;
     position: absolute;
-    top: 14%;
-    left: 37%;        
+    top: 8%;
+    left: 34%;        
   }    
   
   .text-section p:nth-child(2){
     font-size: 1.5rem;
     position: absolute;
-    top: 16%;
+    top: 9%;
     left: 10%;        
     font-family: "Raleway-ExtraBold";
   }
@@ -1565,20 +1565,20 @@ section{
   .text-section p:nth-child(3){
     font-size: 1.7rem;
     position: absolute;
-    top: 21%;
+    top: 12%;
     left: 10%;
   }
   .text-section p:nth-child(4){
     font-size: 1.9rem;
     position: absolute;
-    top: 26%;
+    top: 15%;
     left: 10%;   
     font-family: "Raleway-ExtraBold";
   }
   .text-section p:nth-child(5){
     font-size: 2.2rem;
     position: absolute;
-    top: 32%;
+    top: 18%;
     left: 10%;
   }
 
@@ -1592,7 +1592,7 @@ section{
   }
   
   .image-section img {
-    width: 17rem;
+    width: 18rem;
     height: 13rem;
     border-radius: 15px;
     margin-top: 1rem;
@@ -1635,7 +1635,7 @@ border-bottom: 0.15rem solid var(--verde-claro);
 }
 
 .section2-image{
-width: 30%;
+width: 50%;
 height: auto;
 display: flex;
 justify-content: center;
@@ -1644,8 +1644,8 @@ margin-left: 1rem;
 }
 
 .section2-image img{
-width: 8rem;
-height: auto;
+width: 12rem;
+height: 15rem;
 border-radius: 1rem;
 box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -1906,7 +1906,7 @@ height: auto;
 margin-top: 1rem;
 
 iframe {
-    width: 70%;
+    width: 85%;
     height: 300px;        
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
 }
@@ -2161,7 +2161,7 @@ section{
   color: (--blanco);
   cursor: pointer;
   font-family: "Raleway-bold";
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -2190,7 +2190,7 @@ section{
   padding: 0.5rem 1rem;
   text-align: left;
   cursor: pointer;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   width: 100%;
 }
 
@@ -2236,8 +2236,8 @@ section{
 .banner{
     width: auto;
     height: auto;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -2257,36 +2257,36 @@ section{
     border-top-right-radius: 1rem /* 6px */;
     border-bottom-left-radius: 1rem /* 6px */;
     position: absolute;
-    top: 14%;
-    left: 37%;        
+    top: 6%;
+    left: 32%;        
   }    
   
   .text-section p:nth-child(2){
-    font-size: 0.85rem;
+    font-size: 1rem;
     position: absolute;
-    top: 16%;
-    left: 15%;        
+    top: 7%;
+    left: 8%;        
     font-family: "Raleway-ExtraBold";
   }
   
   .text-section p:nth-child(3){
-    font-size: 1rem;
-    position: absolute;
-    top: 20%;
-    left: 15%;
-  }
-  .text-section p:nth-child(4){
     font-size: 1.2rem;
     position: absolute;
-    top: 24%;
-    left: 15%;   
+    top: 9%;
+    left: 8%;
+  }
+  .text-section p:nth-child(4){
+    font-size: 1.5rem;
+    position: absolute;
+    top: 12%;
+    left: 8%;   
     font-family: "Raleway-ExtraBold";
   }
   .text-section p:nth-child(5){
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     position: absolute;
-    top: 29%;
-    left: 15%;
+    top: 15%;
+    left: 8%;
   }
 
   .image-section {
@@ -2299,7 +2299,7 @@ section{
   }
   
   .image-section img {
-    width: 12rem;
+    width: 15rem;
     height: 10rem;
     border-radius: 15px;
     margin-top: 1rem;
@@ -2342,17 +2342,17 @@ border-bottom: 0.15rem solid var(--verde-claro);
 }
 
 .section2-image{
-width: 30%;
+width: 50%;
 height: auto;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-left: 1rem;
+margin-left: 0rem;
 }
 
 .section2-image img{
-width: 8rem;
-height: auto;
+width: 10rem;
+height: 15rem;
 border-radius: 1rem;
 box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -2363,7 +2363,7 @@ height: auto;
 display: block;
 justify-content: center;
 align-items: center;
-margin-right: 2rem;
+margin-right: 3rem;
 margin-left: 0rem;
 }
 
@@ -2613,7 +2613,7 @@ height: auto;
 margin-top: 1rem;
 
 iframe {
-    width: 70%;
+    width: 80%;
     height: 300px;        
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
 }
@@ -2966,14 +2966,14 @@ section{
     border-top-right-radius: 1rem /* 6px */;
     border-bottom-left-radius: 1rem /* 6px */;
     position: absolute;
-    top: 14%;
+    top: 6%;
     left: 37%;        
   }    
   
   .text-section p:nth-child(2){
     font-size: 0.85rem;
     position: absolute;
-    top: 16%;
+    top: 7%;
     left: 15%;        
     font-family: "Raleway-ExtraBold";
   }
@@ -2981,20 +2981,20 @@ section{
   .text-section p:nth-child(3){
     font-size: 1rem;
     position: absolute;
-    top: 20%;
+    top: 9%;
     left: 15%;
   }
   .text-section p:nth-child(4){
     font-size: 1.2rem;
     position: absolute;
-    top: 24%;
+    top: 11%;
     left: 15%;   
     font-family: "Raleway-ExtraBold";
   }
   .text-section p:nth-child(5){
     font-size: 1.4rem;
     position: absolute;
-    top: 29%;
+    top: 13%;
     left: 15%;
   }
 
@@ -3008,8 +3008,8 @@ section{
   }
   
   .image-section img {
-    width: 12rem;
-    height: 10rem;
+    width: 11rem;
+    height: 7rem;
     border-radius: 15px;
     margin-top: 1rem;
     margin-bottom: 1rem;

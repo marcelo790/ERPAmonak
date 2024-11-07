@@ -1434,6 +1434,7 @@ section{
 }
 }
 
+
 /* Medianas (entre 768px y 991px) */
 @media (min-width: 768px) and (max-width: 991px) {
   .container2 {
@@ -1550,14 +1551,14 @@ section{
     border-top-right-radius: 1rem /* 6px */;
     border-bottom-left-radius: 1rem /* 6px */;
     position: absolute;
-    top: 3%;
-    left: 34%;        
+    top: 6%;
+    left: 37%;        
   }    
   
   .text-section p:nth-child(2){
     font-size: 1.5rem;
     position: absolute;
-    top: 4%;
+    top: 8%;
     left: 10%;        
     font-family: "Raleway-ExtraBold";
   }
@@ -1565,20 +1566,20 @@ section{
   .text-section p:nth-child(3){
     font-size: 1.7rem;
     position: absolute;
-    top: 5.5%;
+    top: 11%;
     left: 10%;
   }
   .text-section p:nth-child(4){
     font-size: 1.9rem;
     position: absolute;
-    top: 7%;
+    top: 15%;
     left: 10%;   
     font-family: "Raleway-ExtraBold";
   }
   .text-section p:nth-child(5){
     font-size: 2.2rem;
     position: absolute;
-    top: 8.5%;
+    top: 19%;
     left: 10%;
   }
 

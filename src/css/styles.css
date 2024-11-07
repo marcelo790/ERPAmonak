@@ -2871,7 +2871,7 @@ section{
   color: (--blanco);
   cursor: pointer;
   font-family: "Raleway-bold";
-  font-size: 0.5rem;
+  font-size: 0.3rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -2900,7 +2900,7 @@ section{
   padding: 0.5rem 1rem;
   text-align: left;
   cursor: pointer;
-  font-size: 0.5rem;
+  font-size: 0.3rem;
   width: 100%;
 }
 
@@ -2931,10 +2931,10 @@ section{
 .nav{
     display: flex;
     font-family: "Raleway-Bold";
-    margin-left: 0.5rem;
-    margin-right: 1.5rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
     color: var(--blanco);
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     text-align: center;
 
      .link:hover {      
@@ -2946,8 +2946,8 @@ section{
 .banner{
     width: auto;
     height: auto;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -2968,35 +2968,35 @@ section{
     border-bottom-left-radius: 1rem /* 6px */;
     position: absolute;
     top: 6%;
-    left: 37%;        
+    left: 34%;        
   }    
   
   .text-section p:nth-child(2){
-    font-size: 0.85rem;
+    font-size: 0.6rem;
     position: absolute;
     top: 7%;
-    left: 15%;        
+    left: 10%;        
     font-family: "Raleway-ExtraBold";
   }
   
   .text-section p:nth-child(3){
-    font-size: 1rem;
+    font-size: 0.75rem;
     position: absolute;
-    top: 9%;
-    left: 15%;
+    top: 8.5%;
+    left: 10%;
   }
   .text-section p:nth-child(4){
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     position: absolute;
-    top: 11%;
-    left: 15%;   
+    top: 10%;
+    left: 10%;   
     font-family: "Raleway-ExtraBold";
   }
   .text-section p:nth-child(5){
-    font-size: 1.4rem;
+    font-size: 0.9rem;
     position: absolute;
-    top: 13%;
-    left: 15%;
+    top: 12%;
+    left: 10%;
   }
 
   .image-section {
@@ -3009,8 +3009,8 @@ section{
   }
   
   .image-section img {
-    width: 11rem;
-    height: 7rem;
+    width: 8rem;
+    height: 5rem;
     border-radius: 15px;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -3031,7 +3031,7 @@ section{
     padding: 5px;
     border: none;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   
   .sidebar-icon:hover {
@@ -3052,7 +3052,7 @@ border-bottom: 0.15rem solid var(--verde-claro);
 }
 
 .section2-image{
-width: 30%;
+width: 50%;
 height: auto;
 display: flex;
 justify-content: center;
@@ -3062,7 +3062,7 @@ margin-left: 1rem;
 
 .section2-image img{
 width: 8rem;
-height: auto;
+height: 7rem;
 border-radius: 1rem;
 box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -3096,7 +3096,7 @@ align-items: center;
 h2{
     text-align: center;
     font-family: "Raleway-bold";
-    font-size: 1.5rem;        
+    font-size: 1.2rem;        
     color: black;
 }
 
@@ -3105,7 +3105,7 @@ section{
     font-family: "Raleway-medium";
     margin-left: 1rem;
     margin-right: 1rem;
-    font-size: 0.8rem;        
+    font-size: 0.6rem;        
     margin-top: 0.5rem;
 }
 }
@@ -3134,7 +3134,7 @@ align-items: center;
     margin-top: 0.5rem;
 }
 :nth-child(2){
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     margin-top: 1rem;
     align-items: center;
     color: black;
@@ -3180,14 +3180,14 @@ margin-left: 3.5rem;
 margin-right: 3.5rem;
 
 h2{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: "Raleway-bold";
     color: black;
 }
 section{
     text-align: justify;
     font-family: "Raleway-medium";
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     margin-top: 0.5rem;
 }
 }
@@ -3250,19 +3250,19 @@ margin-left: 3.5rem;
 display: block;
 justify-content: center;
 align-items: center;
-margin-left: 3.5rem;
+margin-left: 1rem;
 
 h2{
     text-align: center;
     font-family: "Raleway-bold";
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: black;
 }
 
 section{
     text-align: justify;
     font-family: "Raleway-medium";
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     padding-left: 0rem;
     padding-right: 0rem;        
     margin-top: 0.5rem;
@@ -3310,7 +3310,7 @@ align-items: center;
 h2{
     text-align: center;
     font-family: "Raleway-bold";
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 }
 .section5-block2-mapa{

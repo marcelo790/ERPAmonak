@@ -5,7 +5,7 @@ export default function WhoAre() {
   return (
     <div  className="main-section2">
         <div className="section2-image">
-            <img src="/table.jpg" alt="mesa"/>
+            <img src="/job.jpg" alt="mesa"/>
         </div>
         <div className="section2-who-are">
             <div className="section2-block1">

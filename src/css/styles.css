@@ -3579,7 +3579,7 @@ section{
   color: (--blanco);
   cursor: pointer;
   font-family: "Raleway-bold";
-  font-size: 0.5rem;
+  font-size: 0.25rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -3608,7 +3608,7 @@ section{
   padding: 0.5rem 1rem;
   text-align: left;
   cursor: pointer;
-  font-size: 0.5rem;
+  font-size: 0.25rem;
   width: 100%;
 }
 
@@ -3640,10 +3640,10 @@ section{
 .nav{
     display: flex;
     font-family: "Raleway-Bold";
-    margin-left: 0.5rem;
+    margin-left: 0.2rem;
     margin-right: 0rem;
     color: var(--blanco);
-    font-size: 0.35rem;
+    font-size: 0.25rem;
     text-align: center;
 
      .link:hover {      
@@ -3655,8 +3655,8 @@ section{
 .banner{
     width: 90%;
     height: auto;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -3681,7 +3681,7 @@ section{
   }    
   
   .text-section p:nth-child(2){
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     position: absolute;
     top: 7%;
     left: 7%;        
@@ -3689,22 +3689,22 @@ section{
   }
   
   .text-section p:nth-child(3){
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     position: absolute;
-    top: 9%;
+    top: 8.5%;
     left: 7%;
   }
   .text-section p:nth-child(4){
-    font-size: 1rem;
+    font-size: 0.7rem;
     position: absolute;
-    top: 11%;
+    top: 10%;
     left: 7%;   
     font-family: "Raleway-ExtraBold";
   }
   .text-section p:nth-child(5){
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     position: absolute;
-    top: 13%;
+    top: 11.5%;
     left: 7%;
   }
 
@@ -3718,8 +3718,8 @@ section{
   }
   
   .image-section img {
-    width: 8rem;
-    height: 5rem;
+    width: 6rem;
+    height: 4rem;
     border-radius: 15px;
     margin-top: 1rem;
     margin-bottom: 1rem;

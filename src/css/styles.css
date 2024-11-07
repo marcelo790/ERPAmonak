@@ -95,8 +95,8 @@
 .nav{
   display: flex;
   font-family: "Raleway-Bold";
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 7rem;
   color: var(--blanco);
   font-size: 0.9rem;
 

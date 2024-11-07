@@ -18,7 +18,7 @@ export default function Vision() {
             </div>
         </div>        
         <div className="section4-image">
-            <img src="/job.png" alt="mesa"/>
+            <img src="/job.jpg" alt="mesa"/>
         </div>
     </div>
   )

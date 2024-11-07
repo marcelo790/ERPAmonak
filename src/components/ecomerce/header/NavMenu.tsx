@@ -7,7 +7,7 @@ export default function NavMenu() {
   const { t } = useTranslation();
 
     return (
-      <nav className="nav flex space-x-6">
+      <nav className="nav flex space-x-2">
         <Link to='/' className="link">{t('M-QS')}</Link>
         <Link to="/products" className="link">{t('M-P')}</Link>
         <Link to="/" className="link">{t('M-OS')}</Link>

@@ -1,19 +1,23 @@
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import { useForm } from "react-hook-form"
+import { toast } from "react-toastify"
 import ProductCategoryForm from "@/components/categories/ProductCategoryForm"
 import { ProductCategoryFormData } from "@/types/index"
 import { createProductCategory } from "@/api/ProductCategoryAPI"
 
 export default function CreateProductCategoryView() {
 
+    const navigate = useNavigate();
     const initialValues : ProductCategoryFormData = {
         name : "",
         parent_category_id : ""
     }
     const {register, handleSubmit, formState: {errors}} = useForm({defaultValues: initialValues})
 
-    const handleForm = (data: ProductCategoryFormData) => {
-      createProductCategory(data)
+    const handleForm = async(formData: ProductCategoryFormData) => {
+      const data = await createProductCategory(formData)
+      toast.success(data)
+      navigate('/')
     }
   return (
     <>

@@ -1,5 +1,6 @@
 import { Link, useNavigate } from "react-router-dom"
 import { useForm } from "react-hook-form"
+import {useMutation} from '@tanstack/react-query'
 import { toast } from "react-toastify"
 import ProductCategoryForm from "@/components/categories/ProductCategoryForm"
 import { ProductCategoryFormData } from "@/types/index"
@@ -9,15 +10,25 @@ export default function CreateProductCategoryView() {
 
     const navigate = useNavigate();
     const initialValues : ProductCategoryFormData = {
+        id: 0,
         name : "",
         parent_category_id : ""
     }
     const {register, handleSubmit, formState: {errors}} = useForm({defaultValues: initialValues})
 
-    const handleForm = async(formData: ProductCategoryFormData) => {
-      const data = await createProductCategory(formData)
-      toast.success(data)
-      navigate('/')
+    const mutation = useMutation({
+      mutationFn: createProductCategory,
+      onError: (error) => {
+        toast.error(error.message)
+      },
+      onSuccess: (data) => {
+        toast.success(data)
+        navigate('/')
+      }
+    })
+
+    const handleForm = (formData: ProductCategoryFormData) => {
+      mutation.mutate(formData) 
     }
   return (
     <>

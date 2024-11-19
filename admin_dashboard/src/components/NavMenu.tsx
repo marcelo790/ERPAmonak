@@ -8,7 +8,7 @@ export default function NavMenu() {
         <Link to="/products" className="link">PRODUCTOS</Link>
         <Link to="/" className="link">INVENTARIOS</Link>
         <Link to="/" className="link">VENTAS</Link>
-        <Link to="/" className="link">USUARIOS</Link>
+        <Link to="/users" className="link">USUARIOS</Link>
         <Link to="/" className="link">REPORTES</Link> 
         <LanguageSelector />
       </nav>

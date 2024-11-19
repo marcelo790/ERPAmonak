@@ -45,7 +45,18 @@ type ProductCategoryAPIType = {
 
 export async function updateProductCategory({formData, productCategoryId} : ProductCategoryAPIType) {
     try {
-        const {data} = await api.put(`/productCategories/${productCategoryId}`, formData)    
+        const {data} = await api.put<string>(`/productCategories/${productCategoryId}`, formData)    
+        return data   
+    } catch (error) {
+        if(isAxiosError(error) && error.response){
+            throw new Error(error.response.data.error)
+        }
+    }
+}
+
+export async function deleteProductCategory(id: ProductCategory['id']) {
+    try {
+        const {data} = await api.delete<string>(`/productCategories/${id}`)    
         return data   
     } catch (error) {
         if(isAxiosError(error) && error.response){

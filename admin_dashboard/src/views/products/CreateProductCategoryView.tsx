@@ -59,12 +59,12 @@ export default function CreateProductCategoryView() {
                 className="bg-zinc-950 hover:bg-zinc-700 w-full p-3 rounded-md text-white uppercase font-bold cursor-pointer
                 transition-colors"
               />
-              <input
-                type="submit"
-                value="Cancelar"
-                className="bg-zinc-500 hover:bg-zinc-800 w-full p-3 rounded-md text-white uppercase font-bold cursor-pointer
-                transition-colors"
-              />
+              <Link to='/'
+              className="bg-zinc-500 hover:bg-zinc-800 w-full p-3 rounded-md text-white uppercase font-bold cursor-pointer
+                transition-colors text-center"
+              >
+                Cancelar
+              </Link>
             </div>
           </form>
         </div>

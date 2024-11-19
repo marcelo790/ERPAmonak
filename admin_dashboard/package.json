@@ -10,9 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@chakra-ui/pin-input": "^2.1.0",
     "@headlessui/react": "^2.2.0",
     "@heroicons/react": "^2.1.5",
     "@tanstack/react-query": "^5.60.2",
+    "@tanstack/react-query-devtools": "^5.60.5",
     "axios": "^1.7.7",
     "i18next": "^23.16.4",
     "react": "^18.3.1",

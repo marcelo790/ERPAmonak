@@ -101,3 +101,48 @@ body {
   .dropdown button:hover {
     color: var(--verde-claro);
   }
+
+  /**Auth Layout*/
+.auth-container{
+  background-image: url('/images/trama.svg');
+  background-repeat: repeat ;
+  background-size: cover;
+}
+
+form{
+  font-family: "Raleway-bold";
+}
+.form_login{
+  justify-content: center;
+  text-align: center;
+  font-family: "Raleway-bold";
+  color: grey;
+  margin-top: 0;
+
+  input {
+    border-radius: 0.3rem;    
+    box-shadow: 
+      1px 0 4px rgba(0, 0, 0, 0.3),  /* Sombra en el lado derecho */
+      -1px 0 4px rgba(0, 0, 0, 0.3), /* Sombra en el lado izquierdo */
+      0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+  input:nth-child(3){
+    background-color: var(--verde-medio);
+    margin-bottom: 1rem; 
+  }
+
+  input:nth-child(3):hover{
+    background-color: var(--verde-claro);
+    opacity: 1;
+  }
+  
+}
+
+.input-request-code{
+  background-color: var(--verde-medio);  
+  font-family: "Raleway-bold";
+}
+.input-request-code:hover{
+  background-color: var(--verde-claro);
+  opacity: 1;
+}

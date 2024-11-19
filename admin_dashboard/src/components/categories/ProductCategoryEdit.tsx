@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import ProductCategoryForm from "./ProductCategoryForm";
 import { ProductCategory, ProductCategoryFormData } from "@/types/index";
 import { useForm } from "react-hook-form";
-import { useMutation } from "@tanstack/react-query";
+import { useMutation, useQueryClient, QueryClient } from '@tanstack/react-query';
 import { updateProductCategory } from "@/api/ProductCategoryAPI";
 import { toast } from "react-toastify";
 
@@ -20,12 +20,15 @@ export default function ProductCategoryEdit({data, productCategoryId} : EditProd
         parent_category_id : data.parent_category_id
     }})
     
+    const queryClient = useQueryClient()
     const {mutate} = useMutation({
         mutationFn: updateProductCategory,
         onError: (error) => {
             toast.error(error.message)
         },
         onSuccess: (data) => {
+            queryClient.invalidateQueries({queryKey: ['product_category']})
+            queryClient.invalidateQueries({queryKey: ['edit_product_category',productCategoryId]})
             toast.success(data)
             navigate('/')
         }

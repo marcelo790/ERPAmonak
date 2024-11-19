@@ -3,12 +3,27 @@ import { MenuButton,MenuItem, MenuItems,Menu, Transition } from '@headlessui/rea
 import { EllipsisVerticalIcon } from '@heroicons/react/20/solid'
 import { Link } from "react-router-dom"
 import { ProductCategoryFormData } from '@/types/index'
+import { useMutation, useQueryClient } from '@tanstack/react-query'
+import { deleteProductCategory } from '@/api/ProductCategoryAPI'
+import { toast } from 'react-toastify'
 
 type ProductCategoryListProps = {
     formData: Array<ProductCategoryFormData>
 }
 
 export default function ProductCategoryList({formData}: ProductCategoryListProps) {
+
+    const queryClient = useQueryClient()
+    const {mutate} = useMutation({
+        mutationFn: deleteProductCategory,
+        onError: (error) => {
+            toast.error(error.message)
+        },
+        onSuccess: (data) => {
+            toast.success(data)
+            queryClient.invalidateQueries({queryKey: ['product_category']})
+        }
+    })
   return (
             <ul role="list" className="divide-y divide-gray-100 border border-gray-100 mt-10 bg-white shadow-lg">
             {formData.map((productCategory) => (
@@ -49,7 +64,7 @@ export default function ProductCategoryList({formData}: ProductCategoryListProps
                                         <button 
                                             type='button' 
                                             className='block px-3 py-1 text-sm leading-6 text-red-500'
-                                            onClick={() => {} }
+                                            onClick={() => mutate(productCategory.id) }
                                         >
                                             Eliminar Categoria
                                         </button>

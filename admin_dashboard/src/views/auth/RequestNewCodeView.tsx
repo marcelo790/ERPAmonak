@@ -20,21 +20,17 @@ export default function RegisterView() {
         },
         onSuccess: (data) => {
             toast.success(data)
+            reset()
         }
     })
     const handleRequestCode = (formData: RequestConfirmationCodeForm) => mutate(formData)
 
     return (
         <>
-            <h1 className="text-2xl font-black text-black">Solicitar Código de Confirmación</h1>
-            <p className="text-xl font-black text-black mt-5">
-                Coloca tu e-mail para recibir {''}
-                <span className=" text-gray-900 font-bold"> un nuevo código</span>
-            </p>
-
+            <h1 className="text-xl font-black text-black">Solicitar Código de Confirmación</h1>
             <form
                 onSubmit={handleSubmit(handleRequestCode)}
-                className="space-y-8 p-10 rounded-lg bg-white mt-5"
+                className="space-y-8 rounded-lg bg-white mt-3"
                 noValidate
             >
                 <div className="flex flex-col gap-5">
@@ -58,8 +54,8 @@ export default function RegisterView() {
 
                 <input
                     type="submit"
-                    value='Enviar Código'
-                    className="input-request-code w-full p-3 text-xl border-gray-300 border rounded-md text-white"
+                    value='ENVIAR CÓDIGO'
+                    className="input-request-code w-full p-3 text-sm border-gray-300 border rounded-md text-white"
                 />
             </form>
 

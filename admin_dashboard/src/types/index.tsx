@@ -1,4 +1,4 @@
-import {z, } from 'zod'
+import {z } from 'zod'
 
 /** Auth & Users */
 
@@ -8,15 +8,18 @@ const authSchema = z.object({
     password: z.string(),
     password_confirmation: z.string(),
     confirmed: z.boolean(),
-    roleId: z.string().nullable(),
+    rolesId: z.string().nullable(),
     token: z.string()
 })
 
 type Auth = z.infer<typeof authSchema>
 export type UserLoginForm = Pick<Auth, 'email' | 'password'>
-export type UserRegistrationForm = Pick<Auth, 'name' | 'email' | 'password' | 'password_confirmation' | 'confirmed' | 'roleId'>
+export type UserRegistrationForm = Pick<Auth, 'name' | 'email' | 'password' | 'password_confirmation' | 'confirmed' | 'rolesId'>
 export type RequestConfirmationCodeForm = Pick<Auth, 'email'>
+export type ForgotPasswordForm = Pick<Auth, 'email'>
+export type NewPasswordForm = Pick<Auth, 'password' | 'password_confirmation'>
 export type ConfirmToken = Pick<Auth, 'token'>
+
 /** Producto - Categoria*/
 
 export const productCategorySchema = z.object({

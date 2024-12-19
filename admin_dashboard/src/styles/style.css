@@ -107,6 +107,68 @@ body {
   background-image: url('/images/trama.svg');
   background-repeat: repeat ;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-container-admin{
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-main{
+  width: 22rem; 
+  margin-top: 1rem; 
+  margin-bottom: 1rem;
+  text-align: center;
+  display: block;
+
+  img {
+    width: 15rem;
+    display: inline-block;
+  }
+}
+
+.footer-auth{
+  width: 100%;
+  display: flex;
+  font-family: "Raleway-bold";
+  background-color: transparent;
+  padding: 1.5rem 6rem 0 6rem;
+  color: black;
+}
+
+.footer-admin{
+  width: 100%;
+  display: flex;
+  font-family: "Raleway-bold";
+  background-color: var(--cafe-oscuro);
+  padding: 1.5rem 6rem 1.5rem 6rem;
+  color: white;
+
+  img{
+    color: white;
+  }
+}
+
+.footer-title, .footer-admin-title{
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-link, .footer-admin-link{
+  width: 50%;
+  display: flex; 
+  justify-content: flex-end;   
+  gap: 1rem;
+
+  svg{
+    width: 2rem;
+    height: auto;    
+}
 }
 
 form{
@@ -145,4 +207,34 @@ form{
 .input-request-code:hover{
   background-color: var(--verde-claro);
   opacity: 1;
+}
+
+.profile{
+  font-family: "Raleway-bold";
+  text-transform: uppercase;
+  width: auto;
+}
+.userDropdown{
+  width: auto;
+  background-color: var(--verde-oscuro);
+  border-bottom-right-radius: 1rem /* 6px */;
+    border-bottom-left-radius: 1rem /* 6px */;
+    border-right: 0.15rem solid var(--verde-medio); /* Solo borde derecho en color azul con estilo punteado */
+    border-bottom: 0.15rem solid var(--verde-medio); /* Borde inferior en color verde y doble línea */
+    border-left: 0.15rem solid var(--verde-medio);
+    color: white;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+
+    button:hover{
+      color: var(--verde-claro);
+    }
+    a:hover{
+      color: var(--verde-claro);
+    }
+}
+
+.tabs{
+  border-color: var(--verde-oscuro);
+  color: var(--verde-oscuro);
 }

@@ -25,7 +25,7 @@ export default function ProductCategoryList({formData}: ProductCategoryListProps
         }
     })
   return (
-            <ul role="list" className="divide-y divide-gray-100 border border-gray-100 mt-10 bg-white shadow-lg">
+            <ul role="list" className="divide-y divide-gray-100 rounded-md border border-gray-100 mt-10 bg-white shadow-lg">
             {formData.map((productCategory) => (
             <li key={productCategory.id} className="flex justify-between gap-2 gap-x-6 px-5 py-1 ">
                 <div className="flex min-w-0 gap-x-4">

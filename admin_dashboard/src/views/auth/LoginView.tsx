@@ -2,7 +2,7 @@ import { useForm } from "react-hook-form";
 import { UserLoginForm } from "@/types/index";
 import ErrorMessage from "@/components/ErrorMessage";
 import { useMutation } from "@tanstack/react-query";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from 'react-router-dom';
 import { authenticateUser } from "@/api/AuthAPI";
 import { toast } from "react-toastify";
 
@@ -12,15 +12,16 @@ export default function LoginView() {
     email: '',
     password: '',
   }
-  const { register, handleSubmit, formState: { errors } } = useForm({ defaultValues: initialValues })
+  const { register,reset, handleSubmit, formState: { errors } } = useForm({ defaultValues: initialValues })
 
+  const navigate = useNavigate();
   const {mutate} = useMutation({
     mutationFn: authenticateUser,
     onError: (error) => {
       toast.error(error.message)
     },
-    onSuccess(data) {
-      toast.success(data)
+    onSuccess: () => {
+      navigate('/')
     },
   })
   const handleLogin = (formData: UserLoginForm) => mutate(formData)
@@ -29,7 +30,7 @@ export default function LoginView() {
     <>
       <form
         onSubmit={handleSubmit(handleLogin)}
-        className="form_login space-y-8 p-10 bg-white"
+        className="form_login space-y-8  "
         noValidate
       >
         <div className="flex flex-col gap-5">
@@ -37,7 +38,7 @@ export default function LoginView() {
             id="email"
             type="email"
             placeholder="Email de Registro"
-            className="w-full p-3  border-gray-300 border"
+            className="w-full p-3 rounded-lg border-gray-300 border"
             {...register("email", {
               required: "El Email es obligatorio",
               pattern: {
@@ -55,7 +56,7 @@ export default function LoginView() {
           <input
             type="password"
             placeholder="Password de Registro"
-            className="w-full p-3  border-gray-300 border rounded-md"
+            className="w-full p-3 rounded-lg border-gray-300 border"
             {...register("password", {
               required: "El Password es obligatorio",
             })}
@@ -67,11 +68,11 @@ export default function LoginView() {
 
         <input
           type="submit"
-          value='INGRESA'
-          className="w-full p-3  text-white font-black  text-xl cursor-pointer"
+          value='INGRESAR'
+          className="w-full p-3  text-white font-black  text-xl "
         />
         <div className="flex flex-col gap-5 text-current">
-            <Link to='' >
+            <Link to='/auth/forgot-password' >
                  ¿Olvidaste tu contraseña?
             </Link>
         </div>

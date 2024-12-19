@@ -1,6 +1,7 @@
 import { dashboardProductCategorySchema, ProductCategory, ProductCategoryFormData } from "@/types/index";
 import api from "@/lib/axios";
 import { isAxiosError } from "axios";
+import { ProductFormData } from "@/types/indexInventary";
 
 export async function createProductCategory(formData: ProductCategoryFormData) {
     try {
@@ -58,6 +59,19 @@ export async function deleteProductCategory(id: ProductCategory['id']) {
     try {
         const {data} = await api.delete<string>(`/productCategories/${id}`)    
         return data   
+    } catch (error) {
+        if(isAxiosError(error) && error.response){
+            throw new Error(error.response.data.error)
+        }
+    }
+}
+
+/* Products */
+
+export async function createProduct(formData: ProductFormData) {
+    try {
+        const {data} = await api.post('/product', formData)
+        return data
     } catch (error) {
         if(isAxiosError(error) && error.response){
             throw new Error(error.response.data.error)

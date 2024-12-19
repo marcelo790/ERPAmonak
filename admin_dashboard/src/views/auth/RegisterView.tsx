@@ -16,7 +16,7 @@ export default function RegisterView() {
     password: '',
     password_confirmation: '',
     confirmed: false,
-    roleId: ''
+    rolesId: ''
   }
 
   const navigate = useNavigate();
@@ -151,7 +151,7 @@ export default function RegisterView() {
                 <select
                     id="roleId"
                     className="w-full p-3 border border-gray-200 rounded-md"
-                    {...register("roleId")}
+                    {...register("rolesId")}
                 >
                     <option value="" >Selecciona un rol</option>
                     {rolData && rolData.map((rol: any) => (

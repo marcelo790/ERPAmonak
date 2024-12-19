@@ -11,9 +11,6 @@ export default function ProductCategoryForm({errors, register}: ProductCategoryF
   return (
     <>
             <div className="mb-5 space-y-3">
-                <label htmlFor="name" className="text-sm uppercase font-bold">
-                    Nombre Categoria
-                </label>
                 <input
                     id="name"
                     className="w-full p-3  border border-gray-200 rounded-md"

@@ -34,7 +34,7 @@ export default function ConfirmAccountView() {
         <span className=" text-gray-900 font-bold"> por e-mail</span>
       </p>
       <form
-        className="space-y-8 p-10 bg-white mt-10"
+        className="space-y-8 p-5"
       >
         <label
           className="font-normal text-2xl text-center block"

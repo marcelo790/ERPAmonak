@@ -1,7 +1,7 @@
 import { Navigate, useParams } from "react-router-dom"
 import { useQuery } from "@tanstack/react-query"
 import { getByIdProductCategory } from "@/api/ProductCategoryAPI"
-import ProductCategoryEdit from "@/components/categories/ProductCategoryEdit"
+import ProductCategoryEdit from "@/components/category/ProductCategoryEdit"
 
 export default function EditProductCategoryView() {
 

@@ -2065,8 +2065,8 @@ body, html {
         border-bottom-left-radius: 0.5rem /* 6px */;
         background-color:var(--white);
         position: fixed;
-        top: 8%;
-        right: 20%;    
+        top: 5.5%;
+        right: 12%;    
         z-index: 1000;
       }
       
@@ -2197,7 +2197,7 @@ body, html {
         background-color:var(--white);
         position: fixed;
         top: 5.5%;
-        right: 7.5%;    
+        right: 10.5%;    
         z-index: 1000;
       }
       

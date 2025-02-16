@@ -187,7 +187,7 @@ body, html {
     position: relative;
     width: 100%;
     height: 350px; /* Ajusta la altura del banner */
-    background-image: url('/src/assets/images/prueba.webp'); /* Ruta a la imagen */
+    background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -199,7 +199,7 @@ body, html {
     position: relative;
     width: 100%;
     height: 350px; /* Ajusta la altura del banner */
-    background-image: url('/src/assets/images/prueba.svg'); /* Ruta a la imagen */
+    background-image: url('/public/images/prueba.svg'); /* Ruta a la imagen */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -210,7 +210,7 @@ body, html {
     position: relative;
     width: 100%;
     height: 350px; /* Ajusta la altura del banner */
-    background-image: url('/src/assets/images/maderaPurpura.jpg'); /* Ruta a la imagen */
+    background-image: url('/public/images/maderaPurpura.jpg'); /* Ruta a la imagen */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -221,7 +221,7 @@ body, html {
     position: relative;
     width: 100%;
     height: 350px; /* Ajusta la altura del banner */
-    background-image: url('/src/assets/images/maderaRoble.jpg'); /* Ruta a la imagen */
+    background-image: url('/public/images/maderaRoble.jpg'); /* Ruta a la imagen */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -232,7 +232,7 @@ body, html {
     position: relative;
     width: 100%;
     height: 350px; /* Ajusta la altura del banner */
-    background-image: url('/src/assets/images/maderaParota.jpg'); /* Ruta a la imagen */
+    background-image: url('/public/images/maderaParota.jpg'); /* Ruta a la imagen */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -526,7 +526,7 @@ body, html {
     position: relative;
     width: 100%;
     height: 350px; /* Ajusta la altura del banner */
-    background-image: url('/src/assets/images/prueba.webp'); /* Ruta a la imagen */
+    background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -867,7 +867,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 250px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/prueba.webp'); /* Ruta a la imagen */
+        background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -879,7 +879,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 250px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/prueba.svg'); /* Ruta a la imagen */
+        background-image: url('/public/images/prueba.svg'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -890,7 +890,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 250px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/maderaPurpura.jpg'); /* Ruta a la imagen */
+        background-image: url('/public/images/maderaPurpura.jpg'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -901,7 +901,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 250px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/maderaRoble.jpg'); /* Ruta a la imagen */
+        background-image: url('/public/images/maderaRoble.jpg'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -912,7 +912,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 250px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/maderaParota.jpg'); /* Ruta a la imagen */
+        background-image: url('/public/images/maderaParota.jpg'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -1206,7 +1206,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 250px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/prueba.webp'); /* Ruta a la imagen */
+        background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -1551,7 +1551,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/prueba.webp'); /* Ruta a la imagen */
+        background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -1563,7 +1563,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/prueba.svg'); /* Ruta a la imagen */
+        background-image: url('/public/images/prueba.svg'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -1574,7 +1574,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/maderaPurpura.jpg'); /* Ruta a la imagen */
+        background-image: url('/public/images/maderaPurpura.jpg'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -1585,7 +1585,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/maderaRoble.jpg'); /* Ruta a la imagen */
+        background-image: url('/public/images/maderaRoble.jpg'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -1596,7 +1596,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/maderaParota.jpg'); /* Ruta a la imagen */
+        background-image: url('/public/images/maderaParota.jpg'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -1889,7 +1889,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/prueba.webp'); /* Ruta a la imagen */
+        background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -2254,7 +2254,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/prueba.webp'); /* Ruta a la imagen */
+        background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -2266,7 +2266,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/prueba.svg'); /* Ruta a la imagen */
+        background-image: url('/public/images/prueba.svg'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -2277,7 +2277,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/maderaPurpura.jpg'); /* Ruta a la imagen */
+        background-image: url('/public/images/maderaPurpura.jpg'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -2288,7 +2288,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/maderaRoble.jpg'); /* Ruta a la imagen */
+        background-image: url('/public/images/maderaRoble.jpg'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -2299,7 +2299,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/maderaParota.jpg'); /* Ruta a la imagen */
+        background-image: url('/public/images/maderaParota.jpg'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -2592,7 +2592,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 150px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/prueba.webp'); /* Ruta a la imagen */
+        background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -2939,7 +2939,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/prueba.webp'); /* Ruta a la imagen */
+        background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -2951,7 +2951,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/prueba.svg'); /* Ruta a la imagen */
+        background-image: url('/public/images/prueba.svg'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -2962,7 +2962,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/maderaPurpura.jpg'); /* Ruta a la imagen */
+        background-image: url('/public/images/maderaPurpura.jpg'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -2973,7 +2973,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/maderaRoble.jpg'); /* Ruta a la imagen */
+        background-image: url('/public/images/maderaRoble.jpg'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -2984,7 +2984,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/maderaParota.jpg'); /* Ruta a la imagen */
+        background-image: url('/public/images/maderaParota.jpg'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -3277,7 +3277,7 @@ body, html {
         position: relative;
         width: 100%;
         height: 150px; /* Ajusta la altura del banner */
-        background-image: url('/src/assets/images/prueba.webp'); /* Ruta a la imagen */
+        background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
         display: flex;

@@ -2881,7 +2881,7 @@ body, html {
         border-bottom-left-radius: 0.5rem /* 6px */;
         background-color:var(--white);
         position: fixed;
-        top: 11%;
+        top: 5.5%;
         right: 7.5%;    
         z-index: 1000;
       }

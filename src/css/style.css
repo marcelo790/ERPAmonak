@@ -1493,7 +1493,7 @@ body, html {
         border-bottom-left-radius: 0.5rem /* 6px */;
         background-color:var(--white);
         position: fixed;
-        top: 7%;
+        top: 5%;
         right: 12%;    
         z-index: 1000;
       }

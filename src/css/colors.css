@@ -1,9 +1,5 @@
 :root {
-    --verde-medio: #5a640e;
-    --verde-claro: #d2d97b; /* verde */
-    --cafe-oscuro: #3d3216; /* rojo */
-    --blanco: #f6f6f6; /* gris claro */
-    --rosa-claro: #efcaa0; /* gris oscuro */    
-    --verde-oscuro: #355c01; /* gris claro */
-    --cafe-claro: #95703c; /* gris oscuro */
+    --gris-light: #9e988a;
+    --brown-light: #3d3216;
+    --white: #fff;
   }

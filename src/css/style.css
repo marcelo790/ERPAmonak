@@ -1825,7 +1825,7 @@ body, html {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0 12rem;
+        padding: 0 13rem;
         margin: 1rem 0 0 0;    
         color: var(--brown-light);
       }

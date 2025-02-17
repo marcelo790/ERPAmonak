@@ -1825,7 +1825,7 @@ body, html {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0 13rem;
+        padding: 0 13.5rem;
         margin: 1rem 0 0 0;    
         color: var(--brown-light);
       }
@@ -1896,7 +1896,7 @@ body, html {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 5rem 12rem;    
+        padding: 5rem 13.5rem;    
         color: var(--brown-light);
       }
       .sec3-block-1, .sec5-block-1{
@@ -1927,7 +1927,7 @@ body, html {
         align-items: center;
         text-align: center;
         margin: 5rem 0rem 3rem 0rem;
-        padding: 0 12rem;    
+        padding: 0 13.5rem;    
         color: var(--brown-light);
         
         p{
@@ -1950,7 +1950,7 @@ body, html {
         justify-content: center;
         align-items: center;    
         color: var(--brown-light);
-        padding: 0 12rem; 
+        padding: 0 13.5rem; 
       }
 
       .sec-cont-1{
@@ -2028,7 +2028,7 @@ body, html {
         justify-content: center;
         align-items: center;    
         color: var(--brown-light);
-        padding: 0 12rem; 
+        padding: 0 13.5rem; 
         margin-bottom: 5rem;
       }
 

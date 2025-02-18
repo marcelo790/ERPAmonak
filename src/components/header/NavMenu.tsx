@@ -24,7 +24,7 @@ export default function NavMenu() {
       {/* Menú de navegación */}
       <ul className={`nav-links ${isOpen ? "open" : ""}`}>
         <li><Link to="/who-are" className="link">{t("M-QS")}</Link></li>
-        <li><Link to="/" className="link">{t("M-P")}</Link></li>
+        <li><Link to="/product" className="link">{t("M-P")}</Link></li>
         <li><Link to="/" className="link">{t("M-OS")}</Link></li>
         <li><Link to="/" className="link">{t("M-O")}</Link></li>
         <li><Link to="/" className="link">{t("M-CC")}</Link></li>

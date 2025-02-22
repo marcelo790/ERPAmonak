@@ -9,12 +9,6 @@ export default function SectionHowToBuy() {
       <div className="banner-content">
         <h1 className="banner-title">{t("M-CC")}</h1>
       </div>
-      <div className="dots">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
     </div>
   )
 }

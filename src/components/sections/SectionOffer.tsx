@@ -9,12 +9,6 @@ export default function SectionOffer() {
       <div className="banner-content">
         <h1 className="banner-title">{t("M-O")}</h1>
       </div>
-      <div className="dots">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
     </div>
   )
 }

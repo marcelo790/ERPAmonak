@@ -184,61 +184,33 @@ body, html {
     background-color: var(--brown-light); /* Color del borde al hacer hover */
   }
 
-  .banner {
+  .banner, .banner2,.banner3, .banner4, .banner5{
     position: relative;
     width: 100%;
-    height: 350px; /* Ajusta la altura del banner */
-    background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+  } 
   
-  .banner2 {
-    position: relative;
-    width: 100%;
-    height: 350px; /* Ajusta la altura del banner */
-    background-image: url('/public/images/prueba.svg'); /* Ruta a la imagen */
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .banner{
+    background-image: url("/public/images/banner.jpg");
+  }  
+  .banner2{
+    background-image: url("/public/images/prueba.svg");
   }
-  .banner3 {
-    position: relative;
-    width: 100%;
-    height: 350px; /* Ajusta la altura del banner */
-    background-image: url('/public/images/maderaPurpura.jpg'); /* Ruta a la imagen */
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .banner3{
+    background-image: url("/public/images/banner.jpg");
   }
-  .banner4 {
-    position: relative;
-    width: 100%;
-    height: 350px; /* Ajusta la altura del banner */
-    background-image: url('/public/images/maderaRoble.jpg'); /* Ruta a la imagen */
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .banner5 {
-    position: relative;
-    width: 100%;
-    height: 350px; /* Ajusta la altura del banner */
-    background-image: url('/public/images/maderaParota.jpg'); /* Ruta a la imagen */
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .banner4{
+    background-image: url("/public/images/prueba.svg");
+  }  
+  .banner5{
+    background-image: url("/public/images/prueba.webp");
   }
   /* Contenido superpuesto */
   .banner-content {
@@ -523,16 +495,39 @@ body, html {
     
   }
 
-  .section-2, .section-4{
+  .section-Who-1, .section-Who-2, .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5{
     position: relative;
     width: 100%;
     height: 350px; /* Ajusta la altura del banner */
-    background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .section-product-1{
+    background-image: url('/public/images/maderaParota.jpg');
+  }
+  .section-product-2{
+    background-image: url('/public/images/maderaPurpura.jpg');
+  }
+  .section-product-3{
+    background-image: url('/public/images/maderaMorado.jpg');
+  }
+  .section-product-4{
+    background-image: url('/public/images/maderaRoble.jpg');
+  }
+  .section-product-5{
+    background-image: url('/public/images/maderaRoble.jpg');
+  }
+  .section-Who-1{
+    background-image: url('/public/images/maderaMorado.jpg');
+  }
+  .section-Who-2{
+    background-image: url('/public/images/maderaRoble.jpg');
   }
 
  .section-3, .section-5{
@@ -859,61 +854,33 @@ body, html {
         background-color: var(--brown-light); /* Color del borde al hacer hover */
       }
 
-      .banner {
+      .banner, .banner2,.banner3, .banner4, .banner5{
         position: relative;
         width: 100%;
-        height: 400px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
+        height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         display: flex;
         align-items: center;
         justify-content: center;
+      } 
+      
+      .banner{
+        background-image: url("/public/images/banner.jpg");
+      }  
+      .banner2{
+        background-image: url("/public/images/prueba.svg");
       }
-
-      .banner2 {
-        position: relative;
-        width: 100%;
-        height: 400px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/prueba.svg'); /* Ruta a la imagen */
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      .banner3{
+        background-image: url("/public/images/banner.jpg");
       }
-      .banner3 {
-        position: relative;
-        width: 100%;
-        height: 400px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/maderaPurpura.jpg'); /* Ruta a la imagen */
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .banner4 {
-        position: relative;
-        width: 100%;
-        height: 400px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/maderaRoble.jpg'); /* Ruta a la imagen */
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .banner5 {
-        position: relative;
-        width: 100%;
-        height: 400px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/maderaParota.jpg'); /* Ruta a la imagen */
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      .banner4{
+        background-image: url("/public/images/prueba.svg");
+      }  
+      .banner5{
+        background-image: url("/public/images/prueba.webp");
       }
       /* Contenido superpuesto */
       .banner-content {
@@ -1199,16 +1166,39 @@ body, html {
         
       }
 
-      .section-2, .section-4{
+      .section-Who-1, .section-Who-2, .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5{
         position: relative;
         width: 100%;
-        height: 400px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
+        height: 350px; /* Ajusta la altura del banner */
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         display: flex;
         align-items: center;
         justify-content: center;
+      }
+    
+      .section-product-1{
+        background-image: url('/public/images/maderaParota.jpg');
+      }
+      .section-product-2{
+        background-image: url('/public/images/maderaPurpura.jpg');
+      }
+      .section-product-3{
+        background-image: url('/public/images/maderaMorado.jpg');
+      }
+      .section-product-4{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-product-5{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-Who-1{
+        background-image: url('/public/images/maderaMorado.jpg');
+      }
+      .section-Who-2{
+        background-image: url('/public/images/maderaRoble.jpg');
       }
 
       .section-3, .section-5{
@@ -1538,61 +1528,33 @@ body, html {
         background-color: var(--brown-light); /* Color del borde al hacer hover */
       }
 
-      .banner {
+      .banner, .banner2,.banner3, .banner4, .banner5{
         position: relative;
         width: 100%;
-        height: 350px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
+        height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         display: flex;
         align-items: center;
         justify-content: center;
+      } 
+      
+      .banner{
+        background-image: url("/public/images/banner.jpg");
+      }  
+      .banner2{
+        background-image: url("/public/images/prueba.svg");
       }
-
-      .banner2 {
-        position: relative;
-        width: 100%;
-        height: 350px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/prueba.svg'); /* Ruta a la imagen */
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      .banner3{
+        background-image: url("/public/images/banner.jpg");
       }
-      .banner3 {
-        position: relative;
-        width: 100%;
-        height: 350px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/maderaPurpura.jpg'); /* Ruta a la imagen */
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .banner4 {
-        position: relative;
-        width: 100%;
-        height: 350px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/maderaRoble.jpg'); /* Ruta a la imagen */
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .banner5 {
-        position: relative;
-        width: 100%;
-        height: 350px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/maderaParota.jpg'); /* Ruta a la imagen */
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      .banner4{
+        background-image: url("/public/images/prueba.svg");
+      }  
+      .banner5{
+        background-image: url("/public/images/prueba.webp");
       }
       /* Contenido superpuesto */
       .banner-content {
@@ -1878,16 +1840,39 @@ body, html {
         
       }
 
-      .section-2, .section-4{
+      .section-Who-1, .section-Who-2, .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5{
         position: relative;
         width: 100%;
         height: 350px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         display: flex;
         align-items: center;
         justify-content: center;
+      }
+    
+      .section-product-1{
+        background-image: url('/public/images/maderaParota.jpg');
+      }
+      .section-product-2{
+        background-image: url('/public/images/maderaPurpura.jpg');
+      }
+      .section-product-3{
+        background-image: url('/public/images/maderaMorado.jpg');
+      }
+      .section-product-4{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-product-5{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-Who-1{
+        background-image: url('/public/images/maderaMorado.jpg');
+      }
+      .section-Who-2{
+        background-image: url('/public/images/maderaRoble.jpg');
       }
 
       .section-3, .section-5{
@@ -2215,61 +2200,33 @@ body, html {
         background-color: var(--brown-light); /* Color del borde al hacer hover */
       }
     
-      .banner {
+      .banner, .banner2,.banner3, .banner4, .banner5{
         position: relative;
         width: 100%;
-        height: 300px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
+        height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         display: flex;
         align-items: center;
         justify-content: center;
-      }
+      } 
       
-      .banner2 {
-        position: relative;
-        width: 100%;
-        height: 300px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/prueba.svg'); /* Ruta a la imagen */
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      .banner{
+        background-image: url("/public/images/banner.jpg");
+      }  
+      .banner2{
+        background-image: url("/public/images/prueba.svg");
       }
-      .banner3 {
-        position: relative;
-        width: 100%;
-        height: 300px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/maderaPurpura.jpg'); /* Ruta a la imagen */
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      .banner3{
+        background-image: url("/public/images/banner.jpg");
       }
-      .banner4 {
-        position: relative;
-        width: 100%;
-        height: 300px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/maderaRoble.jpg'); /* Ruta a la imagen */
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .banner5 {
-        position: relative;
-        width: 100%;
-        height: 300px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/maderaParota.jpg'); /* Ruta a la imagen */
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      .banner4{
+        background-image: url("/public/images/prueba.svg");
+      }  
+      .banner5{
+        background-image: url("/public/images/prueba.webp");
       }
       /* Contenido superpuesto */
       .banner-content {
@@ -2554,16 +2511,39 @@ body, html {
         
       }
     
-      .section-2, .section-4{
+      .section-Who-1, .section-Who-2, .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5{
         position: relative;
         width: 100%;
-        height: 300px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
+        height: 350px; /* Ajusta la altura del banner */
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         display: flex;
         align-items: center;
         justify-content: center;
+      }
+    
+      .section-product-1{
+        background-image: url('/public/images/maderaParota.jpg');
+      }
+      .section-product-2{
+        background-image: url('/public/images/maderaPurpura.jpg');
+      }
+      .section-product-3{
+        background-image: url('/public/images/maderaMorado.jpg');
+      }
+      .section-product-4{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-product-5{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-Who-1{
+        background-image: url('/public/images/maderaMorado.jpg');
+      }
+      .section-Who-2{
+        background-image: url('/public/images/maderaRoble.jpg');
       }
     
      .section-3, .section-5{
@@ -2899,61 +2879,33 @@ body, html {
         background-color: var(--brown-light); /* Color del borde al hacer hover */
       }
     
-      .banner {
+      .banner, .banner2,.banner3, .banner4, .banner5{
         position: relative;
         width: 100%;
-        height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
+        height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         display: flex;
         align-items: center;
         justify-content: center;
-      }
+      } 
       
-      .banner2 {
-        position: relative;
-        width: 100%;
-        height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/prueba.svg'); /* Ruta a la imagen */
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      .banner{
+        background-image: url("/public/images/banner.jpg");
+      }  
+      .banner2{
+        background-image: url("/public/images/prueba.svg");
       }
-      .banner3 {
-        position: relative;
-        width: 100%;
-        height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/maderaPurpura.jpg'); /* Ruta a la imagen */
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      .banner3{
+        background-image: url("/public/images/banner.jpg");
       }
-      .banner4 {
-        position: relative;
-        width: 100%;
-        height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/maderaRoble.jpg'); /* Ruta a la imagen */
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .banner5 {
-        position: relative;
-        width: 100%;
-        height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/maderaParota.jpg'); /* Ruta a la imagen */
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      .banner4{
+        background-image: url("/public/images/prueba.svg");
+      }  
+      .banner5{
+        background-image: url("/public/images/prueba.webp");
       }
       /* Contenido superpuesto */
       .banner-content {
@@ -3237,16 +3189,39 @@ body, html {
         
       }
     
-      .section-2, .section-4{
+      .section-Who-1, .section-Who-2, .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5{
         position: relative;
         width: 100%;
-        height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
+        height: 350px; /* Ajusta la altura del banner */
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         display: flex;
         align-items: center;
         justify-content: center;
+      }
+    
+      .section-product-1{
+        background-image: url('/public/images/maderaParota.jpg');
+      }
+      .section-product-2{
+        background-image: url('/public/images/maderaPurpura.jpg');
+      }
+      .section-product-3{
+        background-image: url('/public/images/maderaMorado.jpg');
+      }
+      .section-product-4{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-product-5{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-Who-1{
+        background-image: url('/public/images/maderaMorado.jpg');
+      }
+      .section-Who-2{
+        background-image: url('/public/images/maderaRoble.jpg');
       }
     
      .section-3, .section-5{
@@ -3585,62 +3560,35 @@ body, html {
         background-color: var(--brown-light); /* Color del borde al hacer hover */
       }
     
-      .banner {
+      .banner, .banner2,.banner3, .banner4, .banner5{
         position: relative;
         width: 100%;
-        height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
+        height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         display: flex;
         align-items: center;
         justify-content: center;
-      }
+      } 
       
-      .banner2 {
-        position: relative;
-        width: 100%;
-        height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/prueba.svg'); /* Ruta a la imagen */
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      .banner{
+        background-image: url("/public/images/banner.jpg");
+      }  
+      .banner2{
+        background-image: url("/public/images/prueba.svg");
       }
-      .banner3 {
-        position: relative;
-        width: 100%;
-        height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/maderaPurpura.jpg'); /* Ruta a la imagen */
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      .banner3{
+        background-image: url("/public/images/banner.jpg");
       }
-      .banner4 {
-        position: relative;
-        width: 100%;
-        height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/maderaRoble.jpg'); /* Ruta a la imagen */
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      .banner4{
+        background-image: url("/public/images/prueba.svg");
+      }  
+      .banner5{
+        background-image: url("/public/images/prueba.webp");
       }
-      .banner5 {
-        position: relative;
-        width: 100%;
-        height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/maderaParota.jpg'); /* Ruta a la imagen */
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
+
       /* Contenido superpuesto */
       .banner-content {
         position: absolute;
@@ -3923,18 +3871,41 @@ body, html {
         
       }
     
-      .section-2, .section-4{
+      .section-Who-1, .section-Who-2, .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5{
         position: relative;
         width: 100%;
-        height: 200px; /* Ajusta la altura del banner */
-        background-image: url('/public/images/prueba.webp'); /* Ruta a la imagen */
+        height: 350px; /* Ajusta la altura del banner */
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         display: flex;
         align-items: center;
         justify-content: center;
       }
     
+      .section-product-1{
+        background-image: url('/public/images/maderaParota.jpg');
+      }
+      .section-product-2{
+        background-image: url('/public/images/maderaPurpura.jpg');
+      }
+      .section-product-3{
+        background-image: url('/public/images/maderaMorado.jpg');
+      }
+      .section-product-4{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-product-5{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-Who-1{
+        background-image: url('/public/images/maderaMorado.jpg');
+      }
+      .section-Who-2{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+          
      .section-3, .section-5{
         width: 100%;
         height: auto;
@@ -4093,4 +4064,5 @@ body, html {
         }
     }
 
-   
+  
+     

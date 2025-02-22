@@ -34,7 +34,7 @@ export default function SecctionWhoAre() {
                     </div>
                 </div>
             </div>
-            <div className='section-2'>
+            <div className='section-Who-1'>
                 <div className="banner-content">
                     <h1 className="banner-title">{t("S-M")}</h1>
                 </div>
@@ -46,7 +46,7 @@ export default function SecctionWhoAre() {
                     </p>
                 </div>
             </div>
-            <div className='section-4'>
+            <div className='section-Who-2'>
                 <div className="banner-content">
                     <h1 className="banner-title">{t("S-V")}</h1>
                 </div>

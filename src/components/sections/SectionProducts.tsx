@@ -20,7 +20,7 @@ export default function SectionProducts() {
                     </p>
                 </div>
             </div>
-            <div className='section-2'>
+            <div className='section-product-1'>
                 <div className="banner-content">
                     <h1 className="banner-title">{t("SP-T")}</h1>
                 </div>
@@ -32,7 +32,7 @@ export default function SectionProducts() {
                     </p>
                 </div>
             </div>
-            <div className='section-4'>
+            <div className='section-product-2'>
                 <div className="banner-content">
                     <h1 className="banner-title">{t("SP2-T")}</h1>
                 </div>
@@ -44,7 +44,7 @@ export default function SectionProducts() {
                     </p>
                 </div>
             </div>
-            <div className='section-4'>
+            <div className='section-product-3'>
                 <div className="banner-content">
                     <h1 className="banner-title">{t("SP3-T")}</h1>
                 </div>
@@ -56,7 +56,7 @@ export default function SectionProducts() {
                     </p>
                 </div>
             </div>
-            <div className='section-4'>
+            <div className='section-product-4'>
                 <div className="banner-content">
                     <h1 className="banner-title">{t("SP4-T")}</h1>
                 </div>
@@ -68,7 +68,7 @@ export default function SectionProducts() {
                     </p>
                 </div>
             </div>
-            <div className='section-4'>
+            <div className='section-product-5'>
                 <div className="banner-content">
                     <h1 className="banner-title">{t("SP5-T")}</h1>
                 </div>

@@ -1,10 +1,14 @@
+import { useTranslation } from "react-i18next";
 
 export default function SectionContact() {
+
+      const { t } = useTranslation();
+      
   return (
     <div className='section-container'>
         <div className="banner">      
             <div className="banner-content">
-                <h1 className="banner-title">Contactanos</h1>
+                <h1 className="banner-title">{t("F-M-C")}</h1>
             </div>
         </div>
         <div className='sections'>
@@ -28,7 +32,7 @@ export default function SectionContact() {
                             C9.7,7.5,7.6,9.7,7.6,12.3z"/>
                         </g>
                     </svg>
-                    <p>Av. Doble Via la Guardia, 7mo Anillo</p>
+                    <p>{t("F-C-U")}</p>
                 </div>
                 <div className='sec-cont-2'>
                     <svg version="1.1" id="Para_desarrollo" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px"

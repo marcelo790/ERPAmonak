@@ -7,7 +7,7 @@ export default function SecctionWhoAre() {
       
   return (
     <div className='section-container'>
-        <div className="banner">      
+        <div className="bannerWho">      
             <div className="banner-content">
                 <h1 className="banner-title">{t("M-QS")}</h1>
             </div>

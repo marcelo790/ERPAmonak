@@ -184,7 +184,7 @@ body, html {
     background-color: var(--brown-light); /* Color del borde al hacer hover */
   }
 
-  .banner, .banner2,.banner3, .banner4, .banner5{
+  .banner, .banner2,.banner3, .banner4, .banner5, .bannerWho, .bannerProduct{
     position: relative;
     width: 100%;
     height: 100vh;
@@ -198,24 +198,29 @@ body, html {
   } 
   
   .banner{
-    background-image: url("/public/images/banner.jpg");
+    background-image: url("/public/images/bannerPrincipal.JPG");
   }  
   .banner2{
-    background-image: url("/public/images/prueba.svg");
+    background-image: url("/public/images/bannerPrincipalComoComprar.jpg");
   }
   .banner3{
-    background-image: url("/public/images/banner.jpg");
+    background-image: url("/public/images/bannerPrincipalOfertas.JPG");
   }
   .banner4{
-    background-image: url("/public/images/prueba.svg");
+    background-image: url("/public/images/bannerPrincipalOtrosServicios.jpg");
   }  
   .banner5{
-    background-image: url("/public/images/prueba.webp");
+    background-image: url("/public/images/bannerPrincipalProductos.JPG");
+  }    
+  .bannerWho{
+    background-image: url("/public/images/bannerQuienesSomos.JPG");
+  }
+  .bannerProduct{
+    background-image: url("/public/images/bannerPrincipalProductos.JPG");
   }
   /* Contenido superpuesto */
   .banner-content {
     position: absolute;
-    text-align: center;
   }
   
   .banner-title {
@@ -471,7 +476,7 @@ body, html {
     
   }
 
-  .section-Who-1, .section-Who-2, .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5{
+  .section-Who-1, .section-Who-2{
     position: relative;
     width: 100%;
     height: 350px; /* Ajusta la altura del banner */
@@ -483,30 +488,61 @@ body, html {
     align-items: center;
     justify-content: center;
   }
+  .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5,
+  .section-product-6, .section-product-7, .section-product-8, .section-product-9, .section-product-10, .section-product-11{
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ajusta la altura del banner */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   .section-product-1{
-    background-image: url('/public/images/maderaParota.jpg');
+    background-image: url('/public/images/section1.jpg');
   }
   .section-product-2{
-    background-image: url('/public/images/maderaPurpura.jpg');
+    background-image: url('/public/images/section2.JPG');
   }
   .section-product-3{
-    background-image: url('/public/images/maderaMorado.jpg');
+    background-image: url('/public/images/section3.JPG');
   }
   .section-product-4{
-    background-image: url('/public/images/maderaRoble.jpg');
+    background-image: url('/public/images/section4.JPG');
   }
   .section-product-5{
+    background-image: url('/public/images/section5.png');
+  }
+  .section-product-6{
+    background-image: url('/public/images/section6.JPG');
+  }
+  .section-product-7{
+    background-image: url('/public/images/maderaRoble.jpg');
+  }
+  .section-product-8{
+    background-image: url('/public/images/section8.JPG');
+  }
+  .section-product-9{
+    background-image: url('/public/images/maderaRoble.jpg');
+  }
+  .section-product-10{
+    background-image: url('/public/images/maderaRoble.jpg');
+  }
+  .section-product-11{
     background-image: url('/public/images/maderaRoble.jpg');
   }
   .section-Who-1{
-    background-image: url('/public/images/maderaMorado.jpg');
+    background-image: url('/public/images/bannerMision.JPG');
   }
   .section-Who-2{
-    background-image: url('/public/images/maderaRoble.jpg');
+    background-image: url('/public/images/bannerVision.JPG');
   }
 
- .section-3, .section-5{
+ .section-3, .section-5, .section-6, .section-7, .section-8, .section-9, .section-10, .section-11{
     width: 100%;
     height: auto;
     display: flex;
@@ -515,7 +551,7 @@ body, html {
     padding: 5rem 15rem;    
     color: var(--brown-light);
   }
-  .sec3-block-1, .sec5-block-1{
+  .sec3-block-1, .sec5-block-1, .sec6-block-1, .sec7-block-1, .sec8-block-1, .sec9-block-1, .sec10-block-1, .sec11-block-1{
     width: 100%;
     height: auto;
     display: flex;
@@ -830,7 +866,7 @@ body, html {
         background-color: var(--brown-light); /* Color del borde al hacer hover */
       }
 
-      .banner, .banner2,.banner3, .banner4, .banner5{
+      .banner, .banner2,.banner3, .banner4, .banner5, .bannerWho, .bannerProduct{
         position: relative;
         width: 100%;
         height: 100vh;
@@ -844,19 +880,25 @@ body, html {
       } 
       
       .banner{
-        background-image: url("/public/images/banner.jpg");
+        background-image: url("/public/images/bannerPrincipal.JPG");
       }  
       .banner2{
-        background-image: url("/public/images/prueba.svg");
+        background-image: url("/public/images/bannerPrincipalComoComprar.jpg");
       }
       .banner3{
-        background-image: url("/public/images/banner.jpg");
+        background-image: url("/public/images/bannerPrincipalOfertas.JPG");
       }
       .banner4{
-        background-image: url("/public/images/prueba.svg");
+        background-image: url("/public/images/bannerPrincipalOtrosServicios.jpg");
       }  
       .banner5{
-        background-image: url("/public/images/prueba.webp");
+        background-image: url("/public/images/bannerPrincipalProductos.JPG");
+      }
+      .bannerWho{
+        background-image: url("/public/images/bannerQuienesSomos.JPG");
+      }
+      .bannerProduct{
+        background-image: url("/public/images/bannerPrincipalProductos.JPG");
       }
       /* Contenido superpuesto */
       .banner-content {
@@ -1118,7 +1160,7 @@ body, html {
         
       }
 
-      .section-Who-1, .section-Who-2, .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5{
+      .section-Who-1, .section-Who-2{
         position: relative;
         width: 100%;
         height: 350px; /* Ajusta la altura del banner */
@@ -1130,30 +1172,61 @@ body, html {
         align-items: center;
         justify-content: center;
       }
+      .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5,
+  .section-product-6, .section-product-7, .section-product-8, .section-product-9, .section-product-10, .section-product-11{
+    position: relative;
+        width: 100%;
+        height: 100vh; /* Ajusta la altura del banner */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  }
     
       .section-product-1{
-        background-image: url('/public/images/maderaParota.jpg');
+        background-image: url('/public/images/section1.jpg');
       }
       .section-product-2{
-        background-image: url('/public/images/maderaPurpura.jpg');
+        background-image: url('/public/images/section2.JPG');
       }
       .section-product-3{
-        background-image: url('/public/images/maderaMorado.jpg');
+        background-image: url('/public/images/section3.JPG');
       }
       .section-product-4{
-        background-image: url('/public/images/maderaRoble.jpg');
+        background-image: url('/public/images/section4.JPG');
       }
       .section-product-5{
+        background-image: url('/public/images/section5.png');
+      }
+      .section-product-6{
+        background-image: url('/public/images/section6.JPG');
+      }
+      .section-product-7{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-product-8{
+        background-image: url('/public/images/section8.JPG');
+      }
+      .section-product-9{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-product-10{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-product-11{
         background-image: url('/public/images/maderaRoble.jpg');
       }
       .section-Who-1{
-        background-image: url('/public/images/maderaMorado.jpg');
+        background-image: url('/public/images/bannerMision.JPG');
       }
       .section-Who-2{
-        background-image: url('/public/images/maderaRoble.jpg');
+        background-image: url('/public/images/bannerVision.JPG');
       }
 
-      .section-3, .section-5{
+      .section-3, .section-5, .section-6, .section-7, .section-8, .section-9, .section-10, .section-11{
         width: 100%;
         height: auto;
         display: flex;
@@ -1162,7 +1235,7 @@ body, html {
         padding: 5rem 15rem;    
         color: var(--brown-light);
       }
-      .sec3-block-1, .sec5-block-1{
+      .sec3-block-1, .sec5-block-1, .sec6-block-1, .sec7-block-1, .sec8-block-1, .sec9-block-1, .sec10-block-1, .sec11-block-1{
         width: 100%;
         height: auto;
         display: flex;
@@ -1480,7 +1553,7 @@ body, html {
         background-color: var(--brown-light); /* Color del borde al hacer hover */
       }
 
-      .banner, .banner2,.banner3, .banner4, .banner5{
+      .banner, .banner2,.banner3, .banner4, .banner5, .bannerWho, .bannerProduct{
         position: relative;
         width: 100%;
         height: 100vh;
@@ -1494,19 +1567,25 @@ body, html {
       } 
       
       .banner{
-        background-image: url("/public/images/banner.jpg");
+        background-image: url("/public/images/bannerPrincipal.JPG");
       }  
       .banner2{
-        background-image: url("/public/images/prueba.svg");
+        background-image: url("/public/images/bannerPrincipalComoComprar.jpg");
       }
       .banner3{
-        background-image: url("/public/images/banner.jpg");
+        background-image: url("/public/images/bannerPrincipalOfertas.JPG");
       }
       .banner4{
-        background-image: url("/public/images/prueba.svg");
+        background-image: url("/public/images/bannerPrincipalOtrosServicios.jpg");
       }  
       .banner5{
-        background-image: url("/public/images/prueba.webp");
+        background-image: url("/public/images/bannerPrincipalProductos.JPG");
+      }
+      .bannerWho{
+        background-image: url("/public/images/bannerQuienesSomos.JPG");
+      }
+      .bannerProduct{
+        background-image: url("/public/images/bannerPrincipalProductos.JPG");
       }
       /* Contenido superpuesto */
       .banner-content {
@@ -1766,7 +1845,7 @@ body, html {
         
       }
 
-      .section-Who-1, .section-Who-2, .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5{
+      .section-Who-1, .section-Who-2{
         position: relative;
         width: 100%;
         height: 350px; /* Ajusta la altura del banner */
@@ -1779,29 +1858,60 @@ body, html {
         justify-content: center;
       }
     
+      .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5,
+      .section-product-6, .section-product-7, .section-product-8, .section-product-9, .section-product-10, .section-product-11{
+        position: relative;
+            width: 100%;
+            height: 100vh; /* Ajusta la altura del banner */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+      }
       .section-product-1{
-        background-image: url('/public/images/maderaParota.jpg');
+        background-image: url('/public/images/section1.jpg');
       }
       .section-product-2{
-        background-image: url('/public/images/maderaPurpura.jpg');
+        background-image: url('/public/images/section2.JPG');
       }
       .section-product-3{
-        background-image: url('/public/images/maderaMorado.jpg');
+        background-image: url('/public/images/section3.JPG');
       }
       .section-product-4{
-        background-image: url('/public/images/maderaRoble.jpg');
+        background-image: url('/public/images/section4.JPG');
       }
       .section-product-5{
+        background-image: url('/public/images/section5.png');
+      }
+      .section-product-6{
+        background-image: url('/public/images/section6.JPG');
+      }
+      .section-product-7{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-product-8{
+        background-image: url('/public/images/section8.JPG');
+      }
+      .section-product-9{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-product-10{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-product-11{
         background-image: url('/public/images/maderaRoble.jpg');
       }
       .section-Who-1{
-        background-image: url('/public/images/maderaMorado.jpg');
+        background-image: url('/public/images/bannerMision.JPG');
       }
       .section-Who-2{
-        background-image: url('/public/images/maderaRoble.jpg');
+        background-image: url('/public/images/bannerVision.JPG');
       }
 
-      .section-3, .section-5{
+      .section-3, .section-5, .section-6, .section-7, .section-8, .section-9, .section-10, .section-11{
         width: 100%;
         height: auto;
         display: flex;
@@ -1810,7 +1920,7 @@ body, html {
         padding: 5rem 13.5rem;    
         color: var(--brown-light);
       }
-      .sec3-block-1, .sec5-block-1{
+      .sec3-block-1, .sec5-block-1, .sec6-block-1, .sec7-block-1, .sec8-block-1, .sec9-block-1, .sec10-block-1, .sec11-block-1{
         width: 100%;
         height: auto;
         display: flex;
@@ -2126,7 +2236,7 @@ body, html {
         background-color: var(--brown-light); /* Color del borde al hacer hover */
       }
     
-      .banner, .banner2,.banner3, .banner4, .banner5{
+      .banner, .banner2,.banner3, .banner4, .banner5, .bannerWho, .bannerProduct{
         position: relative;
         width: 100%;
         height: 100vh;
@@ -2140,19 +2250,25 @@ body, html {
       } 
       
       .banner{
-        background-image: url("/public/images/banner.jpg");
+        background-image: url("/public/images/bannerPrincipal.jpg");
       }  
       .banner2{
-        background-image: url("/public/images/prueba.svg");
+        background-image: url("/public/images/bannerPrincipalComoComprar.jpg");
       }
       .banner3{
-        background-image: url("/public/images/banner.jpg");
+        background-image: url("/public/images/bannerPrincipalOfertas.JPG");
       }
       .banner4{
-        background-image: url("/public/images/prueba.svg");
+        background-image: url("/public/images/bannerPrincipalOtrosServicios.jpg");
       }  
       .banner5{
-        background-image: url("/public/images/prueba.webp");
+        background-image: url("/public/images/bannerPrincipalProductos.JPG");
+      }
+      .bannerWho{
+        background-image: url("/public/images/bannerQuienesSomos.JPG");
+      }
+      .bannerProduct{
+        background-image: url("/public/images/bannerPrincipalProductos.JPG");
       }
       /* Contenido superpuesto */
       .banner-content {
@@ -2412,7 +2528,7 @@ body, html {
         
       }
     
-      .section-Who-1, .section-Who-2, .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5{
+      .section-Who-1, .section-Who-2{
         position: relative;
         width: 100%;
         height: 350px; /* Ajusta la altura del banner */
@@ -2424,30 +2540,62 @@ body, html {
         align-items: center;
         justify-content: center;
       }
+
+      .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5,
+  .section-product-6, .section-product-7, .section-product-8, .section-product-9, .section-product-10, .section-product-11{
+    position: relative;
+        width: 100%;
+        height: 100vh; /* Ajusta la altura del banner */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  }
     
       .section-product-1{
-        background-image: url('/public/images/maderaParota.jpg');
+        background-image: url('/public/images/section1.jpg');
       }
       .section-product-2{
-        background-image: url('/public/images/maderaPurpura.jpg');
+        background-image: url('/public/images/section2.JPG');
       }
       .section-product-3{
-        background-image: url('/public/images/maderaMorado.jpg');
+        background-image: url('/public/images/section3.JPG');
       }
       .section-product-4{
-        background-image: url('/public/images/maderaRoble.jpg');
+        background-image: url('/public/images/section4.JPG');
       }
       .section-product-5{
+        background-image: url('/public/images/section5.png');
+      }
+      .section-product-6{
+        background-image: url('/public/images/section6.JPG');
+      }
+      .section-product-7{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-product-8{
+        background-image: url('/public/images/section8.JPG');
+      }
+      .section-product-9{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-product-10{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-product-11{
         background-image: url('/public/images/maderaRoble.jpg');
       }
       .section-Who-1{
-        background-image: url('/public/images/maderaMorado.jpg');
+        background-image: url('/public/images/bannerMision.JPG');
       }
       .section-Who-2{
-        background-image: url('/public/images/maderaRoble.jpg');
+        background-image: url('/public/images/bannerVision.JPG');
       }
     
-     .section-3, .section-5{
+     .section-3, .section-5, .section-6, .section-7, .section-8, .section-9, .section-10, .section-11{
         width: 100%;
         height: auto;
         display: flex;
@@ -2456,7 +2604,7 @@ body, html {
         padding: 3rem 11rem;    
         color: var(--brown-light);
       }
-      .sec3-block-1, .sec5-block-1{
+      .sec3-block-1, .sec5-block-1, .sec6-block-1, .sec7-block-1, .sec8-block-1, .sec9-block-1, .sec10-block-1, .sec11-block-1{
         width: 100%;
         height: auto;
         display: flex;
@@ -2780,7 +2928,7 @@ body, html {
         background-color: var(--brown-light); /* Color del borde al hacer hover */
       }
     
-      .banner, .banner2,.banner3, .banner4, .banner5{
+      .banner, .banner2,.banner3, .banner4, .banner5, .bannerWho, .bannerProduct{
         position: relative;
         width: 100%;
         height: 100vh;
@@ -2794,19 +2942,25 @@ body, html {
       } 
       
       .banner{
-        background-image: url("/public/images/banner.jpg");
+        background-image: url("/public/images/bannerPrincipal.JPG");
       }  
       .banner2{
-        background-image: url("/public/images/prueba.svg");
+        background-image: url("/public/images/bannerPrincipalComoComprar.jpg");
       }
       .banner3{
-        background-image: url("/public/images/banner.jpg");
+        background-image: url("/public/images/bannerPrincipalOfertas.JPG");
       }
       .banner4{
-        background-image: url("/public/images/prueba.svg");
+        background-image: url("/public/images/bannerPrincipalOtrosServicios.jpg");
       }  
       .banner5{
-        background-image: url("/public/images/prueba.webp");
+        background-image: url("/public/images/bannerPrincipalProductos.JPG");
+      }
+      .bannerWho{
+        background-image: url("/public/images/bannerQuienesSomos.JPG");
+      }
+      .bannerProduct{
+        background-image: url("/public/images/bannerPrincipalProductos.JPG");
       }
       /* Contenido superpuesto */
       .banner-content {
@@ -3066,7 +3220,7 @@ body, html {
         
       }
     
-      .section-Who-1, .section-Who-2, .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5{
+      .section-Who-1, .section-Who-2{
         position: relative;
         width: 100%;
         height: 350px; /* Ajusta la altura del banner */
@@ -3078,30 +3232,62 @@ body, html {
         align-items: center;
         justify-content: center;
       }
+
+      .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5,
+  .section-product-6, .section-product-7, .section-product-8, .section-product-9, .section-product-10, .section-product-11{
+    position: relative;
+        width: 100%;
+        height: 100vh; /* Ajusta la altura del banner */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  }
     
       .section-product-1{
-        background-image: url('/public/images/maderaParota.jpg');
+        background-image: url('/public/images/section1.jpg');
       }
       .section-product-2{
-        background-image: url('/public/images/maderaPurpura.jpg');
+        background-image: url('/public/images/section2.JPG');
       }
       .section-product-3{
-        background-image: url('/public/images/maderaMorado.jpg');
+        background-image: url('/public/images/section3.JPG');
       }
       .section-product-4{
-        background-image: url('/public/images/maderaRoble.jpg');
+        background-image: url('/public/images/section4.JPG');
       }
       .section-product-5{
+        background-image: url('/public/images/section5.png');
+      }
+      .section-product-6{
+        background-image: url('/public/images/section6.JPG');
+      }
+      .section-product-7{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-product-8{
+        background-image: url('/public/images/section8.JPG');
+      }
+      .section-product-9{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-product-10{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-product-11{
         background-image: url('/public/images/maderaRoble.jpg');
       }
       .section-Who-1{
-        background-image: url('/public/images/maderaMorado.jpg');
+        background-image: url('/public/images/bannerMision.JPG');
       }
       .section-Who-2{
-        background-image: url('/public/images/maderaRoble.jpg');
+        background-image: url('/public/images/bannerVision.JPG');
       }
     
-     .section-3, .section-5{
+     .section-3, .section-5, .section-6, .section-7, .section-8, .section-9, .section-10, .section-11{
         width: 100%;
         height: auto;
         display: flex;
@@ -3110,7 +3296,7 @@ body, html {
         padding: 2rem 5rem;    
         color: var(--brown-light);
       }
-      .sec3-block-1, .sec5-block-1{
+      .sec3-block-1, .sec5-block-1, .sec6-block-1, .sec7-block-1, .sec8-block-1, .sec9-block-1, .sec10-block-1, .sec11-block-1{
         width: 100%;
         height: auto;
         display: flex;
@@ -3437,7 +3623,7 @@ body, html {
         background-color: var(--brown-light); /* Color del borde al hacer hover */
       }
     
-      .banner, .banner2,.banner3, .banner4, .banner5{
+      .banner, .banner2,.banner3, .banner4, .banner5, .bannerWho, .bannerProduct{
         position: relative;
         width: 100%;
         height: 100vh;
@@ -3451,19 +3637,25 @@ body, html {
       } 
       
       .banner{
-        background-image: url("/public/images/banner.jpg");
+        background-image: url("/public/images/bannerPrincipal.JPG");
       }  
       .banner2{
-        background-image: url("/public/images/prueba.svg");
+        background-image: url("/public/images/bannerPrincipalComoComprar.jpg");
       }
       .banner3{
-        background-image: url("/public/images/banner.jpg");
+        background-image: url("/public/images/bannerPrincipalOfertas.JPG");
       }
       .banner4{
-        background-image: url("/public/images/prueba.svg");
+        background-image: url("/public/images/bannerPrincipalOtrosServicios.jpg");
       }  
       .banner5{
-        background-image: url("/public/images/prueba.webp");
+        background-image: url("/public/images/bannerPrincipalProductos.JPG");
+      }
+      .bannerWho{
+        background-image: url("/public/images/bannerQuienesSomos.JPG");
+      }
+      .bannerProduct{
+        background-image: url("/public/images/bannerPrincipalProductos.JPG");
       }
 
       /* Contenido superpuesto */
@@ -3723,7 +3915,7 @@ body, html {
         
       }
     
-      .section-Who-1, .section-Who-2, .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5{
+      .section-Who-1, .section-Who-2{
         position: relative;
         width: 100%;
         height: 350px; /* Ajusta la altura del banner */
@@ -3735,30 +3927,62 @@ body, html {
         align-items: center;
         justify-content: center;
       }
+
+      .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5,
+  .section-product-6, .section-product-7, .section-product-8, .section-product-9, .section-product-10, .section-product-11{
+    position: relative;
+        width: 100%;
+        height: 100vh; /* Ajusta la altura del banner */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  }
     
       .section-product-1{
-        background-image: url('/public/images/maderaParota.jpg');
+        background-image: url('/public/images/section1.jpg');
       }
       .section-product-2{
-        background-image: url('/public/images/maderaPurpura.jpg');
+        background-image: url('/public/images/section2.JPG');
       }
       .section-product-3{
-        background-image: url('/public/images/maderaMorado.jpg');
+        background-image: url('/public/images/section3.JPG');
       }
       .section-product-4{
-        background-image: url('/public/images/maderaRoble.jpg');
+        background-image: url('/public/images/section4.JPG');
       }
       .section-product-5{
+        background-image: url('/public/images/section5.png');
+      }
+      .section-product-6{
+        background-image: url('/public/images/section6.JPG');
+      }
+      .section-product-7{
         background-image: url('/public/images/maderaRoble.jpg');
       }
+      .section-product-8{
+        background-image: url('/public/images/section8.JPG');
+      }
+      .section-product-9{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-product-10{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }
+      .section-product-11{
+        background-image: url('/public/images/maderaRoble.jpg');
+      }      
       .section-Who-1{
-        background-image: url('/public/images/maderaMorado.jpg');
+        background-image: url('/public/images/bannerMision.JPG');
       }
       .section-Who-2{
-        background-image: url('/public/images/maderaRoble.jpg');
+        background-image: url('/public/images/bannerVision.JPG');
       }
           
-     .section-3, .section-5{
+     .section-3, .section-5, .section-6, .section-7, .section-8, .section-9, .section-10, .section-11{
         width: 100%;
         height: auto;
         display: flex;
@@ -3767,7 +3991,7 @@ body, html {
         padding: 2rem 5rem;    
         color: var(--brown-light);
       }
-      .sec3-block-1, .sec5-block-1{
+      .sec3-block-1, .sec5-block-1, .sec6-block-1, .sec7-block-1, .sec8-block-1, .sec9-block-1, .sec10-block-1, .sec11-block-1{
         width: 100%;
         height: auto;
         display: flex;

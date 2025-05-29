@@ -71,7 +71,7 @@ export default function Footer() {
                   C9.7,7.5,7.6,9.7,7.6,12.3z"/>
               </g>
             </svg>
-            <p>Av. Doble Via la Guardia, 7mo Anillo</p>
+            <p>8vo Anillo, Doble Via la Guardia</p>
           </div>
           <div className='ft-3'>
             <p>{t("F-M-C")}</p>

@@ -35,6 +35,7 @@ export default function Tablas() {
             >
               <img
                 src={item.image}
+                loading="lazy"
                 alt={`Mesa Amonak ${startIdx + idx + 1}`}
                 className="mx-auto h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
               />
@@ -107,6 +108,7 @@ export default function Tablas() {
               </button>
               <img
                   src={modalImage}
+                  loading="lazy"
                   alt="Imagen ampliada"
                   className="rounded-lg mx-auto max-h-[70vh] object-contain"
               />

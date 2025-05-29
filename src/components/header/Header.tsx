@@ -30,7 +30,7 @@ export default function Header() {
         <div className="container">        
           <div className="divLogo">
             <Link to="/">
-              <img src="./images/logo.svg" alt="Logotipo Amonak" className="logo" />
+              <img src="./images/logo.svg" alt="Logotipo Amonak" className="logo" loading="lazy"/>
             </Link>
           </div>
           <NavMenu/>          

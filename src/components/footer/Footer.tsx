@@ -24,25 +24,25 @@ export default function Footer() {
                   smoothScrollToTop(); // Llama a la función personalizada
                 }}
           >
-            <img src="./images/iconFlecha.svg" alt="Inicio"/>
+            <img src="./images/iconFlecha.svg" alt="Inicio" loading="lazy"/>
           </Link>
         </div>
         <div className='footer-block1'>
           <Link to="https://www.facebook.com/MUEBLES.DE.MADERA.Y.RESINA">
-            <img src="./images/iconFacebook.svg" alt="Facebook"/>
+            <img src="./images/iconFacebook.svg" alt="Facebook" loading="lazy"/>
           </Link>
           <Link to="https://www.instagram.com/amonakbolivia?igsh=azZvcm1tN3J3eWty">
-            <img src="./images/iconInstagram.svg" alt="Instagram"/>
+            <img src="./images/iconInstagram.svg" alt="Instagram" loading="lazy"/>
           </Link>
           <Link to="https://www.tiktok.com/@amonakbolivia?_t=8r7mo6B8Oxh&_r=1">
-            <img src="./images/iconTiktok.svg" alt="Tiktok"/>
+            <img src="./images/iconTiktok.svg" alt="Tiktok" loading="lazy"/>
           </Link>
           <Link to="">
-            <img src="./images/iconX.svg" alt="X"/>
+            <img src="./images/iconX.svg" alt="X" loading="lazy"/>
           </Link>
         </div>
         <div className='footer-block2'>
-          <img src="./images/logo.svg" alt="logo"/>
+          <img src="./images/logo.svg" alt="logo" loading="lazy"/>
           <p>{t("F-D")}</p>
         </div>
         <div className='footer-block3'>

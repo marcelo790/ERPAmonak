@@ -3,7 +3,7 @@ import { FaEye, FaHeart, FaShoppingCart } from "react-icons/fa";
 
 
 const images = Array.from({length: 28}, (_, i) => ({
-        image: `public/images/tablas/${i + 1}.webp`,
+        image: `/images/tablas/${i + 1}.webp`,
     }))
 
 const ITEMS_PER_PAGE = 6;

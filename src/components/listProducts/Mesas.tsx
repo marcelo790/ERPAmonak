@@ -30,16 +30,18 @@ export default function Mesas() {
             key={idx}
             className="w-56 relative group border rounded-lg shadow overflow-hidden"
           >
-            <img
-              src={item.image}
-              loading="lazy"
-              alt={`Mesa Amonak ${startIdx + idx + 1}`}
-              className="mx-auto h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-            />
+            <a href={item.image} target="_blank" rel="noopener noreferrer">
+              <img
+                src={item.image}
+                loading="lazy"
+                alt={`Mesa Amonak ${startIdx + idx + 1}`}
+                className="mx-auto h-full w-full object-cover transition-transform duration-300 group-hover:scale-105 cursor-pointer"
+              />
+            </a>
 
             {/* OVERLAY */}
             <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
-              <button className="bg-white text-gray-700 p-2 rounded-full hover:bg-gray-200">
+              {/*<button className="bg-white text-gray-700 p-2 rounded-full hover:bg-gray-200">
                 <FaShoppingCart />
               </button>
               <button className="bg-white text-gray-700 p-2 rounded-full hover:bg-gray-200">
@@ -50,7 +52,7 @@ export default function Mesas() {
                 onClick={() => setModalImage(item.image)}
               >
                 <FaEye />
-              </button>
+              </button>*/}
             </div>
           </div>
         ))}
@@ -94,7 +96,7 @@ export default function Mesas() {
       </p>
 
       {/* MODAL */}
-      {modalImage && (
+      {/*modalImage && (
         <div className="fixed inset-0 z-50 bg-black bg-opacity-60 flex items-center justify-center p-4">
             <div className="relative bg-white p-2 rounded-lg shadow-lg max-w-sm w-full">
             <button
@@ -111,7 +113,7 @@ export default function Mesas() {
             />
             </div>
         </div>
-        )}
+        )*/}
     </div>
   );
 }

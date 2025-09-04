@@ -1,6 +1,4 @@
 import { useState } from "react";
-import { FaHeart, FaShoppingCart, FaEye } from "react-icons/fa";
-
 const images = Array.from({ length: 32 }, (_, i) => ({
   image: `/images/mesas/${i + 1}.webp`, // no uses "public/" en src
 }));
@@ -9,7 +7,6 @@ const ITEMS_PER_PAGE = 6;
 
 export default function Mesas() {
   const [currentPage, setCurrentPage] = useState(1);
-  const [modalImage, setModalImage] = useState<string | null>(null);
 
   const totalPages = Math.ceil(images.length / ITEMS_PER_PAGE);
   const startIdx = (currentPage - 1) * ITEMS_PER_PAGE;

@@ -1555,7 +1555,7 @@ body, html {
         border-bottom-left-radius: 0.5rem /* 6px */;
         background-color:var(--white);
         position: fixed;
-        top: 15%;
+        top: 11.6%;
         right: 6%;    
         z-index: 1000;
       }
@@ -2263,7 +2263,7 @@ body, html {
         border-bottom-left-radius: 0.5rem /* 6px */;
         background-color:var(--white);
         position: fixed;
-        top: 8.0%;
+        top: 8.4%;
         right: 12%;    
         z-index: 1000;
       }

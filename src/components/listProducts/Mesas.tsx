@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 const images = Array.from({ length: 32 }, (_, i) => ({
   image: `/images/mesas/${i + 1}.webp`, // no uses "public/" en src
 }));
@@ -23,35 +24,25 @@ export default function Mesas() {
       {/* GRID */}
       <div className="contenedor-mesa2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {currentItems.map((item, idx) => (
-          <div
+          <a
             key={idx}
-            className="w-56 relative group border rounded-lg shadow overflow-hidden"
+            href={item.image}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-56 relative group border rounded-lg shadow overflow-hidden block"
           >
-            <a href={item.image} target="_blank" rel="noopener noreferrer">
-              <img
-                src={item.image}
-                loading="lazy"
-                alt={`Mesa Amonak ${startIdx + idx + 1}`}
-                className="mx-auto h-full w-full object-cover transition-transform duration-300 group-hover:scale-105 cursor-pointer"
-              />
-            </a>
+            <img
+              src={item.image}
+              loading="lazy"
+              alt={`Mesa Amonak ${startIdx + idx + 1}`}
+              className="mx-auto h-full w-full object-cover transition-transform duration-300 group-hover:scale-105 cursor-pointer"
+            />
 
             {/* OVERLAY */}
             <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
-              {/*<button className="bg-white text-gray-700 p-2 rounded-full hover:bg-gray-200">
-                <FaShoppingCart />
-              </button>
-              <button className="bg-white text-gray-700 p-2 rounded-full hover:bg-gray-200">
-                <FaHeart />
-              </button>
-              <button
-                className="bg-white text-gray-700 p-2 rounded-full hover:bg-gray-200"
-                onClick={() => setModalImage(item.image)}
-              >
-                <FaEye />
-              </button>*/}
+              {/* Aquí puedes reactivar tus botones si quieres */}
             </div>
-          </div>
+          </a>
         ))}
       </div>
 
@@ -91,26 +82,6 @@ export default function Mesas() {
       <p className="text-center text-sm mt-2">
         Mostrando página {currentPage} de {totalPages}
       </p>
-
-      {/* MODAL */}
-      {/*modalImage && (
-        <div className="fixed inset-0 z-50 bg-black bg-opacity-60 flex items-center justify-center p-4">
-            <div className="relative bg-white p-2 rounded-lg shadow-lg max-w-sm w-full">
-            <button
-                className="absolute top-2 right-2 text-gray-600 text-xl hover:text-red-600"
-                onClick={() => setModalImage(null)}
-            >
-                ✕
-            </button>
-            <img
-                src={modalImage}
-                loading="lazy"
-                alt="Imagen ampliada"
-                className="rounded-lg mx-auto max-h-[70vh] object-contain"
-            />
-            </div>
-        </div>
-        )*/}
     </div>
   );
 }

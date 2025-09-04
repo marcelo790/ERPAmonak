@@ -146,6 +146,7 @@ body, html {
     cursor: pointer;    
     border-bottom: 1px solid var(--brown-light);
     justify-content: center;
+    
   }
 
   .sidebar-icon:nth-child(3) {    
@@ -154,7 +155,7 @@ body, html {
     border: none;
   }
 
-  .sidebar-icon p {
+  /*.sidebar-icon p {
     width: 1rem;
     height: 1rem;
     font-family: 'Raleway-semibold';
@@ -163,7 +164,7 @@ body, html {
     background-color: var(--brown-light);
     border-radius: 100%;
     color: var(--white);
-  }
+  }*/
     
   .sidebar-icon img {
     width: 1.5rem; /* Ajusta el tamaño del ícono */
@@ -712,6 +713,8 @@ body, html {
       align-items: center;
       padding-left: 6rem;
       padding-right: 6rem;
+      padding-top: 5rem;
+      padding-bottom: 2rem
     }
 
     .contenedor-mesa2{
@@ -840,8 +843,8 @@ body, html {
         border-bottom-left-radius: 0.5rem /* 6px */;
         background-color:var(--white);
         position: fixed;
-        top: 7.2%;
-        right: 10%;    
+        top: 14.5%;
+        right: 7%;    
         z-index: 1000;
       }
 
@@ -859,7 +862,7 @@ body, html {
         border: none;
       }
 
-      .sidebar-icon p {
+      /*.sidebar-icon p {
         width: 1.5rem;
         height: 1.5rem;
         font-family: 'Raleway-semibold';
@@ -868,7 +871,7 @@ body, html {
         background-color: var(--brown-light);
         border-radius: 100%;
         color: var(--white);
-      }
+      }*/
         
       .sidebar-icon img {
         width: 2rem; /* Ajusta el tamaño del ícono */
@@ -1410,16 +1413,16 @@ body, html {
             box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
         }
         }
-    }
-
-    /*Grid*/
+   /*Grid*/
     .contenedor-mesa{
       width: 100%;
       height: auto;   
       justify-content: center;
       align-items: center;
-      padding-left: 5rem;
-      padding-right: 5rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      padding-top: 3rem;
+      padding-bottom: 2rem
     }
 
     .contenedor-mesa2{
@@ -1428,6 +1431,9 @@ body, html {
       margin: 3rem 0 1rem 0;
       justify-items: center;   
     }
+    }
+
+    
 
     @media (min-width: 1024px) and (max-width: 1439px) {
       /* Estilos generales (desktop por defecto) */
@@ -1549,8 +1555,8 @@ body, html {
         border-bottom-left-radius: 0.5rem /* 6px */;
         background-color:var(--white);
         position: fixed;
-        top: 11.7%;
-        right: 11%;    
+        top: 15%;
+        right: 6%;    
         z-index: 1000;
       }
 
@@ -1568,7 +1574,7 @@ body, html {
         border: none;
       }
 
-      .sidebar-icon p {
+      /*.sidebar-icon p {
         width: 1.2rem;
         height: 1.2rem;
         font-family: 'Raleway-semibold';
@@ -1577,7 +1583,7 @@ body, html {
         background-color: var(--brown-light);
         border-radius: 100%;
         color: var(--white);
-      }
+      }*/
         
       .sidebar-icon img {
         width: 1.5rem; /* Ajusta el tamaño del ícono */
@@ -2117,16 +2123,16 @@ body, html {
             box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
         }
         }
-    }
-
-    /*Grid*/
+        /*Grid*/
     .contenedor-mesa{
       width: 100%;
       height: auto;   
       justify-content: center;
       align-items: center;
-      padding-left: 4rem;
-      padding-right: 4rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 3rem;
+      padding-bottom: 2rem
     }
 
     .contenedor-mesa2{
@@ -2135,6 +2141,9 @@ body, html {
       margin: 3rem 0 1rem 0;
       justify-items: center;   
     }
+    
+    }
+
 
     /* Medianas (entre 768px y 1023px) */
     @media (min-width: 768px) and (max-width: 1023px) {
@@ -2273,7 +2282,7 @@ body, html {
         border: none;
       }
     
-      .sidebar-icon p {
+      /*.sidebar-icon p {
         width: 0.8rem;
         height: 0.8rem;
         font-family: 'Raleway-semibold';
@@ -2282,7 +2291,7 @@ body, html {
         background-color: var(--brown-light);
         border-radius: 100%;
         color: var(--white);
-      }
+      }*/
         
       .sidebar-icon img {
         width: 1rem; /* Ajusta el tamaño del ícono */
@@ -2823,16 +2832,16 @@ body, html {
             box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
         }
         }
-    }
-
-    /*Grid*/
+            /*Grid*/
     .contenedor-mesa{
       width: 100%;
       height: auto;   
       justify-content: center;
       align-items: center;
-      padding-left: 3rem;
-      padding-right: 3rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 3rem;
+      padding-bottom: 2rem
     }
 
     .contenedor-mesa2{
@@ -2841,6 +2850,8 @@ body, html {
       margin: 3rem 0 1rem 0;
       justify-items: center;   
     }
+    }
+
 
     /* Pequeñas (entre 576px y 767px) */
     @media (min-width: 480px) and (max-width: 767px) {
@@ -2987,7 +2998,7 @@ body, html {
         border: none;
       }
     
-      .sidebar-icon p {
+     /* .sidebar-icon p {
         width: 0.6rem;
         height: 0.6rem;
         font-family: 'Raleway-semibold';
@@ -2996,7 +3007,7 @@ body, html {
         background-color: var(--brown-light);
         border-radius: 100%;
         color: var(--white);
-      }
+      }*/
         
       .sidebar-icon img {
         width: 0.9rem; /* Ajusta el tamaño del ícono */
@@ -3539,22 +3550,6 @@ body, html {
         }
     }
 
-    /*Grid*/
-    .contenedor-mesa{
-      width: 100%;
-      height: auto;   
-      justify-content: center;
-      align-items: center;
-      padding-left: 2rem;
-      padding-right: 2rem;
-    }
-
-    .contenedor-mesa2{
-      width: 100%;
-      height: auto; 
-      margin: 2rem 0 1rem 0;
-      justify-items: center;   
-    }
 
 
     /* Extra pequeñas (menos de 576px) protrait*/
@@ -3704,7 +3699,7 @@ body, html {
         border: none;
       }
     
-      .sidebar-icon p {
+      /*.sidebar-icon p {
         width: 0.8rem;
         height: 0.8rem;
         font-family: 'Raleway-semibold';
@@ -3713,7 +3708,7 @@ body, html {
         background-color: var(--brown-light);
         border-radius: 100%;
         color: var(--white);
-      }
+      }*/
         
       .sidebar-icon img {
         width: 0.9rem; /* Ajusta el tamaño del ícono */
@@ -4256,22 +4251,6 @@ body, html {
         }
     }
 
-    /*Grid*/
-    .contenedor-mesa{
-      width: 100%;
-      height: auto;   
-      justify-content: center;
-      align-items: center;
-      padding-left: 1rem;
-      padding-right: 1rem;
-    }
-
-    .contenedor-mesa2{
-      width: 100%;
-      height: auto; 
-      margin: 1rem 0 1rem 0;
-      justify-items: center;   
-    }
 
   
      

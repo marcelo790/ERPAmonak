@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import Mesas from "../listProducts/Mesas";
-import Tablas from "../listProducts/Tablas";
 
 export default function SectionProducts() {
   
@@ -24,19 +22,19 @@ export default function SectionProducts() {
         <div className='sections'>            
             <div className='section-product-1'>
                 <div className="banner-content">
-                    <Link to="" className="link"
-                            onClick={(e) => {
+                    <Link to="/product/mesas" className="link"
+                           /* onClick={(e) => {
                                 e.preventDefault(); // Evita comportamiento predeterminado del enlace
                                 handleClick('mesas'); // Llama a la función personalizada
-                            }}
+                            }}*/
                     >
                         <h1 className="banner-title">{t("SP-T")}</h1>
                     </Link>                    
                 </div>                
             </div> 
-            {activeSection === "mesas" && (
+            {/*activeSection === "mesas" && (
                     <Mesas/>
-                )}           
+                )*/}           
             <div className='section-product-2'>
                 <div className="banner-content">
                     <Link to="" className="link"
@@ -52,19 +50,19 @@ export default function SectionProducts() {
                         
             <div className='section-product-3'>
                 <div className="banner-content">
-                    <Link to="" className="link"
-                            onClick={(e) => {
+                    <Link to="/product/tablaschurrasqueras" className="link"
+                            /*onClick={(e) => {
                                 e.preventDefault(); // Evita comportamiento predeterminado del enlace
                                 handleClick('tablas churrasqueras'); // Llama a la función personalizada
-                            }}
+                            }}*/
                     >
                         <h1 className="banner-title">{t("SP3-T")}</h1>
                     </Link>                    
                 </div>
             </div>            
-            {activeSection === "tablas churrasqueras" && (
+            {/*activeSection === "tablas churrasqueras" && (
                     <Tablas />
-                )}
+                )*/}
             <div className='section-product-4'>
                 <div className="banner-content">
                     <Link to="" className="link"
@@ -153,20 +151,20 @@ export default function SectionProducts() {
             <div className='section-product-11'>
                 <div className="banner-content">
                     <Link to=""
-                    onClick={(e) => {
+                    /*onClick={(e) => {
                         e.preventDefault(); // Evita comportamiento predeterminado del enlace
                         handleClick('marcos'); // Llama a la función personalizada
-                    }}
+                    }}*/
                     >
                         <h1 className="banner-title">{t("SP11-T")}</h1>
                     </Link>                    
                 </div>
             </div>
-            {activeSection === "marcos" && (
+            {/*activeSection === "marcos" && (
                     <div className="mt-6">
                     <Mesas />
                     </div>
-                )}            
+                )*/}            
         </div>
     </div>
   )

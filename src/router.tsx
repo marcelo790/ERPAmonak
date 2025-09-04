@@ -4,6 +4,8 @@ import DashboardView from "@/views/DashboardView"
 import SectionWhoAreView from "./views/SectionWhoAreView"
 import SectionContactView from "./views/SectionContactView"
 import SectionProductView from "./views/SectionProductView"
+import Mesas from "./components/listProducts/Mesas"
+import Tablas from "./components/listProducts/Tablas"
 
 export default function router() {
   return (
@@ -14,6 +16,8 @@ export default function router() {
                 <Route path="/who-are" element={<SectionWhoAreView/>} />
                 <Route path="/contact" element={<SectionContactView/>} />                
                 <Route path="/product" element={<SectionProductView/>} />
+                <Route path="/product/mesas" element={<Mesas/>} />
+                <Route path="/product/tablaschurrasqueras" element={<Tablas/>} />
 
             </Route>
         </Routes>

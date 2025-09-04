@@ -27,14 +27,13 @@ export default function Sidebar() {
   return (
     <div className="sidebar" style={{backgroundColor}}>
         <Link to='/' className="sidebar-icon">
-            <img src='./images/icon-carrito.png' alt="Carrito de compras" loading="lazy" />
-            <p>15</p>
+            <img src='/images/icon-carrito.png' alt="Carrito de compras" loading="lazy" />
         </Link>
         <Link to='/' className="sidebar-icon">
-            <img src='./images/icon-user.png' alt="Usuario" loading="lazy"/>
+            <img src='/images/icon-user.png' alt="Usuario" loading="lazy"/>
         </Link>
         <Link to='/' className="sidebar-icon">
-            <img src='./images/icon-search.png' alt="Buscador" loading="lazy"/>
+            <img src='/images/icon-search.png' alt="Buscador" loading="lazy"/>
         </Link>
     </div>
   )

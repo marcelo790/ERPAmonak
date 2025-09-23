@@ -2,8 +2,8 @@ import { useState } from "react";
 import { FaEye, FaHeart, FaShoppingCart } from "react-icons/fa";
 
 
-const images = Array.from({length: 28}, (_, i) => ({
-        image: `/images/tablas/${i + 1}.webp`,
+const images = Array.from({length: 73}, (_, i) => ({
+        image: `/images/tablas/${i + 1}.png`,
     }))
 
 const ITEMS_PER_PAGE = 6;
@@ -42,7 +42,7 @@ export default function Tablas() {
   
               {/* OVERLAY */}
               <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
-                <button className="bg-white text-gray-700 p-2 rounded-full hover:bg-gray-200">
+                {/*<button className="bg-white text-gray-700 p-2 rounded-full hover:bg-gray-200">
                   <FaShoppingCart />
                 </button>
                 <button className="bg-white text-gray-700 p-2 rounded-full hover:bg-gray-200">
@@ -53,7 +53,7 @@ export default function Tablas() {
                   onClick={() => setModalImage(item.image)}
                 >
                   <FaEye />
-                </button>
+                </button>*/}
               </div>
             </div>
           ))}

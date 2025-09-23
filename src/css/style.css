@@ -204,7 +204,7 @@ body, html {
   } 
   
   .banner{
-    background-image: url("/public/images/bannerPrincipal.webp");
+    background-image: url("/public/images/bannerPrincipal.svg");
   }  
   .banner2{
     background-image: url("/public/images/bannerPrincipalComoComprar.webp");
@@ -509,16 +509,16 @@ body, html {
   }
 
   .section-product-1{
-    background-image: url('/public/images/section1.webp');
+    background-image: url('/public/images/section1.svg');
   }
   .section-product-2{
     background-image: url('/public/images/section2.webp');
   }
   .section-product-3{
-    background-image: url('/public/images/section3.webp');
+    background-image: url('/public/images/section3.svg');
   }
   .section-product-4{
-    background-image: url('/public/images/section4.webp');
+    background-image: url('/public/images/section4.svg');
   }
   .section-product-5{
     background-image: url('/public/images/section5.webp');
@@ -545,7 +545,7 @@ body, html {
     background-image: url('/public/images/bannerMision.webp');
   }
   .section-Who-2{
-    background-image: url('/public/images/bannerVision.webp');
+    background-image: url('/public/images/bannerVision.svg');
   }
 
  .section-3, .section-5, .section-6, .section-7, .section-8, .section-9, .section-10, .section-11{
@@ -911,7 +911,7 @@ body, html {
       } 
       
       .banner{
-        background-image: url("/public/images/bannerPrincipal.webp");
+        background-image: url("/public/images/bannerPrincipal.svg");
       }  
       .banner2{
         background-image: url("/public/images/bannerPrincipalComoComprar.webp");
@@ -1218,16 +1218,16 @@ body, html {
   }
     
       .section-product-1{
-        background-image: url('/public/images/section1.webp');
+        background-image: url('/public/images/section1.svg');
       }
       .section-product-2{
         background-image: url('/public/images/section2.webp');
       }
       .section-product-3{
-        background-image: url('/public/images/section3.webp');
+        background-image: url('/public/images/section3.svg');
       }
       .section-product-4{
-        background-image: url('/public/images/section4.webp');
+        background-image: url('/public/images/section4.svg');
       }
       .section-product-5{
         background-image: url('/public/images/section5.webp');
@@ -1254,7 +1254,7 @@ body, html {
         background-image: url('/public/images/bannerMision.webp');
       }
       .section-Who-2{
-        background-image: url('/public/images/bannerVision.webp');
+        background-image: url('/public/images/bannerVision.svg');
       }
 
       .section-3, .section-5, .section-6, .section-7, .section-8, .section-9, .section-10, .section-11{
@@ -1623,7 +1623,7 @@ body, html {
       } 
       
       .banner{
-        background-image: url("/public/images/bannerPrincipal.webp");
+        background-image: url("/public/images/bannerPrincipal.svg");
       }  
       .banner2{
         background-image: url("/public/images/bannerPrincipalComoComprar.webp");
@@ -1928,16 +1928,16 @@ body, html {
             justify-content: center;
       }
       .section-product-1{
-        background-image: url('/public/images/section1.webp');
+        background-image: url('/public/images/section1.svg');
       }
       .section-product-2{
         background-image: url('/public/images/section2.webp');
       }
       .section-product-3{
-        background-image: url('/public/images/section3.webp');
+        background-image: url('/public/images/section3.svg');
       }
       .section-product-4{
-        background-image: url('/public/images/section4.webp');
+        background-image: url('/public/images/section4.svg');
       }
       .section-product-5{
         background-image: url('/public/images/section5.webp');
@@ -1964,7 +1964,7 @@ body, html {
         background-image: url('/public/images/bannerMision.webp');
       }
       .section-Who-2{
-        background-image: url('/public/images/bannerVision.webp');
+        background-image: url('/public/images/bannerVision.svg');
       }
 
       .section-3, .section-5, .section-6, .section-7, .section-8, .section-9, .section-10, .section-11{
@@ -2331,7 +2331,7 @@ body, html {
       } 
       
       .banner{
-        background-image: url("/public/images/bannerPrincipal.webp");
+        background-image: url("/public/images/bannerPrincipal.svg");
       }  
       .banner2{
         background-image: url("/public/images/bannerPrincipalComoComprar.webp");
@@ -2637,16 +2637,16 @@ body, html {
   }
     
   .section-product-1{
-    background-image: url('/public/images/section1.webp');
+    background-image: url('/public/images/section1.svg');
   }
   .section-product-2{
     background-image: url('/public/images/section2.webp');
   }
   .section-product-3{
-    background-image: url('/public/images/section3.webp');
+    background-image: url('/public/images/section3.svg');
   }
   .section-product-4{
-    background-image: url('/public/images/section4.webp');
+    background-image: url('/public/images/section4.svg');
   }
   .section-product-5{
     background-image: url('/public/images/section5.webp');
@@ -2673,7 +2673,7 @@ body, html {
     background-image: url('/public/images/bannerMision.webp');
   }
   .section-Who-2{
-    background-image: url('/public/images/bannerVision.webp');
+    background-image: url('/public/images/bannerVision.svg');
   }
     
      .section-3, .section-5, .section-6, .section-7, .section-8, .section-9, .section-10, .section-11{
@@ -3047,7 +3047,7 @@ body, html {
       } 
       
       .banner{
-        background-image: url("/public/images/bannerPrincipal.webp");
+        background-image: url("/public/images/bannerPrincipal.svg");
       }  
       .banner2{
         background-image: url("/public/images/bannerPrincipalComoComprar.webp");
@@ -3353,16 +3353,16 @@ body, html {
   }
     
   .section-product-1{
-    background-image: url('/public/images/section1.webp');
+    background-image: url('/public/images/section1.svg');
   }
   .section-product-2{
     background-image: url('/public/images/section2.webp');
   }
   .section-product-3{
-    background-image: url('/public/images/section3.webp');
+    background-image: url('/public/images/section3.svg');
   }
   .section-product-4{
-    background-image: url('/public/images/section4.webp');
+    background-image: url('/public/images/section4.svg');
   }
   .section-product-5{
     background-image: url('/public/images/section5.webp');
@@ -3389,7 +3389,7 @@ body, html {
     background-image: url('/public/images/bannerMision.webp');
   }
   .section-Who-2{
-    background-image: url('/public/images/bannerVision.webp');
+    background-image: url('/public/images/bannerVision.svg');
   }
     
      .section-3, .section-5, .section-6, .section-7, .section-8, .section-9, .section-10, .section-11{
@@ -3748,7 +3748,7 @@ body, html {
       } 
       
       .banner{
-        background-image: url("/public/images/bannerPrincipal.webp");
+        background-image: url("/public/images/bannerPrincipal.svg");
       }  
       .banner2{
         background-image: url("/public/images/bannerPrincipalComoComprar.webp");
@@ -4054,16 +4054,16 @@ body, html {
   }
     
   .section-product-1{
-    background-image: url('/public/images/section1.webp');
+    background-image: url('/public/images/section1.svg');
   }
   .section-product-2{
     background-image: url('/public/images/section2.webp');
   }
   .section-product-3{
-    background-image: url('/public/images/section3.webp');
+    background-image: url('/public/images/section3.svg');
   }
   .section-product-4{
-    background-image: url('/public/images/section4.webp');
+    background-image: url('/public/images/section4.svg');
   }
   .section-product-5{
     background-image: url('/public/images/section5.webp');
@@ -4090,7 +4090,7 @@ body, html {
     background-image: url('/public/images/bannerMision.webp');
   }
   .section-Who-2{
-    background-image: url('/public/images/bannerVision.webp');
+    background-image: url('/public/images/bannerVision.svg');
   }
           
      .section-3, .section-5, .section-6, .section-7, .section-8, .section-9, .section-10, .section-11{

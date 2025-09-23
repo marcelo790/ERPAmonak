@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-const images = Array.from({ length: 32 }, (_, i) => ({
-  image: `/images/mesas/${i + 1}.webp`, // no uses "public/" en src
+const images = Array.from({ length: 54 }, (_, i) => ({
+  image: `/images/mesas/${i + 1}.svg`, // no uses "public/" en src
 }));
 
 const ITEMS_PER_PAGE = 6;

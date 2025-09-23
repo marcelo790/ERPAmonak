@@ -65,11 +65,11 @@ export default function SectionProducts() {
                 )*/}
             <div className='section-product-4'>
                 <div className="banner-content">
-                    <Link to="" className="link"
-                        onClick={(e) => {
+                    <Link to="/product/slabs" className="link"
+                       /* onClick={(e) => {
                             e.preventDefault(); // Evita comportamiento predeterminado del enlace
                             handleClick('slab'); // Llama a la función personalizada
-                        }}
+                        }}*/
                     >
                         <h1 className="banner-title">{t("SP4-T")}</h1>
                     </Link>                   

@@ -6,6 +6,7 @@ import SectionContactView from "./views/SectionContactView"
 import SectionProductView from "./views/SectionProductView"
 import Mesas from "./components/listProducts/Mesas"
 import Tablas from "./components/listProducts/Tablas"
+import Slabs from "./components/listProducts/Slabs"
 
 export default function router() {
   return (
@@ -18,7 +19,7 @@ export default function router() {
                 <Route path="/product" element={<SectionProductView/>} />
                 <Route path="/product/mesas" element={<Mesas/>} />
                 <Route path="/product/tablaschurrasqueras" element={<Tablas/>} />
-
+                <Route path="/product/slabs" element={<Slabs/>} />
             </Route>
         </Routes>
     </BrowserRouter>

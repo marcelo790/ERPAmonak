@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { FaEye, FaHeart, FaShoppingCart } from "react-icons/fa";
 
 
 const images = Array.from({length: 15}, (_, i) => ({
@@ -42,18 +41,7 @@ export default function Slabs() {
   
               {/* OVERLAY */}
               <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
-                {/*<button className="bg-white text-gray-700 p-2 rounded-full hover:bg-gray-200">
-                  <FaShoppingCart />
-                </button>
-                <button className="bg-white text-gray-700 p-2 rounded-full hover:bg-gray-200">
-                  <FaHeart />
-                </button>
-                <button
-                  className="bg-white text-gray-700 p-2 rounded-full hover:bg-gray-200"
-                  onClick={() => setModalImage(item.image)}
-                >
-                  <FaEye />
-                </button>*/}
+
               </div>
             </div>
           ))}

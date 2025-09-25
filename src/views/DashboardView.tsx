@@ -9,8 +9,8 @@ export default function DashboardView() {
     <>
       <SectionBanner/>
       <SectionProduct/>
-      <SectionOtherService/>
-      <SectionOffer/>
+      {/*<SectionOtherService/>
+      <SectionOffer/>*/}
       <SectionHowToBuy/>
     </>
   )

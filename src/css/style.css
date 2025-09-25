@@ -495,7 +495,8 @@ body, html {
     justify-content: center;
   }
   .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5,
-  .section-product-6, .section-product-7, .section-product-8, .section-product-9, .section-product-10, .section-product-11{
+  .section-product-6, .section-product-7, .section-product-8, .section-product-9, .section-product-10, .section-product-11,
+  .section-wood-specie-1, .section-wood-specie-2, .section-wood-specie-3, .section-wood-specie-4, .section-wood-specie-5, .section-wood-specie-6, .section-wood-specie-7, .section-wood-specie-8, .section-wood-specie-9, .section-wood-specie-10, .section-wood-specie-11, .section-wood-specie-12, .section-wood-specie-13, .section-wood-specie-14, .section-wood-specie-15{
     position: relative;
     width: 100%;
     height: 100vh; /* Ajusta la altura del banner */
@@ -506,6 +507,66 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .section-wood-specie-1{
+    background-image: url('/public/images/slabs/1.png');
+  }
+
+  .section-wood-specie-2{
+    background-image: url('/public/images/slabs/2.png');
+  }
+
+  .section-wood-specie-3{
+    background-image: url('/public/images/slabs/3.png');
+  }
+
+  .section-wood-specie-4{
+    background-image: url('/public/images/slabs/4.png');
+  }
+
+  .section-wood-specie-5{
+    background-image: url('/public/images/slabs/5.png');
+  }
+
+  .section-wood-specie-6{
+    background-image: url('/public/images/slabs/6.png');
+  }
+
+  .section-wood-specie-7{
+    background-image: url('/public/images/slabs/7.png');
+  }
+
+  .section-wood-specie-8{
+    background-image: url('/public/images/slabs/8.png');
+  }
+
+  .section-wood-specie-9{
+    background-image: url('/public/images/slabs/9.png');
+  }
+
+  .section-wood-specie-10{
+    background-image: url('/public/images/slabs/10.png');
+  }
+
+  .section-wood-specie-11{
+    background-image: url('/public/images/slabs/11.png');
+  }
+
+  .section-wood-specie-12{
+    background-image: url('/public/images/slabs/12.png');
+  }
+
+  .section-wood-specie-13{
+    background-image: url('/public/images/slabs/13.png');
+  }
+
+  .section-wood-specie-14{
+    background-image: url('/public/images/slabs/14.png');
+  }
+
+  .section-wood-specie-15{
+    background-image: url('/public/images/slabs/15.png');
   }
 
   .section-product-1{
@@ -1204,7 +1265,8 @@ body, html {
         justify-content: center;
       }
       .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5,
-  .section-product-6, .section-product-7, .section-product-8, .section-product-9, .section-product-10, .section-product-11{
+  .section-product-6, .section-product-7, .section-product-8, .section-product-9, .section-product-10, .section-product-11,
+  .section-wood-specie-1, .section-wood-specie-2, .section-wood-specie-3, .section-wood-specie-4, .section-wood-specie-5, .section-wood-specie-6, .section-wood-specie-7, .section-wood-specie-8, .section-wood-specie-9, .section-wood-specie-10, .section-wood-specie-11, .section-wood-specie-12, .section-wood-specie-13, .section-wood-specie-14, .section-wood-specie-15{
     position: relative;
         width: 100%;
         height: 100vh; /* Ajusta la altura del banner */
@@ -1215,6 +1277,66 @@ body, html {
         display: flex;
         align-items: center;
         justify-content: center;
+  }
+
+      .section-wood-specie-1{
+    background-image: url('/public/images/slabs/1.png');
+  }
+
+  .section-wood-specie-2{
+    background-image: url('/public/images/slabs/2.png');
+  }
+
+  .section-wood-specie-3{
+    background-image: url('/public/images/slabs/3.png');
+  }
+
+  .section-wood-specie-4{
+    background-image: url('/public/images/slabs/4.png');
+  }
+
+  .section-wood-specie-5{
+    background-image: url('/public/images/slabs/5.png');
+  }
+
+  .section-wood-specie-6{
+    background-image: url('/public/images/slabs/6.png');
+  }
+
+  .section-wood-specie-7{
+    background-image: url('/public/images/slabs/7.png');
+  }
+
+  .section-wood-specie-8{
+    background-image: url('/public/images/slabs/8.png');
+  }
+
+  .section-wood-specie-9{
+    background-image: url('/public/images/slabs/9.png');
+  }
+
+  .section-wood-specie-10{
+    background-image: url('/public/images/slabs/10.png');
+  }
+
+  .section-wood-specie-11{
+    background-image: url('/public/images/slabs/11.png');
+  }
+
+  .section-wood-specie-12{
+    background-image: url('/public/images/slabs/12.png');
+  }
+
+  .section-wood-specie-13{
+    background-image: url('/public/images/slabs/13.png');
+  }
+
+  .section-wood-specie-14{
+    background-image: url('/public/images/slabs/14.png');
+  }
+
+  .section-wood-specie-15{
+    background-image: url('/public/images/slabs/15.png');
   }
     
       .section-product-1{
@@ -1915,7 +2037,8 @@ body, html {
       }
     
       .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5,
-      .section-product-6, .section-product-7, .section-product-8, .section-product-9, .section-product-10, .section-product-11{
+      .section-product-6, .section-product-7, .section-product-8, .section-product-9, .section-product-10, .section-product-11,
+  .section-wood-specie-1, .section-wood-specie-2, .section-wood-specie-3, .section-wood-specie-4, .section-wood-specie-5, .section-wood-specie-6, .section-wood-specie-7, .section-wood-specie-8, .section-wood-specie-9, .section-wood-specie-10, .section-wood-specie-11, .section-wood-specie-12, .section-wood-specie-13, .section-wood-specie-14, .section-wood-specie-15{
         position: relative;
             width: 100%;
             height: 100vh; /* Ajusta la altura del banner */
@@ -1927,6 +2050,67 @@ body, html {
             align-items: center;
             justify-content: center;
       }
+
+      .section-wood-specie-1{
+    background-image: url('/public/images/slabs/1.png');
+  }
+
+  .section-wood-specie-2{
+    background-image: url('/public/images/slabs/2.png');
+  }
+
+  .section-wood-specie-3{
+    background-image: url('/public/images/slabs/3.png');
+  }
+
+  .section-wood-specie-4{
+    background-image: url('/public/images/slabs/4.png');
+  }
+
+  .section-wood-specie-5{
+    background-image: url('/public/images/slabs/5.png');
+  }
+
+  .section-wood-specie-6{
+    background-image: url('/public/images/slabs/6.png');
+  }
+
+  .section-wood-specie-7{
+    background-image: url('/public/images/slabs/7.png');
+  }
+
+  .section-wood-specie-8{
+    background-image: url('/public/images/slabs/8.png');
+  }
+
+  .section-wood-specie-9{
+    background-image: url('/public/images/slabs/9.png');
+  }
+
+  .section-wood-specie-10{
+    background-image: url('/public/images/slabs/10.png');
+  }
+
+  .section-wood-specie-11{
+    background-image: url('/public/images/slabs/11.png');
+  }
+
+  .section-wood-specie-12{
+    background-image: url('/public/images/slabs/12.png');
+  }
+
+  .section-wood-specie-13{
+    background-image: url('/public/images/slabs/13.png');
+  }
+
+  .section-wood-specie-14{
+    background-image: url('/public/images/slabs/14.png');
+  }
+
+  .section-wood-specie-15{
+    background-image: url('/public/images/slabs/15.png');
+  }
+
       .section-product-1{
         background-image: url('/public/images/section1.svg');
       }
@@ -2623,7 +2807,8 @@ body, html {
       }
 
       .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5,
-  .section-product-6, .section-product-7, .section-product-8, .section-product-9, .section-product-10, .section-product-11{
+  .section-product-6, .section-product-7, .section-product-8, .section-product-9, .section-product-10, .section-product-11,
+  .section-wood-specie-1, .section-wood-specie-2, .section-wood-specie-3, .section-wood-specie-4, .section-wood-specie-5, .section-wood-specie-6, .section-wood-specie-7, .section-wood-specie-8, .section-wood-specie-9, .section-wood-specie-10, .section-wood-specie-11, .section-wood-specie-12, .section-wood-specie-13, .section-wood-specie-14, .section-wood-specie-15{
     position: relative;
         width: 100%;
         height: 100vh; /* Ajusta la altura del banner */
@@ -2634,6 +2819,66 @@ body, html {
         display: flex;
         align-items: center;
         justify-content: center;
+  }
+
+  .section-wood-specie-1{
+    background-image: url('/public/images/slabs/1.png');
+  }
+
+  .section-wood-specie-2{
+    background-image: url('/public/images/slabs/2.png');
+  }
+
+  .section-wood-specie-3{
+    background-image: url('/public/images/slabs/3.png');
+  }
+
+  .section-wood-specie-4{
+    background-image: url('/public/images/slabs/4.png');
+  }
+
+  .section-wood-specie-5{
+    background-image: url('/public/images/slabs/5.png');
+  }
+
+  .section-wood-specie-6{
+    background-image: url('/public/images/slabs/6.png');
+  }
+
+  .section-wood-specie-7{
+    background-image: url('/public/images/slabs/7.png');
+  }
+
+  .section-wood-specie-8{
+    background-image: url('/public/images/slabs/8.png');
+  }
+
+  .section-wood-specie-9{
+    background-image: url('/public/images/slabs/9.png');
+  }
+
+  .section-wood-specie-10{
+    background-image: url('/public/images/slabs/10.png');
+  }
+
+  .section-wood-specie-11{
+    background-image: url('/public/images/slabs/11.png');
+  }
+
+  .section-wood-specie-12{
+    background-image: url('/public/images/slabs/12.png');
+  }
+
+  .section-wood-specie-13{
+    background-image: url('/public/images/slabs/13.png');
+  }
+
+  .section-wood-specie-14{
+    background-image: url('/public/images/slabs/14.png');
+  }
+
+  .section-wood-specie-15{
+    background-image: url('/public/images/slabs/15.png');
   }
     
   .section-product-1{
@@ -3339,7 +3584,8 @@ body, html {
       }
 
       .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5,
-  .section-product-6, .section-product-7, .section-product-8, .section-product-9, .section-product-10, .section-product-11{
+  .section-product-6, .section-product-7, .section-product-8, .section-product-9, .section-product-10, .section-product-11,
+  .section-wood-specie-1, .section-wood-specie-2, .section-wood-specie-3, .section-wood-specie-4, .section-wood-specie-5, .section-wood-specie-6, .section-wood-specie-7, .section-wood-specie-8, .section-wood-specie-9, .section-wood-specie-10, .section-wood-specie-11, .section-wood-specie-12, .section-wood-specie-13, .section-wood-specie-14, .section-wood-specie-15{
     position: relative;
         width: 100%;
         height: 100vh; /* Ajusta la altura del banner */
@@ -3351,7 +3597,67 @@ body, html {
         align-items: center;
         justify-content: center;
   }
-    
+  
+  .section-wood-specie-1{
+    background-image: url('/public/images/slabs/1.png');
+  }
+
+  .section-wood-specie-2{
+    background-image: url('/public/images/slabs/2.png');
+  }
+
+  .section-wood-specie-3{
+    background-image: url('/public/images/slabs/3.png');
+  }
+
+  .section-wood-specie-4{
+    background-image: url('/public/images/slabs/4.png');
+  }
+
+  .section-wood-specie-5{
+    background-image: url('/public/images/slabs/5.png');
+  }
+
+  .section-wood-specie-6{
+    background-image: url('/public/images/slabs/6.png');
+  }
+
+  .section-wood-specie-7{
+    background-image: url('/public/images/slabs/7.png');
+  }
+
+  .section-wood-specie-8{
+    background-image: url('/public/images/slabs/8.png');
+  }
+
+  .section-wood-specie-9{
+    background-image: url('/public/images/slabs/9.png');
+  }
+
+  .section-wood-specie-10{
+    background-image: url('/public/images/slabs/10.png');
+  }
+
+  .section-wood-specie-11{
+    background-image: url('/public/images/slabs/11.png');
+  }
+
+  .section-wood-specie-12{
+    background-image: url('/public/images/slabs/12.png');
+  }
+
+  .section-wood-specie-13{
+    background-image: url('/public/images/slabs/13.png');
+  }
+
+  .section-wood-specie-14{
+    background-image: url('/public/images/slabs/14.png');
+  }
+
+  .section-wood-specie-15{
+    background-image: url('/public/images/slabs/15.png');
+  }
+  
   .section-product-1{
     background-image: url('/public/images/section1.svg');
   }
@@ -4040,7 +4346,8 @@ body, html {
       }
 
       .section-product-1, .section-product-2,.section-product-3, .section-product-4, .section-product-5,
-  .section-product-6, .section-product-7, .section-product-8, .section-product-9, .section-product-10, .section-product-11{
+  .section-product-6, .section-product-7, .section-product-8, .section-product-9, .section-product-10, .section-product-11,
+  .section-wood-specie-1, .section-wood-specie-2, .section-wood-specie-3, .section-wood-specie-4, .section-wood-specie-5, .section-wood-specie-6, .section-wood-specie-7, .section-wood-specie-8, .section-wood-specie-9, .section-wood-specie-10, .section-wood-specie-11, .section-wood-specie-12, .section-wood-specie-13, .section-wood-specie-14, .section-wood-specie-15{
     position: relative;
         width: 100%;
         height: 100vh; /* Ajusta la altura del banner */
@@ -4052,7 +4359,67 @@ body, html {
         align-items: center;
         justify-content: center;
   }
-    
+  
+  .section-wood-specie-1{
+    background-image: url('/public/images/slabs/1.png');
+  }
+
+  .section-wood-specie-2{
+    background-image: url('/public/images/slabs/2.png');
+  }
+
+  .section-wood-specie-3{
+    background-image: url('/public/images/slabs/3.png');
+  }
+
+  .section-wood-specie-4{
+    background-image: url('/public/images/slabs/4.png');
+  }
+
+  .section-wood-specie-5{
+    background-image: url('/public/images/slabs/5.png');
+  }
+
+  .section-wood-specie-6{
+    background-image: url('/public/images/slabs/6.png');
+  }
+
+  .section-wood-specie-7{
+    background-image: url('/public/images/slabs/7.png');
+  }
+
+  .section-wood-specie-8{
+    background-image: url('/public/images/slabs/8.png');
+  }
+
+  .section-wood-specie-9{
+    background-image: url('/public/images/slabs/9.png');
+  }
+
+  .section-wood-specie-10{
+    background-image: url('/public/images/slabs/10.png');
+  }
+
+  .section-wood-specie-11{
+    background-image: url('/public/images/slabs/11.png');
+  }
+
+  .section-wood-specie-12{
+    background-image: url('/public/images/slabs/12.png');
+  }
+
+  .section-wood-specie-13{
+    background-image: url('/public/images/slabs/13.png');
+  }
+
+  .section-wood-specie-14{
+    background-image: url('/public/images/slabs/14.png');
+  }
+
+  .section-wood-specie-15{
+    background-image: url('/public/images/slabs/15.png');
+  }
+
   .section-product-1{
     background-image: url('/public/images/section1.svg');
   }

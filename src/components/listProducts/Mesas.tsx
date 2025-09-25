@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const images = Array.from({ length: 54 }, (_, i) => ({
+const images = Array.from({ length: 17 }, (_, i) => ({
   image: `/images/mesas/${i + 1}.svg`, // no uses "public/" en src
 }));
 

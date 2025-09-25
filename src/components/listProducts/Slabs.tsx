@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 const images = Array.from({length: 15}, (_, i) => ({
-        image: `/images/tablas/${i + 1}.png`,
+        image: `/images/slabs/${i + 1}.png`,
     }))
 
 const ITEMS_PER_PAGE = 6;

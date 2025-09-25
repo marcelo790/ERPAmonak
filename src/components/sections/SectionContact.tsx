@@ -14,7 +14,7 @@ export default function SectionContact() {
         <div className='sections'>
             <div className="section-contact-1">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores accusamus eaque autem tempora temporibus, ipsa numquam necessitatibus at cupiditate nemo culpa consequatur alias cum itaque amet laboriosam aperiam eum? Voluptatum.
+                    Visítanos en nuestras oficinas o contáctanos a través de nuestros números o correo electrónico para saber más de nuestros productos y servicios. Nuestro equipo atenderá tus preguntas y te brindara la asistencia que necesitas.
                 </p>
             </div>
             <div className="section-contact-2">
@@ -46,7 +46,7 @@ export default function SectionContact() {
                         c0.6-0.6,1.3-1.2,1.9-1.8c0.7-0.8,0.7-1.3,0-2.1C8.4,4,7.4,2.9,6.3,1.9c-0.8-0.7-1.4-0.7-2.1,0C3.6,2.5,3,3.1,2.4,3.6
                         C1.6,4.4,1.3,5.4,1.4,6.5c0.1,1.4,0.5,2.8,1.1,4c2.7,5.9,7,10.2,12.8,13.1C16.8,24.4,18.4,24.9,19.9,25L19.9,25z"/>
                     </svg>
-                    <p>+591-68834612</p>
+                    <p>+591-62015152</p>
                 </div>
                 <div className='sec-cont-3'>
                     <svg version="1.1" id="Para_desarrollo" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px"

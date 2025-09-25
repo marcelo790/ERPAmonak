@@ -7,6 +7,7 @@ import SectionProductView from "./views/SectionProductView"
 import Mesas from "./components/listProducts/Mesas"
 import Tablas from "./components/listProducts/Tablas"
 import Slabs from "./components/listProducts/Slabs"
+import SectionWoodSpeciesView from "./views/SectionWoodSpeciesView"
 
 export default function router() {
   return (
@@ -16,6 +17,7 @@ export default function router() {
                 <Route path="/" element={<DashboardView/>} index />
                 <Route path="/who-are" element={<SectionWhoAreView/>} />
                 <Route path="/contact" element={<SectionContactView/>} />                
+                <Route path="/woodSpecies" element={<SectionWoodSpeciesView/>} />
                 <Route path="/product" element={<SectionProductView/>} />
                 <Route path="/product/mesas" element={<Mesas/>} />
                 <Route path="/product/tablaschurrasqueras" element={<Tablas/>} />

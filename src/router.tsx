@@ -8,10 +8,13 @@ import Mesas from "./components/listProducts/Mesas"
 import Tablas from "./components/listProducts/Tablas"
 import Slabs from "./components/listProducts/Slabs"
 import SectionWoodSpeciesView from "./views/SectionWoodSpeciesView"
+import ScrollToTop from "./components/ScrollToTop"
 
 export default function router() {
   return (
     <BrowserRouter>
+        <ScrollToTop/>
+
         <Routes>
             <Route element={<AppLayout/>}>
                 <Route path="/" element={<DashboardView/>} index />

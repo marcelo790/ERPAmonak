@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 export default function SectionContact() {
 
@@ -8,7 +9,7 @@ export default function SectionContact() {
     <div className='section-container'>
         <div className="banner">      
             <div className="banner-content">
-                <h1 className="banner-title">{t("F-M-C")}</h1>
+                <h1 className="banner-title"><Link to="/contact" className="link">{t("M-C")}</Link></h1>
             </div>
         </div>
         <div className='sections'>
@@ -35,7 +36,7 @@ export default function SectionContact() {
                     <p>{t("F-C-U")}</p>
                 </div>
                 <div className='sec-cont-2'>
-                    <svg version="1.1" id="Para_desarrollo" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px"
+                    <Link to="https://wa.link/ruj9sp" className="link"><svg version="1.1" id="Para_desarrollo" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px"
                         y="0px" viewBox="0 0 26.2 26.4" contentStyleType="enable-background:new 0 0 26.2 26.4;" xmlSpace="preserve">
                         <path fill="currentColor" d="M20,26.4c-1.8-0.1-3.6-0.7-5.4-1.5c-6.1-3-10.6-7.6-13.4-13.7C0.4,9.4-0.1,7.6,0,5.7c0.1-1,0.4-1.9,1.1-2.6
                         c0.7-0.7,1.4-1.4,2.1-2.1c1.3-1.2,2.7-1.2,4,0C8.3,2,9.4,3,10.4,4.1c1.3,1.3,1.3,2.7,0,4C9.9,8.7,9.3,9.2,8.8,9.7
@@ -46,10 +47,10 @@ export default function SectionContact() {
                         c0.6-0.6,1.3-1.2,1.9-1.8c0.7-0.8,0.7-1.3,0-2.1C8.4,4,7.4,2.9,6.3,1.9c-0.8-0.7-1.4-0.7-2.1,0C3.6,2.5,3,3.1,2.4,3.6
                         C1.6,4.4,1.3,5.4,1.4,6.5c0.1,1.4,0.5,2.8,1.1,4c2.7,5.9,7,10.2,12.8,13.1C16.8,24.4,18.4,24.9,19.9,25L19.9,25z"/>
                     </svg>
-                    <p>+591-62015152</p>
+                    <p>+591-62015152</p></Link>
                 </div>
                 <div className='sec-cont-3'>
-                    <svg version="1.1" id="Para_desarrollo" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px"
+                    <Link to="mailto:amonakbolivia@gmail.com" className="link"><svg version="1.1" id="Para_desarrollo" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px"
                         y="0px" viewBox="0 0 29 18.9" contentStyleType="enable-background:new 0 0 29 18.9;" xmlSpace="preserve">
 
                         <path fill="currentColor" d="M14.5,0c4,0,8,0,12,0C28.2,0,29,0.7,29,2.4c0,4.7,0,9.4,0,14.1c0,1.5-0.8,2.3-2.3,2.3c-8.1,0-16.3,0-24.4,0
@@ -60,7 +61,7 @@ export default function SectionContact() {
                             c2.7-3.2,5.3-6.3,7.9-9.4C6.4,6,3.8,3.9,1.1,1.8L1.1,1.8z M27.8,1.8c-2.7,2.2-5.3,4.2-8,6.4c2.6,3.1,5.2,6.2,7.8,9.3
                             C28,17,28.1,3.1,27.8,1.8z"/>
                     </svg>
-                    <p>amonakbolivia@gmail.com</p>
+                    <p>amonakbolivia@gmail.com</p></Link>
                 </div>
             </div>
             <div className="section-contact-3">

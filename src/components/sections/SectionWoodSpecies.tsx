@@ -6,9 +6,9 @@ export default function SectionWoodSpecies() {
   
     const [activeSection, setActiveSection] = useState("");
 
-  const handleClick = (section: string) => {
+ /* const handleClick = (section: string) => {
     setActiveSection(section === activeSection ? "" : section);
-  };
+  };*/
     
       const { t } = useTranslation();
       

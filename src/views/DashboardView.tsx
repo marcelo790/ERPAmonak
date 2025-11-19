@@ -4,6 +4,7 @@ import SectionProduct from "@/components/sections/SectionProduct";
 //import SectionOffer from "@/components/sections/SectionOffer";
 import SectionHowToBuy from "@/components/sections/SectionHowToBuy";
 import SectionOffer from "@/components/sections/SectionOffer";
+import SectionContact from "@/components/sections/SectionContact";
 
 export default function DashboardView() {
   return (
@@ -14,6 +15,7 @@ export default function DashboardView() {
       <SectionOffer/>*/}
       <SectionHowToBuy/>
       <SectionOffer/>
+      <SectionContact/>
     </>
   )
 }

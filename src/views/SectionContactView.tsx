@@ -1,9 +1,9 @@
-import SectionContact from "@/components/sections/SectionContact";
+import SectionContacts from "@/components/sections/SectionContacts";
 
 export default function SectionContactView() {
   return (
     <>
-        <SectionContact/>
+        <SectionContacts/>
     </>
   )
 }

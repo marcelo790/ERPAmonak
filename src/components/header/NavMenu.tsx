@@ -28,6 +28,7 @@ export default function NavMenu() {
         {/*<li><Link to="/" className="link">{t("M-OS")}</Link></li>
         <li><Link to="/" className="link">{t("M-O")}</Link></li>*/}
         <li><Link to="/woodSpecies" className="link">{t("M-CC")}</Link></li>
+        <li><Link to="/offers" className="link">{t("M-O")}</Link></li>
         <li><Link to="/contact" className="link">{t("M-C")}</Link></li>
         <li><LanguageSelector /></li>
       </ul>

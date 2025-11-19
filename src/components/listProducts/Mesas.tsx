@@ -1,100 +1,87 @@
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 
 const images = Array.from({ length: 17 }, (_, i) => ({
-  id: i,
-  image: `/images/mesas/${i + 1}.svg`,
-  title: `Mesa ${i + 1}`,
-  description: `Descripción breve de la Mesa ${i + 1}.`
+  image: `/images/mesas/${i + 1}.svg`, // no uses "public/" en src
 }));
 
-export default function MesasVertical() {
-  const [selected, setSelected] = useState(images[0]);
-  const containerRef = useRef<HTMLDivElement | null>(null);
-  const itemHeight = 110; // altura fija de cada item
-  const scrollSpeed = 1; // px por frame
+const ITEMS_PER_PAGE = 6;
 
-  useEffect(() => {
-    const container = containerRef.current;
-    if (!container) return;
+export default function Mesas() {
+  const [currentPage, setCurrentPage] = useState(1);
 
-    let animationFrame: number;
-    let scrollTop = 0;
-    let isPaused = false;
+  const totalPages = Math.ceil(images.length / ITEMS_PER_PAGE);
+  const startIdx = (currentPage - 1) * ITEMS_PER_PAGE;
+  const currentItems = images.slice(startIdx, startIdx + ITEMS_PER_PAGE);
 
-    const step = () => {
-      if (!isPaused) {
-        scrollTop += scrollSpeed;
-        if (scrollTop >= container.scrollHeight / 2) scrollTop = 0; // loop infinito
-        container.scrollTop = scrollTop;
-
-        // detectar item centrado
-        const centerIndex = Math.floor((scrollTop + container.clientHeight / 2) / itemHeight) % images.length;
-        setSelected(images[centerIndex]);
-      }
-      animationFrame = requestAnimationFrame(step);
-    };
-
-    animationFrame = requestAnimationFrame(step);
-
-    // hover pausa
-    const handleMouseEnter = () => { isPaused = true; };
-    const handleMouseLeave = () => { isPaused = false; };
-
-    container.addEventListener("mouseenter", handleMouseEnter);
-    container.addEventListener("mouseleave", handleMouseLeave);
-
-    return () => {
-      cancelAnimationFrame(animationFrame);
-      container.removeEventListener("mouseenter", handleMouseEnter);
-      container.removeEventListener("mouseleave", handleMouseLeave);
-    };
-  }, []);
-
-  // duplicamos los items para loop
-  const duplicated = [...images, ...images];
+  const goToPage = (page: number) => {
+    if (page >= 1 && page <= totalPages) {
+      setCurrentPage(page);
+    }
+  };
 
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center gap-10 w-full">
+    <div className="contenedor-mesa">
+      {/* GRID */}
+      <div className="contenedor-mesa2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {currentItems.map((item, idx) => (
+          <a
+            key={idx}
+            href={item.image}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-56 relative group border rounded-lg shadow overflow-hidden block"
+          >
+            <img
+              src={item.image}
+              loading="lazy"
+              alt={`Mesa Amonak ${startIdx + idx + 1}`}
+              className="mx-auto h-full w-full object-cover transition-transform duration-300 group-hover:scale-105 cursor-pointer"
+            />
 
-      {/* TARJETA */}
-      <div className="w-full max-w-lg bg-white shadow-xl rounded-2xl p-6 flex items-center gap-6 h-[300px]">
-        <div className="w-1/2 flex flex-col justify-center">
-          <h2 className="text-2xl font-bold mb-2">{selected.title}</h2>
-          <p className="text-gray-600 text-sm">{selected.description}</p>
-        </div>
-
-        <div className="w-1/2 flex items-center justify-center">
-          <img
-            src={selected.image}
-            alt={selected.title}
-            className="w-40 h-40 object-contain drop-shadow-lg"
-          />
-        </div>
+            {/* OVERLAY */}
+            <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
+              {/* Aquí puedes reactivar tus botones si quieres */}
+            </div>
+          </a>
+        ))}
       </div>
 
-      {/* CARRUSEL VERTICAL */}
-      <div className="relative w-[180px] h-[300px] overflow-hidden rounded-xl shadow bg-white">
-        <div ref={containerRef} className="w-full h-full overflow-hidden">
-          <div className="flex flex-col">
-            {duplicated.map((item, idx) => (
-              <div
-                key={idx}
-                className="w-full h-[110px] flex items-center justify-center border-b cursor-pointer hover:bg-gray-100 transition group"
-              >
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  className="h-[90px] p-2 object-contain opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-transform duration-300"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
+      {/* PAGINACIÓN */}
+      <div className="flex items-center justify-center mt-8 gap-2">
+        <button
+          onClick={() => goToPage(currentPage - 1)}
+          disabled={currentPage === 1}
+          className="px-3 py-1 border rounded bg-gray-200 hover:bg-gray-300 disabled:opacity-50"
+        >
+          &lt;
+        </button>
 
-        {/* sombras arriba/abajo */}
-        <div className="pointer-events-none absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-white to-transparent"></div>
-        <div className="pointer-events-none absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-white to-transparent"></div>
+        {Array.from({ length: totalPages }, (_, i) => (
+          <button
+            key={i}
+            onClick={() => goToPage(i + 1)}
+            className={`px-3 py-1 border rounded ${
+              currentPage === i + 1
+                ? "bg-gray-800 text-white"
+                : "bg-white hover:bg-gray-100"
+            }`}
+          >
+            {i + 1}
+          </button>
+        ))}
+
+        <button
+          onClick={() => goToPage(currentPage + 1)}
+          disabled={currentPage === totalPages}
+          className="px-3 py-1 border rounded bg-gray-200 hover:bg-gray-300 disabled:opacity-50"
+        >
+          &gt;
+        </button>
       </div>
+
+      <p className="text-center text-sm mt-2">
+        Mostrando página {currentPage} de {totalPages}
+      </p>
     </div>
   );
 }

@@ -210,28 +210,28 @@ html {
 }
 
 .banner {
-  background-image: url("images/bannerPrincipal.svg");
+  background-image: url("/images/bannerPrincipal.svg");
 }
 .banner2 {
-  background-image: url("images/bannerPrincipalComoComprar.webp");
+  background-image: url("/images/bannerPrincipalComoComprar.webp");
 }
 .banner3 {
-  background-image: url("images/bannerPrincipalOfertas.webp");
+  background-image: url("/images/bannerPrincipalOfertas.webp");
 }
 .banner4 {
-  background-image: url("images/bannerPrincipalOtrosServicios.webp");
+  background-image: url("/images/bannerPrincipalOtrosServicios.webp");
 }
 .banner5 {
-  background-image: url("images/bannerPrincipalProductos.webp");
+  background-image: url("/images/bannerPrincipalProductos.webp");
 }
 .bannerWho {
-  background-image: url("images/bannerQuienesSomos.webp");
+  background-image: url("/images/bannerQuienesSomos.webp");
 }
 .bannerProduct {
-  background-image: url("images/bannerPrincipalProductos.webp");
+  background-image: url("/images/bannerPrincipalProductos.webp");
 }
 .bannerContact {
-  background-image: url("images/bannerContactanos.png");
+  background-image: url("/images/bannerContactanos.png");
 }
 /* Contenido superpuesto */
 .banner-content {
@@ -543,103 +543,103 @@ html {
 }
 
 .section-wood-specie-1 {
-  background-image: url("/public/images/slabs/1.png");
+  background-image: url("/images/slabs/1.png");
 }
 
 .section-wood-specie-2 {
-  background-image: url("/public/images/slabs/2.png");
+  background-image: url("/images/slabs/2.png");
 }
 
 .section-wood-specie-3 {
-  background-image: url("/public/images/slabs/3.png");
+  background-image: url("/images/slabs/3.png");
 }
 
 .section-wood-specie-4 {
-  background-image: url("/public/images/slabs/4.png");
+  background-image: url("/images/slabs/4.png");
 }
 
 .section-wood-specie-5 {
-  background-image: url("/public/images/slabs/5.png");
+  background-image: url("/images/slabs/5.png");
 }
 
 .section-wood-specie-6 {
-  background-image: url("/public/images/slabs/6.png");
+  background-image: url("/images/slabs/6.png");
 }
 
 .section-wood-specie-7 {
-  background-image: url("/public/images/slabs/7.png");
+  background-image: url("/images/slabs/7.png");
 }
 
 .section-wood-specie-8 {
-  background-image: url("/public/images/slabs/8.png");
+  background-image: url("/images/slabs/8.png");
 }
 
 .section-wood-specie-9 {
-  background-image: url("/public/images/slabs/9.png");
+  background-image: url("/images/slabs/9.png");
 }
 
 .section-wood-specie-10 {
-  background-image: url("/public/images/slabs/10.png");
+  background-image: url("/images/slabs/10.png");
 }
 
 .section-wood-specie-11 {
-  background-image: url("/public/images/slabs/11.png");
+  background-image: url("/images/slabs/11.png");
 }
 
 .section-wood-specie-12 {
-  background-image: url("/public/images/slabs/12.png");
+  background-image: url("/images/slabs/12.png");
 }
 
 .section-wood-specie-13 {
-  background-image: url("/public/images/slabs/13.png");
+  background-image: url("/images/slabs/13.png");
 }
 
 .section-wood-specie-14 {
-  background-image: url("/public/images/slabs/14.png");
+  background-image: url("/images/slabs/14.png");
 }
 
 .section-wood-specie-15 {
-  background-image: url("/public/images/slabs/15.png");
+  background-image: url("/images/slabs/15.png");
 }
 
 .section-product-1 {
-  background-image: url("/public/images/section1.svg");
+  background-image: url("/images/section1.svg");
 }
 .section-product-2 {
-  background-image: url("/public/images/section2.webp");
+  background-image: url("/images/section2.webp");
 }
 .section-product-3 {
-  background-image: url("/public/images/section3.svg");
+  background-image: url("/images/section3.svg");
 }
 .section-product-4 {
-  background-image: url("/public/images/section4.svg");
+  background-image: url("/images/section4.svg");
 }
 .section-product-5 {
-  background-image: url("/public/images/section5.webp");
+  background-image: url("/images/section5.webp");
 }
 .section-product-8 {
-  background-image: url("/public/images/section8.webp");
+  background-image: url("/images/section8.webp");
 }
 .section-product-7 {
-  background-image: url("/public/images/bannerDecking.png");
+  background-image: url("/images/bannerDecking.png");
 }
 .section-product-6 {
-  background-image: url("/public/images/section6.webp");
+  background-image: url("/images/section6.webp");
 }
 .section-product-9 {
-  background-image: url("/public/images/bannerTablero.png");
+  background-image: url("/images/bannerTablero.png");
 }
 .section-product-10 {
-  background-image: url("/public/images/bannerLamina.png");
+  background-image: url("/images/bannerLamina.png");
 }
 .section-product-11 {
-  background-image: url("/public/images/maderaRoble.webp");
+  background-image: url("/images/maderaRoble.webp");
 }
 .section-Who-1 {
-  background-image: url("/public/images/bannerMision.webp");
+  background-image: url("/images/bannerMision.webp");
 }
 .section-Who-2 {
-  background-image: url("/public/images/bannerVision.svg");
+  background-image: url("/images/bannerVision.svg");
 }
 
 .section-3,
@@ -1040,28 +1040,28 @@ html {
   }
 
   .banner {
-    background-image: url("images/bannerPrincipal.svg");
+    background-image: url("/images/bannerPrincipal.svg");
   }
   .banner2 {
-    background-image: url("images/bannerPrincipalComoComprar.webp");
+    background-image: url("/images/bannerPrincipalComoComprar.webp");
   }
   .banner3 {
-    background-image: url("images/bannerPrincipalOfertas.webp");
+    background-image: url("/images/bannerPrincipalOfertas.webp");
   }
   .banner4 {
-    background-image: url("images/bannerPrincipalOtrosServicios.webp");
+    background-image: url("/images/bannerPrincipalOtrosServicios.webp");
   }
   .banner5 {
-    background-image: url("images/bannerPrincipalProductos.webp");
+    background-image: url("/images/bannerPrincipalProductos.webp");
   }
   .bannerWho {
-    background-image: url("images/bannerQuienesSomos.webp");
+    background-image: url("/images/bannerQuienesSomos.webp");
   }
   .bannerProduct {
-    background-image: url("images/bannerPrincipalProductos.webp");
+    background-image: url("/images/bannerPrincipalProductos.webp");
   }
   .bannerContact {
-    background-image: url("images/bannerContactanos.png");
+    background-image: url("/images/bannerContactanos.png");
   }
   /* Contenido superpuesto */
   .banner-content {
@@ -1375,103 +1375,103 @@ html {
   }
 
   .section-wood-specie-1 {
-    background-image: url("/public/images/slabs/1.png");
+    background-image: url("/images/slabs/1.png");
   }
 
   .section-wood-specie-2 {
-    background-image: url("/public/images/slabs/2.png");
+    background-image: url("/images/slabs/2.png");
   }
 
   .section-wood-specie-3 {
-    background-image: url("/public/images/slabs/3.png");
+    background-image: url("/images/slabs/3.png");
   }
 
   .section-wood-specie-4 {
-    background-image: url("/public/images/slabs/4.png");
+    background-image: url("/images/slabs/4.png");
   }
 
   .section-wood-specie-5 {
-    background-image: url("/public/images/slabs/5.png");
+    background-image: url("/images/slabs/5.png");
   }
 
   .section-wood-specie-6 {
-    background-image: url("/public/images/slabs/6.png");
+    background-image: url("/images/slabs/6.png");
   }
 
   .section-wood-specie-7 {
-    background-image: url("/public/images/slabs/7.png");
+    background-image: url("/images/slabs/7.png");
   }
 
   .section-wood-specie-8 {
-    background-image: url("/public/images/slabs/8.png");
+    background-image: url("/images/slabs/8.png");
   }
 
   .section-wood-specie-9 {
-    background-image: url("/public/images/slabs/9.png");
+    background-image: url("/images/slabs/9.png");
   }
 
   .section-wood-specie-10 {
-    background-image: url("/public/images/slabs/10.png");
+    background-image: url("/images/slabs/10.png");
   }
 
   .section-wood-specie-11 {
-    background-image: url("/public/images/slabs/11.png");
+    background-image: url("/images/slabs/11.png");
   }
 
   .section-wood-specie-12 {
-    background-image: url("/public/images/slabs/12.png");
+    background-image: url("/images/slabs/12.png");
   }
 
   .section-wood-specie-13 {
-    background-image: url("/public/images/slabs/13.png");
+    background-image: url("/images/slabs/13.png");
   }
 
   .section-wood-specie-14 {
-    background-image: url("/public/images/slabs/14.png");
+    background-image: url("/images/slabs/14.png");
   }
 
   .section-wood-specie-15 {
-    background-image: url("/public/images/slabs/15.png");
+    background-image: url("/images/slabs/15.png");
   }
 
   .section-product-1 {
-    background-image: url("/public/images/section1.svg");
+    background-image: url("/images/section1.svg");
   }
   .section-product-2 {
-    background-image: url("/public/images/section2.webp");
+    background-image: url("/images/section2.webp");
   }
   .section-product-3 {
-    background-image: url("/public/images/section3.svg");
+    background-image: url("/images/section3.svg");
   }
   .section-product-4 {
-    background-image: url("/public/images/section4.svg");
+    background-image: url("/images/section4.svg");
   }
   .section-product-5 {
-    background-image: url("/public/images/section5.webp");
+    background-image: url("/images/section5.webp");
   }
   .section-product-6 {
-    background-image: url("/public/images/section6.webp");
+    background-image: url("/images/section6.webp");
   }
   .section-product-7 {
-    background-image: url("/public/images/bannerDecking.png");
+    background-image: url("/images/bannerDecking.png");
   }
   .section-product-8 {
-    background-image: url("/public/images/section8.webp");
+    background-image: url("/images/section8.webp");
   }
   .section-product-9 {
-    background-image: url("/public/images/bannerTablero.png");
+    background-image: url("/images/bannerTablero.png");
   }
   .section-product-10 {
-    background-image: url("/public/images/bannerLamina.png");
+    background-image: url("/images/bannerLamina.png");
   }
   .section-product-11 {
-    background-image: url("/public/images/maderaRoble.webp");
+    background-image: url("/images/maderaRoble.webp");
   }
   .section-Who-1 {
-    background-image: url("/public/images/bannerMision.webp");
+    background-image: url("/images/bannerMision.webp");
   }
   .section-Who-2 {
-    background-image: url("/public/images/bannerVision.svg");
+    background-image: url("/images/bannerVision.svg");
   }
 
   .section-3,
@@ -1876,28 +1876,28 @@ html {
   }
 
   .banner {
-    background-image: url("images/bannerPrincipal.svg");
+    background-image: url("/images/bannerPrincipal.svg");
   }
   .banner2 {
-    background-image: url("images/bannerPrincipalComoComprar.webp");
+    background-image: url("/images/bannerPrincipalComoComprar.webp");
   }
   .banner3 {
-    background-image: url("images/bannerPrincipalOfertas.webp");
+    background-image: url("/images/bannerPrincipalOfertas.webp");
   }
   .banner4 {
-    background-image: url("images/bannerPrincipalOtrosServicios.webp");
+    background-image: url("/images/bannerPrincipalOtrosServicios.webp");
   }
   .banner5 {
-    background-image: url("images/bannerPrincipalProductos.webp");
+    background-image: url("/images/bannerPrincipalProductos.webp");
   }
   .bannerWho {
-    background-image: url("images/bannerQuienesSomos.webp");
+    background-image: url("/images/bannerQuienesSomos.webp");
   }
   .bannerProduct {
-    background-image: url("images/bannerPrincipalProductos.webp");
+    background-image: url("/images/bannerPrincipalProductos.webp");
   }
   .bannerContact {
-    background-image: url("images/bannerContactanos.png");
+    background-image: url("/images/bannerContactanos.png");
   }
   /* Contenido superpuesto */
   .banner-content {
@@ -2212,103 +2212,103 @@ html {
   }
 
   .section-wood-specie-1 {
-    background-image: url("/public/images/slabs/1.png");
+    background-image: url("/images/slabs/1.png");
   }
 
   .section-wood-specie-2 {
-    background-image: url("/public/images/slabs/2.png");
+    background-image: url("/images/slabs/2.png");
   }
 
   .section-wood-specie-3 {
-    background-image: url("/public/images/slabs/3.png");
+    background-image: url("/images/slabs/3.png");
   }
 
   .section-wood-specie-4 {
-    background-image: url("/public/images/slabs/4.png");
+    background-image: url("/images/slabs/4.png");
   }
 
   .section-wood-specie-5 {
-    background-image: url("/public/images/slabs/5.png");
+    background-image: url("/images/slabs/5.png");
   }
 
   .section-wood-specie-6 {
-    background-image: url("/public/images/slabs/6.png");
+    background-image: url("/images/slabs/6.png");
   }
 
   .section-wood-specie-7 {
-    background-image: url("/public/images/slabs/7.png");
+    background-image: url("/images/slabs/7.png");
   }
 
   .section-wood-specie-8 {
-    background-image: url("/public/images/slabs/8.png");
+    background-image: url("/images/slabs/8.png");
   }
 
   .section-wood-specie-9 {
-    background-image: url("/public/images/slabs/9.png");
+    background-image: url("/images/slabs/9.png");
   }
 
   .section-wood-specie-10 {
-    background-image: url("/public/images/slabs/10.png");
+    background-image: url("/images/slabs/10.png");
   }
 
   .section-wood-specie-11 {
-    background-image: url("/public/images/slabs/11.png");
+    background-image: url("/images/slabs/11.png");
   }
 
   .section-wood-specie-12 {
-    background-image: url("/public/images/slabs/12.png");
+    background-image: url("/images/slabs/12.png");
   }
 
   .section-wood-specie-13 {
-    background-image: url("/public/images/slabs/13.png");
+    background-image: url("/images/slabs/13.png");
   }
 
   .section-wood-specie-14 {
-    background-image: url("/public/images/slabs/14.png");
+    background-image: url("/images/slabs/14.png");
   }
 
   .section-wood-specie-15 {
-    background-image: url("/public/images/slabs/15.png");
+    background-image: url("/images/slabs/15.png");
   }
 
   .section-product-1 {
-    background-image: url("/public/images/section1.svg");
+    background-image: url("/images/section1.svg");
   }
   .section-product-2 {
-    background-image: url("/public/images/section2.webp");
+    background-image: url("/images/section2.webp");
   }
   .section-product-3 {
-    background-image: url("/public/images/section3.svg");
+    background-image: url("/images/section3.svg");
   }
   .section-product-4 {
-    background-image: url("/public/images/section4.svg");
+    background-image: url("/images/section4.svg");
   }
   .section-product-5 {
-    background-image: url("/public/images/section5.webp");
+    background-image: url("/images/section5.webp");
   }
   .section-product-6 {
-    background-image: url("/public/images/section6.webp");
+    background-image: url("/images/section6.webp");
   }
   .section-product-7 {
-    background-image: url("/public/images/bannerDecking.png");
+    background-image: url("/images/bannerDecking.png");
   }
   .section-product-8 {
-    background-image: url("/public/images/section8.webp");
+    background-image: url("/images/section8.webp");
   }
   .section-product-9 {
-    background-image: url("/public/images/bannerTablero.png");
+    background-image: url("/images/bannerTablero.png");
   }
   .section-product-10 {
-    background-image: url("/public/images/bannerLamina.png");
+    background-image: url("/images/bannerLamina.png");
   }
   .section-product-11 {
-    background-image: url("/public/images/maderaRoble.webp");
+    background-image: url("/images/maderaRoble.webp");
   }
   .section-Who-1 {
-    background-image: url("/public/images/bannerMision.webp");
+    background-image: url("/images/bannerMision.webp");
   }
   .section-Who-2 {
-    background-image: url("/public/images/bannerVision.svg");
+    background-image: url("/images/bannerVision.svg");
   }
 
   .section-3,
@@ -2712,28 +2712,28 @@ html {
   }
 
   .banner {
-    background-image: url("images/bannerPrincipal.svg");
+    background-image: url("/images/bannerPrincipal.svg");
   }
   .banner2 {
-    background-image: url("images/bannerPrincipalComoComprar.webp");
+    background-image: url("/images/bannerPrincipalComoComprar.webp");
   }
   .banner3 {
-    background-image: url("images/bannerPrincipalOfertas.webp");
+    background-image: url("/images/bannerPrincipalOfertas.webp");
   }
   .banner4 {
-    background-image: url("images/bannerPrincipalOtrosServicios.webp");
+    background-image: url("/images/bannerPrincipalOtrosServicios.webp");
   }
   .banner5 {
-    background-image: url("images/bannerPrincipalProductos.webp");
+    background-image: url("/images/bannerPrincipalProductos.webp");
   }
   .bannerWho {
-    background-image: url("images/bannerQuienesSomos.webp");
+    background-image: url("/images/bannerQuienesSomos.webp");
   }
   .bannerProduct {
-    background-image: url("images/bannerPrincipalProductos.webp");
+    background-image: url("/images/bannerPrincipalProductos.webp");
   }
   .bannerContact {
-    background-image: url("images/bannerContactanos.png");
+    background-image: url("/images/bannerContactanos.png");
   }
   /* Contenido superpuesto */
   .banner-content {
@@ -3047,103 +3047,103 @@ html {
   }
 
   .section-wood-specie-1 {
-    background-image: url("/public/images/slabs/1.png");
+    background-image: url("/images/slabs/1.png");
   }
 
   .section-wood-specie-2 {
-    background-image: url("/public/images/slabs/2.png");
+    background-image: url("/images/slabs/2.png");
   }
 
   .section-wood-specie-3 {
-    background-image: url("/public/images/slabs/3.png");
+    background-image: url("/images/slabs/3.png");
   }
 
   .section-wood-specie-4 {
-    background-image: url("/public/images/slabs/4.png");
+    background-image: url("/images/slabs/4.png");
   }
 
   .section-wood-specie-5 {
-    background-image: url("/public/images/slabs/5.png");
+    background-image: url("/images/slabs/5.png");
   }
 
   .section-wood-specie-6 {
-    background-image: url("/public/images/slabs/6.png");
+    background-image: url("/images/slabs/6.png");
   }
 
   .section-wood-specie-7 {
-    background-image: url("/public/images/slabs/7.png");
+    background-image: url("/images/slabs/7.png");
   }
 
   .section-wood-specie-8 {
-    background-image: url("/public/images/slabs/8.png");
+    background-image: url("/images/slabs/8.png");
   }
 
   .section-wood-specie-9 {
-    background-image: url("/public/images/slabs/9.png");
+    background-image: url("/images/slabs/9.png");
   }
 
   .section-wood-specie-10 {
-    background-image: url("/public/images/slabs/10.png");
+    background-image: url("/images/slabs/10.png");
   }
 
   .section-wood-specie-11 {
-    background-image: url("/public/images/slabs/11.png");
+    background-image: url("/images/slabs/11.png");
   }
 
   .section-wood-specie-12 {
-    background-image: url("/public/images/slabs/12.png");
+    background-image: url("/images/slabs/12.png");
   }
 
   .section-wood-specie-13 {
-    background-image: url("/public/images/slabs/13.png");
+    background-image: url("/images/slabs/13.png");
   }
 
   .section-wood-specie-14 {
-    background-image: url("/public/images/slabs/14.png");
+    background-image: url("/images/slabs/14.png");
   }
 
   .section-wood-specie-15 {
-    background-image: url("/public/images/slabs/15.png");
+    background-image: url("/images/slabs/15.png");
   }
 
   .section-product-1 {
-    background-image: url("/public/images/section1.svg");
+    background-image: url("/images/section1.svg");
   }
   .section-product-2 {
-    background-image: url("/public/images/section2.webp");
+    background-image: url("/images/section2.webp");
   }
   .section-product-3 {
-    background-image: url("/public/images/section3.svg");
+    background-image: url("/images/section3.svg");
   }
   .section-product-4 {
-    background-image: url("/public/images/section4.svg");
+    background-image: url("/images/section4.svg");
   }
   .section-product-5 {
-    background-image: url("/public/images/section5.webp");
+    background-image: url("/images/section5.webp");
   }
   .section-product-6 {
-    background-image: url("/public/images/section6.webp");
+    background-image: url("/images/section6.webp");
   }
   .section-product-7 {
-    background-image: url("/public/images/bannerDecking.png");
+    background-image: url("/images/bannerDecking.png");
   }
   .section-product-8 {
-    background-image: url("/public/images/section8.webp");
+    background-image: url("/images/section8.webp");
   }
   .section-product-9 {
-    background-image: url("/public/images/bannerTablero.png");
+    background-image: url("/images/bannerTablero.png");
   }
   .section-product-10 {
-    background-image: url("/public/images/bannerLamina.png");
+    background-image: url("/images/bannerLamina.png");
   }
   .section-product-11 {
-    background-image: url("/public/images/maderaRoble.webp");
+    background-image: url("/images/maderaRoble.webp");
   }
   .section-Who-1 {
-    background-image: url("/public/images/bannerMision.webp");
+    background-image: url("/images/bannerMision.webp");
   }
   .section-Who-2 {
-    background-image: url("/public/images/bannerVision.svg");
+    background-image: url("/images/bannerVision.svg");
   }
 
   .section-3,
@@ -3555,28 +3555,28 @@ html {
   }
 
   .banner {
-    background-image: url("images/bannerPrincipal.svg");
+    background-image: url("/images/bannerPrincipal.svg");
   }
   .banner2 {
-    background-image: url("images/bannerPrincipalComoComprar.webp");
+    background-image: url("/images/bannerPrincipalComoComprar.webp");
   }
   .banner3 {
-    background-image: url("images/bannerPrincipalOfertas.webp");
+    background-image: url("/images/bannerPrincipalOfertas.webp");
   }
   .banner4 {
-    background-image: url("images/bannerPrincipalOtrosServicios.webp");
+    background-image: url("/images/bannerPrincipalOtrosServicios.webp");
   }
   .banner5 {
-    background-image: url("images/bannerPrincipalProductos.webp");
+    background-image: url("/images/bannerPrincipalProductos.webp");
   }
   .bannerWho {
-    background-image: url("images/bannerQuienesSomos.webp");
+    background-image: url("/images/bannerQuienesSomos.webp");
   }
   .bannerProduct {
-    background-image: url("images/bannerPrincipalProductos.webp");
+    background-image: url("/images/bannerPrincipalProductos.webp");
   }
   .bannerContact {
-    background-image: url("images/bannerContactanos.png");
+    background-image: url("/images/bannerContactanos.png");
   }
   /* Contenido superpuesto */
   .banner-content {
@@ -3889,103 +3889,103 @@ html {
   }
 
   .section-wood-specie-1 {
-    background-image: url("/public/images/slabs/1.png");
+    background-image: url("/images/slabs/1.png");
   }
 
   .section-wood-specie-2 {
-    background-image: url("/public/images/slabs/2.png");
+    background-image: url("/images/slabs/2.png");
   }
 
   .section-wood-specie-3 {
-    background-image: url("/public/images/slabs/3.png");
+    background-image: url("/images/slabs/3.png");
   }
 
   .section-wood-specie-4 {
-    background-image: url("/public/images/slabs/4.png");
+    background-image: url("/images/slabs/4.png");
   }
 
   .section-wood-specie-5 {
-    background-image: url("/public/images/slabs/5.png");
+    background-image: url("/images/slabs/5.png");
   }
 
   .section-wood-specie-6 {
-    background-image: url("/public/images/slabs/6.png");
+    background-image: url("/images/slabs/6.png");
   }
 
   .section-wood-specie-7 {
-    background-image: url("/public/images/slabs/7.png");
+    background-image: url("/images/slabs/7.png");
   }
 
   .section-wood-specie-8 {
-    background-image: url("/public/images/slabs/8.png");
+    background-image: url("/images/slabs/8.png");
   }
 
   .section-wood-specie-9 {
-    background-image: url("/public/images/slabs/9.png");
+    background-image: url("/images/slabs/9.png");
   }
 
   .section-wood-specie-10 {
-    background-image: url("/public/images/slabs/10.png");
+    background-image: url("/images/slabs/10.png");
   }
 
   .section-wood-specie-11 {
-    background-image: url("/public/images/slabs/11.png");
+    background-image: url("/images/slabs/11.png");
   }
 
   .section-wood-specie-12 {
-    background-image: url("/public/images/slabs/12.png");
+    background-image: url("/images/slabs/12.png");
   }
 
   .section-wood-specie-13 {
-    background-image: url("/public/images/slabs/13.png");
+    background-image: url("/images/slabs/13.png");
   }
 
   .section-wood-specie-14 {
-    background-image: url("/public/images/slabs/14.png");
+    background-image: url("/images/slabs/14.png");
   }
 
   .section-wood-specie-15 {
-    background-image: url("/public/images/slabs/15.png");
+    background-image: url("/images/slabs/15.png");
   }
 
   .section-product-1 {
-    background-image: url("/public/images/section1.svg");
+    background-image: url("/images/section1.svg");
   }
   .section-product-2 {
-    background-image: url("/public/images/section2.webp");
+    background-image: url("/images/section2.webp");
   }
   .section-product-3 {
-    background-image: url("/public/images/section3.svg");
+    background-image: url("/images/section3.svg");
   }
   .section-product-4 {
-    background-image: url("/public/images/section4.svg");
+    background-image: url("/images/section4.svg");
   }
   .section-product-5 {
-    background-image: url("/public/images/section5.webp");
+    background-image: url("/images/section5.webp");
   }
   .section-product-6 {
-    background-image: url("/public/images/section6.webp");
+    background-image: url("/images/section6.webp");
   }
   .section-product-7 {
-    background-image: url("/public/images/bannerDecking.png");
+    background-image: url("/images/bannerDecking.png");
   }
   .section-product-8 {
-    background-image: url("/public/images/section8.webp");
+    background-image: url("/images/section8.webp");
   }
   .section-product-9 {
-    background-image: url("/public/images/bannerTablero.png");
+    background-image: url("/images/bannerTablero.png");
   }
   .section-product-10 {
-    background-image: url("/public/images/bannerLamina.png");
+    background-image: url("/images/bannerLamina.png");
   }
   .section-product-11 {
-    background-image: url("/public/images/maderaRoble.webp");
+    background-image: url("/images/maderaRoble.webp");
   }
   .section-Who-1 {
-    background-image: url("/public/images/bannerMision.webp");
+    background-image: url("/images/bannerMision.webp");
   }
   .section-Who-2 {
-    background-image: url("/public/images/bannerVision.svg");
+    background-image: url("/images/bannerVision.svg");
   }
 
   .section-3,
@@ -4381,28 +4381,28 @@ html {
   }
 
   .banner {
-    background-image: url("images/bannerPrincipal.svg");
+    background-image: url("/images/bannerPrincipal.svg");
   }
   .banner2 {
-    background-image: url("images/bannerPrincipalComoComprar.webp");
+    background-image: url("/images/bannerPrincipalComoComprar.webp");
   }
   .banner3 {
-    background-image: url("images/bannerPrincipalOfertas.webp");
+    background-image: url("/images/bannerPrincipalOfertas.webp");
   }
   .banner4 {
-    background-image: url("images/bannerPrincipalOtrosServicios.webp");
+    background-image: url("/images/bannerPrincipalOtrosServicios.webp");
   }
   .banner5 {
-    background-image: url("images/bannerPrincipalProductos.webp");
+    background-image: url("/images/bannerPrincipalProductos.webp");
   }
   .bannerWho {
-    background-image: url("images/bannerQuienesSomos.webp");
+    background-image: url("/images/bannerQuienesSomos.webp");
   }
   .bannerProduct {
-    background-image: url("images/bannerPrincipalProductos.webp");
+    background-image: url("/images/bannerPrincipalProductos.webp");
   }
   .bannerContact {
-    background-image: url("images/bannerContactanos.png");
+    background-image: url("/images/bannerContactanos.png");
   }
 
   /* Contenido superpuesto */
@@ -4716,103 +4716,103 @@ html {
   }
 
   .section-wood-specie-1 {
-    background-image: url("/public/images/slabs/1.png");
+    background-image: url("/images/slabs/1.png");
   }
 
   .section-wood-specie-2 {
-    background-image: url("/public/images/slabs/2.png");
+    background-image: url("/images/slabs/2.png");
   }
 
   .section-wood-specie-3 {
-    background-image: url("/public/images/slabs/3.png");
+    background-image: url("/images/slabs/3.png");
   }
 
   .section-wood-specie-4 {
-    background-image: url("/public/images/slabs/4.png");
+    background-image: url("/images/slabs/4.png");
   }
 
   .section-wood-specie-5 {
-    background-image: url("/public/images/slabs/5.png");
+    background-image: url("/images/slabs/5.png");
   }
 
   .section-wood-specie-6 {
-    background-image: url("/public/images/slabs/6.png");
+    background-image: url("/images/slabs/6.png");
   }
 
   .section-wood-specie-7 {
-    background-image: url("/public/images/slabs/7.png");
+    background-image: url("/images/slabs/7.png");
   }
 
   .section-wood-specie-8 {
-    background-image: url("/public/images/slabs/8.png");
+    background-image: url("/images/slabs/8.png");
   }
 
   .section-wood-specie-9 {
-    background-image: url("/public/images/slabs/9.png");
+    background-image: url("/images/slabs/9.png");
   }
 
   .section-wood-specie-10 {
-    background-image: url("/public/images/slabs/10.png");
+    background-image: url("/images/slabs/10.png");
   }
 
   .section-wood-specie-11 {
-    background-image: url("/public/images/slabs/11.png");
+    background-image: url("/images/slabs/11.png");
   }
 
   .section-wood-specie-12 {
-    background-image: url("/public/images/slabs/12.png");
+    background-image: url("/images/slabs/12.png");
   }
 
   .section-wood-specie-13 {
-    background-image: url("/public/images/slabs/13.png");
+    background-image: url("/images/slabs/13.png");
   }
 
   .section-wood-specie-14 {
-    background-image: url("/public/images/slabs/14.png");
+    background-image: url("/images/slabs/14.png");
   }
 
   .section-wood-specie-15 {
-    background-image: url("/public/images/slabs/15.png");
+    background-image: url("/images/slabs/15.png");
   }
 
   .section-product-1 {
-    background-image: url("/public/images/section1.svg");
+    background-image: url("/images/section1.svg");
   }
   .section-product-2 {
-    background-image: url("/public/images/section2.webp");
+    background-image: url("/images/section2.webp");
   }
   .section-product-3 {
-    background-image: url("/public/images/section3.svg");
+    background-image: url("/images/section3.svg");
   }
   .section-product-4 {
-    background-image: url("/public/images/section4.svg");
+    background-image: url("/images/section4.svg");
   }
   .section-product-5 {
-    background-image: url("/public/images/section5.webp");
+    background-image: url("/images/section5.webp");
   }
   .section-product-6 {
-    background-image: url("/public/images/section6.webp");
+    background-image: url("/images/section6.webp");
   }
   .section-product-7 {
-    background-image: url("/public/images/bannerDecking.png");
+    background-image: url("/images/bannerDecking.png");
   }
   .section-product-8 {
-    background-image: url("/public/images/section8.webp");
+    background-image: url("/images/section8.webp");
   }
   .section-product-9 {
-    background-image: url("/public/images/bannerTablero.png");
+    background-image: url("/images/bannerTablero.png");
   }
   .section-product-10 {
-    background-image: url("/public/images/bannerLamina.png");
+    background-image: url("/images/bannerLamina.png");
   }
   .section-product-11 {
-    background-image: url("/public/images/maderaRoble.webp");
+    background-image: url("/images/maderaRoble.webp");
   }
   .section-Who-1 {
-    background-image: url("/public/images/bannerMision.webp");
+    background-image: url("/images/bannerMision.webp");
   }
   .section-Who-2 {
-    background-image: url("/public/images/bannerVision.svg");
+    background-image: url("/images/bannerVision.svg");
   }
 
   .section-3,

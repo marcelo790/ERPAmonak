@@ -9,6 +9,7 @@ import Tablas from "./components/listProducts/Tablas"
 import Slabs from "./components/listProducts/Slabs"
 import SectionWoodSpeciesView from "./views/SectionWoodSpeciesView"
 import ScrollToTop from "./components/ScrollToTop"
+import SectionOffer from "./components/sections/SectionOffer"
 
 export default function router() {
   return (
@@ -19,7 +20,8 @@ export default function router() {
             <Route element={<AppLayout/>}>
                 <Route path="/" element={<DashboardView/>} index />
                 <Route path="/who-are" element={<SectionWhoAreView/>} />
-                <Route path="/contact" element={<SectionContactView/>} />                
+                <Route path="/contact" element={<SectionContactView/>} />   
+                <Route path="/offers" element={<SectionOffer/>} />                
                 <Route path="/woodSpecies" element={<SectionWoodSpeciesView/>} />
                 <Route path="/product" element={<SectionProductView/>} />
                 <Route path="/product/mesas" element={<Mesas/>} />

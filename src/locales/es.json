@@ -49,6 +49,21 @@
     "SP10-T" : "LAMINA",
     "SP10-D" : "El roble es una madera clásica y muy valorada por su durabilidad y belleza natural, ampliamente utilizada en muebles robustos y diseño arquitectónico tanto interior como exterior. Se caracteriza por un duramen de tonos marrón claro a marrón dorado, con vetas marcadas y una textura gruesa que permite obtener acabados de alta calidad. Con una alta densidad y resistencia a la compresión y la flexión, el roble es también notablemente duradero frente a la descomposición y el ataque de insectos. El roble es una opción tradicional y confiable que aporta elegancia y longevidad a cualquier proyecto.",
     "SP11-T" : "MARCOS",
-    "SP11-D" : "El roble es una madera clásica y muy valorada por su durabilidad y belleza natural, ampliamente utilizada en muebles robustos y diseño arquitectónico tanto interior como exterior. Se caracteriza por un duramen de tonos marrón claro a marrón dorado, con vetas marcadas y una textura gruesa que permite obtener acabados de alta calidad. Con una alta densidad y resistencia a la compresión y la flexión, el roble es también notablemente duradero frente a la descomposición y el ataque de insectos. El roble es una opción tradicional y confiable que aporta elegancia y longevidad a cualquier proyecto."
+    "SP11-D" : "El roble es una madera clásica y muy valorada por su durabilidad y belleza natural, ampliamente utilizada en muebles robustos y diseño arquitectónico tanto interior como exterior. Se caracteriza por un duramen de tonos marrón claro a marrón dorado, con vetas marcadas y una textura gruesa que permite obtener acabados de alta calidad. Con una alta densidad y resistencia a la compresión y la flexión, el roble es también notablemente duradero frente a la descomposición y el ataque de insectos. El roble es una opción tradicional y confiable que aporta elegancia y longevidad a cualquier proyecto.",
+    "ME1-T" : "MOMOQUI",
+    "ME2-T" : "PAQUIO",
+    "ME3-T" : "CORAZON PURPURA",
+    "ME4-T" : "PICANA NEGRA",
+    "ME5-T" : "MORADO",
+    "ME6-T" : "MARA MACHO",
+    "ME7-T" : "TINTO",
+    "ME8-T" : "ROBLE",
+    "ME9-T" : "MANI",
+    "ME10-T" : "TOCO",
+    "ME11-T" : "CURUPAU",
+    "ME12-T" : "NOGAL",
+    "ME13-T" : "CUTA TIGRE",
+    "ME14-T" : "MURURUE",
+    "ME15-T" : "TARARA AMARILLO"
 
 }

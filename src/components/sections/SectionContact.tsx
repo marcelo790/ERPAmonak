@@ -7,7 +7,7 @@ export default function SectionContact() {
       
   return (
     <div className='section-container'>
-        <div className="banner">      
+        <div className="bannerContact">      
             <div className="banner-content">
                 <h1 className="banner-title"><Link to="/contact" className="link">{t("M-C")}</Link></h1>
             </div>

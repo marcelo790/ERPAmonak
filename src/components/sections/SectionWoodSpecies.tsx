@@ -28,7 +28,7 @@ export default function SectionWoodSpecies() {
                                 handleClick('mesas'); // Llama a la función personalizada
                             }}
                     >*/}
-                        <h1 className="banner-title">MOMOQUI</h1>
+                        <h1 className="banner-title">{t("ME1-T")}</h1>
                     {/*</Link>*/}                    
                 </div>                
             </div> 
@@ -37,26 +37,26 @@ export default function SectionWoodSpecies() {
                 )*/}           
             <div className='section-wood-specie-2'>
                 <div className="banner-content">
-                    <Link to="" className="link"
-                            onClick={(e) => {
-                                e.preventDefault(); // Evita comportamiento predeterminado del enlace
-                                handleClick('sillas y bancas'); // Llama a la función personalizada
-                            }}
+                    <Link to=""
+                    /*onClick={(e) => {
+                        e.preventDefault(); // Evita comportamiento predeterminado del enlace
+                        handleClick('marcos'); // Llama a la función personalizada
+                    }}*/
                     >
-                        <h1 className="banner-title">PAQUIO</h1>
+                        <h1 className="banner-title">{t("ME2-T")}</h1>
                     </Link>                    
                 </div>
             </div>
                         
             <div className='section-wood-specie-3'>
                 <div className="banner-content">
-                    <Link to="/product/tablaschurrasqueras" className="link"
+                    <Link to="" 
                             /*onClick={(e) => {
                                 e.preventDefault(); // Evita comportamiento predeterminado del enlace
                                 handleClick('tablas churrasqueras'); // Llama a la función personalizada
                             }}*/
                     >
-                        <h1 className="banner-title">CORAZÓN PURPURA</h1>
+                        <h1 className="banner-title">{t("ME3-T")}</h1>
                     </Link>                    
                 </div>
             </div>            
@@ -65,86 +65,86 @@ export default function SectionWoodSpecies() {
                 )*/}
             <div className='section-wood-specie-4'>
                 <div className="banner-content">
-                    <Link to="/product/slabs" className="link"
+                    <Link to=""
                        /* onClick={(e) => {
                             e.preventDefault(); // Evita comportamiento predeterminado del enlace
                             handleClick('slab'); // Llama a la función personalizada
                         }}*/
                     >
-                        <h1 className="banner-title">PICANA NEGRA</h1>
+                        <h1 className="banner-title">{t("ME4-T")}</h1>
                     </Link>                   
                 </div>
             </div>
                         
             <div className='section-wood-specie-5'>
                 <div className="banner-content">
-                    <Link to="" className="link"
-                        onClick={(e) => {
-                            e.preventDefault(); // Evita comportamiento predeterminado del enlace
-                            handleClick('nudos de maderas'); // Llama a la función personalizada
-                        }}
+                    <Link to=""
+                    /*onClick={(e) => {
+                        e.preventDefault(); // Evita comportamiento predeterminado del enlace
+                        handleClick('marcos'); // Llama a la función personalizada
+                    }}*/
                     >
-                        <h1 className="banner-title">MORADO</h1>
+                        <h1 className="banner-title">{t("ME5-T")}</h1>
                     </Link>                    
                 </div>
             </div>            
             <div className='section-wood-specie-6'>
                 <div className="banner-content">
-                    <Link to="" className="link"
-                            onClick={(e) => {
-                                e.preventDefault(); // Evita comportamiento predeterminado del enlace
-                                handleClick('lumber'); // Llama a la función personalizada
-                            }}
+                    <Link to=""
+                    /*onClick={(e) => {
+                        e.preventDefault(); // Evita comportamiento predeterminado del enlace
+                        handleClick('marcos'); // Llama a la función personalizada
+                    }}*/
                     >
-                        <h1 className="banner-title">MARA MACHO</h1>
+                        <h1 className="banner-title">{t("ME6-T")}</h1>
                     </Link>                    
                 </div>
             </div>            
             <div className='section-wood-specie-7'>
                 <div className="banner-content">
-                    <Link to=""  className="link"                   
-                    onClick={(e) => {
+                    <Link to=""
+                    /*onClick={(e) => {
                         e.preventDefault(); // Evita comportamiento predeterminado del enlace
-                        handleClick('decking'); // Llama a la función personalizada
-                    }}
+                        handleClick('marcos'); // Llama a la función personalizada
+                    }}*/
                     >
-                        <h1 className="banner-title">TINTO</h1>
+                        <h1 className="banner-title">{t("ME7-T")}</h1>
                     </Link>                    
                 </div>
             </div>            
             <div className='section-wood-specie-8'>
                 <div className="banner-content">
-                    <Link to="" className="link"
-                    onClick={(e) => {
+                    <Link to=""
+                    /*onClick={(e) => {
                         e.preventDefault(); // Evita comportamiento predeterminado del enlace
-                        handleClick('s4s'); // Llama a la función personalizada
-                    }}
+                        handleClick('marcos'); // Llama a la función personalizada
+                    }}*/
                     >
-                        <h1 className="banner-title">ROBLE</h1>
+                        <h1 className="banner-title">{t("ME8-T")}</h1>
                     </Link>                    
                 </div>
             </div>            
             <div className='section-wood-specie-9'>
                 <div className="banner-content">
-                    <Link to="" className="link"
-                    onClick={(e) => {
+                    <Link to=""
+                    /*onClick={(e) => {
                         e.preventDefault(); // Evita comportamiento predeterminado del enlace
-                        handleClick('tableros'); // Llama a la función personalizada
-                    }}
+                        handleClick('marcos'); // Llama a la función personalizada
+                    }}*/
                     >
-                        <h1 className="banner-title">MANÍ</h1>
+                        <h1 className="banner-title">{t("ME9-T")}</h1>
                     </Link>                    
                 </div>
             </div>            
             <div className='section-wood-specie-10'>
                 <div className="banner-content">
                     <Link to=""
-                    onClick={(e) => {
+                    /*onClick={(e) => {
                         e.preventDefault(); // Evita comportamiento predeterminado del enlace
-                        handleClick('laminas'); // Llama a la función personalizada
-                    }}
+                        handleClick('marcos'); // Llama a la función personalizada
+                    }}*/
                     >
-                        <h1 className="banner-title">TOCO</h1>
+                        <h1 className="banner-title">{t("ME10-T")}</h1>
                     </Link>                    
                 </div>
             </div>            
@@ -156,7 +156,7 @@ export default function SectionWoodSpecies() {
                         handleClick('marcos'); // Llama a la función personalizada
                     }}*/
                     >
-                        <h1 className="banner-title">CURUPAU</h1>
+                        <h1 className="banner-title">{t("ME11-T")}</h1>
                     </Link>                    
                 </div>
             </div>
@@ -174,7 +174,7 @@ export default function SectionWoodSpecies() {
                         handleClick('marcos'); // Llama a la función personalizada
                     }}*/
                     >
-                        <h1 className="banner-title">NOGAL</h1>
+                        <h1 className="banner-title">{t("ME12-T")}</h1>
                     </Link>                    
                 </div>
             </div>   
@@ -186,7 +186,7 @@ export default function SectionWoodSpecies() {
                         handleClick('marcos'); // Llama a la función personalizada
                     }}*/
                     >
-                        <h1 className="banner-title">CUTA TIGRE</h1>
+                        <h1 className="banner-title">{t("ME13-T")}</h1>
                     </Link>                    
                 </div>
             </div>      
@@ -198,7 +198,7 @@ export default function SectionWoodSpecies() {
                         handleClick('marcos'); // Llama a la función personalizada
                     }}*/
                     >
-                        <h1 className="banner-title">MURURE</h1>
+                        <h1 className="banner-title">{t("ME14-T")}</h1>
                     </Link>                    
                 </div>
             </div>   
@@ -210,7 +210,7 @@ export default function SectionWoodSpecies() {
                         handleClick('marcos'); // Llama a la función personalizada
                     }}*/
                     >
-                        <h1 className="banner-title">TARARÁ AMARILLA</h1>
+                        <h1 className="banner-title">{t("ME15-T")}</h1>
                     </Link>                    
                 </div>
             </div>

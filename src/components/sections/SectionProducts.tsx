@@ -16,7 +16,15 @@ export default function SectionProducts() {
     <div className='section-container'>
         <div className="bannerProduct">      
             <div className="banner-content">
-                <h1 className="banner-title">{t("M-P")}</h1>
+                <Link to="/" className="link"
+                           /* onClick={(e) => {
+                                e.preventDefault(); // Evita comportamiento predeterminado del enlace
+                                handleClick('mesas'); // Llama a la función personalizada
+                            }}*/
+                    >
+                        <h1 className="banner-title">{t("M-P")}</h1>
+                </Link> 
+                
             </div>
         </div>
         <div className='sections'>            

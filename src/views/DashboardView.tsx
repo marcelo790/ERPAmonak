@@ -3,6 +3,7 @@ import SectionProduct from "@/components/sections/SectionProduct";
 //import SectionOtherService from "@/components/sections/SectionOtherService";
 //import SectionOffer from "@/components/sections/SectionOffer";
 import SectionHowToBuy from "@/components/sections/SectionHowToBuy";
+import SectionOffer from "@/components/sections/SectionOffer";
 
 export default function DashboardView() {
   return (
@@ -12,6 +13,7 @@ export default function DashboardView() {
       {/*<SectionOtherService/>
       <SectionOffer/>*/}
       <SectionHowToBuy/>
+      <SectionOffer/>
     </>
   )
 }
